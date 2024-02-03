@@ -25,3 +25,39 @@ There, information towards the participants or communication among teams will be
 Any future participant teams and/or members who are planning to join us in this competition are welcome to join the Discord server.
 
 [Discord Invitation Link](https://discord.gg/8gJYJqUVZA)
+
+
+## Open Platform League (OPL)
+
+### Overall Rules
+TBD
+
+### Competition Tasks
+TBD
+
+
+## Domestic Standard Platform League (DSPL)
+
+### Overall Rules
+TBD
+
+### Tasks
+TBD
+
+
+## Education League
+
+### Overall Rules
+TBD
+
+### Tasks
+TBD
+
+
+## Simulation Open Platform League (S-OPL)
+
+### Overall Rules
+TBD
+
+### Tasks
+TBD
