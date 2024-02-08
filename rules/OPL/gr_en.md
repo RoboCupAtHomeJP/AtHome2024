@@ -2,34 +2,50 @@
 
 [日本語](./gr_ja.md) | [English](./gr_en.md)
 
-# General Rules & Regulations
+# General Rules and Regulations
 
-The competition in the Open Platform League (`OPL`) of RoboCup Japan Open @Home 2023 (referred to as "RCJ2023" below) will be held in accordance with the General Rules & Regulations described on this page. These General Rules & Regulations have been created based on Chapter 3 `General Rules & Regulations` of the [RoboCup 2022 Rulebook (Rev-1298)](https://athome.robocup.org/wp-content/uploads/2022_rulebook.pdf).
+These are the general rules and regulations for the competition in the JapanOpen @Home league 2024 (referred to as *RCJ2024* below).
+Every rule in this section can be considered to implicitly include the term “unless stated other-wise”.
+This means that **additional or contrary rules**, in particular with respect to the specificationof tests, 
+have a higher priority than those mentioned in the general rules and regulations.
 
-Regarding any changes not mentioned on this page related to the [RoboCup 2022 Rulebook (Rev-1298)](https://athome.robocup.org/wp-content/uploads/2022_rulebook.pdf) will not be considered. Therefore, the rules will be finalized through discussions with participating teams via GitHub Issues.
+> [!NOTE]  
+> The `RCJ2024 OPL General Rules and Regulations` are based on `Chapter 3: General Rules & Regulations` of the [RoboCup 2024 Rulebook (Revision-0)](https://robocupathome.github.io/RuleBook/rulebook/master.pdf).
 
-> **Warning**
-> If there is any inconsistency between the Japanese version and English version of the RCJ2023 General Rules & Regulations, we will take the Japanese version as priority.
+> [!IMPORTANT]  
+> Any changes not mentioned on this page related to the [RoboCup 2024 Rulebook (Revision-0)](https://robocupathome.github.io/RuleBook/rulebook/master.pdf) will NOT be considered.
+Therefore, the rules will be finalized through discussions with the participating teams via *GitHub Issues* and *Team Leader Meeting* (TLM).
+
+> [!IMPORTANT]  
+> Any inconsistency found between the Japanese version and English version of the `RCJ2024 General Rules & Regulations`, the **Japanese version** will be taken as first priority.
 
 
 ## Team Registration and Qualification
 
-Team Registration will be conducted through the Japan RoboCup Committee. There are two stages of registration for RCJ2023.
+### Registration and Qualification Process
+
+Team Registration will be conducted through the RoboCup JapanOpen Committee. There are two phases in the process towards participation in *RCJ2024*.
 
 1. Pre-registration
+
 1. ~~Qualification process~~
+
 1. Final registration
 
-Information on pre-registration and final registration will be announced on the RoboCup@Home JP mailing list and Slack. No qualification process will be conducted. All teams that have completed registration can participate.
+The preregistration will be announced by a call for participation sent to the RoboCup@Home JapanOpen mailing list and Discord.
+No qualification process will be conducted. All teams that have completed registration can participate.
 
 ### Pre-registration
 
-Please register for RCJ2023 using the following link. The deadline for team registration is `Friday, March 31, 1:00 PM`. We look forward to your registration.
+Please register for *RCJ2024* using the following link.
+The deadline for team registration is **TBD**.
+We look forward to your registration.
 
 > [!NOTE]  
-> Pre-registration form: https://forms.gle/wzCGnJwkGiw2KUfg8
+> Pre-registration form: **TBD**
 
-Please note that the following leagues will be held. If your team plans to participate in multiple leagues, please fill out separate registration forms for each league.
+Please note that the following leagues will be held.
+If your team plans to participate in multiple leagues, please fill out separate registration forms for each league.
 
 - Open Platform League（OPL）
 - Domestic Standard Platform League（DSPL）
@@ -41,100 +57,200 @@ Please note that the following leagues will be held. If your team plans to parti
 
 ### Final Registration
 
-Final registration for RCJ2023 will be conducted using the "Participation Registration" (Google Form) on the website below. For more details, please refer to the [Registration Procedure]((https://www.robocup.or.jp/japanopen2023/english.html)) on the official website.
+Final registration for *RCJ2024* will be conducted using the *Participation Registration* (Google Form) on the website below.
+For more details, please refer to the [Registration Procedure](https://www.robocup.or.jp/japanopen2024/) on the official website.
 
 Please use the team code issued at the time of pre-registration.
 
 > [!NOTE]  
-> Final Registration Form：https://docs.google.com/forms/d/e/1FAIpQLSeYN8dRqkmi4Q_4idUBG4yEoLghzEcGQVQHaSru67Fn1A4CtQ/viewform
+> Final Registration Form: **TBD**
 
 
 ## Organization
 
-### Executive Committee - EC
-
-The Executive Committee (EC) is responsible for the rules of the league and the progress of the competition. The EC is composed of one member from the previous year's winning team and one member from the runner-up team. Their main responsibilities include the management of the competition, the creation of the rulebook, and refereeing. At RoboCup Japan Open @Home, EC members also serve as TC members.
-
 ### Technical Committee - TC
 
-The technical committee (TC) is responsible for the rules of the league; its main focus is writing the rulebook and refereeing. The members of the EC are always members of the TC as well.
+The *technical committee* (TC) is responsible for the rules of the league and the progress of the competition.
+The TC is composed of one member from the previous year's winning team and one member from the runner-up team.
+Their main responsibilities include the management of the competition, the creation of the rulebook, and refereeing.
 
 ### Organizing Committee - OC
 
-The organizing committee (OC) is responsible for the organization of the competition, namely it creates the schedule and provides information about the scenarios. The Local Organizing Committee (LOC), on the other hand, is responsible for the set up and organization of the competition venue.
+The *organizing committee* (OC) is responsible for the organization of the competition, namely it creates the schedule and provides information about the scenarios.
+The *Local Organizing Committee* (LOC), on the other hand, is responsible for the set up and organization of the competition venue.
 
 
 ## Audience interaction
 
-Part of making RoboCup@Home appealing is to show the audience what robots should do and what they are actually doing during tasks. In particular, providing information about what a robot is doing to the audience is important for the advancement of the league．Therefore, competition scenes may be distributed using video distribution services such as YouTube. As event organizers, we take care to ensure that the audience does not disturb the robot's actions as much as possible. However, it is necessary for each team to consider measures to deal with situations where tasks performed inside the arena are not affected for example in the recognition system of the robot because of the movements of spectators outside the arena (e.g., issues with human pose estimation).
+Part of making RoboCup@Home appealing is to show the audience what robots should do and what they are actually doing during tasks.
+In particular, providing information about what a robot is doing to the audience is important for the advancement of the league.
+Therefore, we would like to ask for your collaboration explaining your robot's actions, or making the robot describe it.
+
+As event organizers, we take care to ensure that the audience does not disturb the robot's actions as much as possible.
+However, it is necessary for each team to consider measures to deal with situations where tasks performed inside the arena are not affected for example in the recognition system of the robot because of the movements of spectators outside the arena (e.g., issues with human pose estimation).
 
 
 ## Scenario
 
-Most competition tests take place in the RoboCup@HomeArena, but some tests may take place outside, in a previously unknown public place. In this section, the [Arena](#arena) and its contents are described, in particular the furnishing and other information that is common between tests and leagues.
+Most competition tests take place in the [*Arena*](#arena), but some tests may take place outside, in a previously unknown public place.
+In this section, the [*Arena*](#arena) and its contents are described, in particular the furnishing and other information that is common between tests and leagues.
 
 ### Arena
 
-The `RCJ2023` Arena is based on the `WRS2020` competition arena environment．
-<!-- RoboCup@Homeでは，それぞれの場所には，場所クラスが設定されています． -->
+The *RCJ2024 Arena* is a realistic home setting (an apartment) consisting of interconnected rooms based on the [WRS2020](https://wrs.nedo.go.jp/wrs2020/challenge/download/Rules/DetailedRules_Partner_EN.pdf) competition arena setup.
+The minimal configuration consists of:
+- a living room, and
+- a dining room
 
-However, as robots need to function in the real world, the arena is not fixed and may be changed without notice.
+There is usually one *Arena* for OPL and a shared *Arena* for all the leagues.
+Depending on the local organization, there may also be multiple *Arenas* that may be slighly different from each other, and a robot must be prepared to perform any task in any *Arena*.
+
+However, as robots need to function in the real world, the *Arena* is not fixed and may be changed without notice.
 
 1. **Major changes**: Any furniture (at a Predefined Location or not) that cannot be expected to be fully static in an everyday environment might be moved slightly between tests. In particular, furniture will not change rooms or move drastically inside a room, but a couch or table may be slightly rotated or moved; fixed locations for such furniture items should not be assumed. Walls will stay in place and rooms will not change function. Passages might be blocked.
 
 1. **Minor changes**: Slightly moved chairs, slightly closed doors, or anything similar cannot be avoided and might happen at any time, even during a test.
 
+### Walls, Doors and Floor
+<!-- OPL -->
+The indoor home setting will be surrounded by low walls, which are built up using
+standard, fair and low-cost construction material.
+
+1. **Walls**: Walls are fixed and will not be modified during the competition.
+The [selected material](https://www.bestcarton.com/cardboard/flex/index.php?as=700&bs=450&cs=150&mm=25&fl=4) will be cardboard and the wall height is 450 \[mm\]; allowing the audience to watch the competition.
+
+1. **Doors**: Inside the *Arena*, rooms are **NOT** connected by doors. There will be only one entrance door, and will be closed right after the robot goes inside the *Arena*.
+
+1. **Floor**: The floor and doorways of the *Arena* are even, so there are no significant steps or stairways;
+however, minor unevenness, such as carpets, transitions in floor covering between different areas, and minor gaps (especially at doorways) can be expected.
+
+1. **Appearance**: The floor and walls are mostly monochromatic, but may contain textures, such as a carpet on the floor, or a poster or picture on the wall.
+
+### Furniture
+
+<!-- OPL -->
+The minimal configuration consists of:
+- living room
+  - bin_a
+  - bin_b
+  - bin_c
+  - bin_d
+  - long_table_a
+    - tray_a
+    - tray_b
+    - container_a
+    - container_b
+  - long_table_b
+  - tall_table
+- dining room
+  - shelf
+  - chair_a
+  - chair_b
+
+> [!NOTE]
+> Further furniture might be added/substituted depending on the competition task to be performed.
+
 ### Objects
 
-We have prepared a list of 9 objects to be used in tasks based on RCAP2021. The object list can be found at the link below. The list includes photos, official names, and object categories (for example, `Noodle` belongs to the `Food` category). Most objects are lightweight and easy for the robot to grasp. For each object category, the location where it should be placed and the place where it should be tidied up are predetermined. By referring to this category, the team will find and tidy up objects during the competition. Please note that modification of the objects is prohibited.
+Some tests in the RoboCup@Home JapanOpen involve recognizing and manipulating objects.
+The TC will compile a list of objects for this purpose;
+the list will contain a *picture of the each object*, as well as its *official name* and *Object Category* (for example, *Noodle* belongs to the *Food* category).
+Most objects are likely to be lightweight and easy to grasp with one hand.
+Every *Object Category* has an assigned *Predefined Location*,
+where objects of that category can usually be found or placed during tests (for example, an *Food* can be found or placed on the Kitchen Table);
+assignments are announced during the *Setup Days*.
 
-In addition, in the competition tasks, objects used are `known objects` (previously released + released just before the competition) and `unknown objects`. `Known objects` are divided into two types: objects that have been released in advance at the same time the rules were published and objects that will be released in the `Setup Day` of the competition. For the main competition, each team will use the objects they have brought. `Unknown objects` refer to objects that are not on the object list but can be grasped and operated. Depending on the competition task, these unknown objects may be used.
+Objects are provided at the competition for training.
+Teams may share the objects if the participant team does not count with a set of objtects.
+Modifying the training objects is not allowed.
 
-> [!NOTE]  
-> Previously released list of known objects (used on the RCAP2021): https://github.com/RoboCupAtHomeJP/AtHome2021/blob/master/Data/opl_known_object_list.pdf
+Two types of objects are used in the tasks:
+<!-- OPL -->
+
+1. **Known Objects**: (previously released + released just before the competition)
+ 1. **Consistent Objects**: Objects published on the *Setup Day*
+ 1. **Standard Objects**: Objects chosen from the [*RCAP2021 Object List*](https://github.com/RoboCupAtHomeJP/AtHome2021/blob/master/Data/opl_known_object_list.pdf).
+These objects are used on every RoboCup@Home JapanOpen OPL competition, so that they can be aquired and trained beforehand.
+
+1. **Unknown Objects**: Any other object that is not in the object list but can be grasped or handled.
+Depending on the competition task, these unknown objects may be used.
+
+1. **Dummy Objects**: Objects published on the *Setup Day* which will not be used in manipulation tasks. These objects will appear as obstacles during autonomous navigation or additional objects during object recognition.
+
+### Predefined Rooms and Locations
+
+Some tests in the RoboCup@Home JapanOpen involve a *Predefined Location* where people or objects can be found.
+There will also be one door, named *Entrance*, which lead in and out of the Arena.
+Room names, predefined locations, and location classes are announced during the Setup Days.
 
 ### Predefined Person Names
+<!-- OPL -->
 
-Some tests in the RoboCup@Home league involve memorizing a person’s name. All people in the Arena have an assigned Predefined Name chosen by the TC.
+Some tests in the RoboCup@Home JapanOpen involve memorizing a person’s name.
+All people in the Arena have an assigned *Predefined Name* chosen by the TC.
+Predefined names are chosen from the [List of Official Names](https://github.com/RoboCupAtHome/Sydney2019/blob/master/Files/Names.pdf) provided in *RoboCup Sydney 2019* and announced during the *Setup Days*.
 
 ### Wireless network
 
-In `RCJ2023`, a wireless communication network environment will not be provided. Please be aware of that.
+For wireless communication, an *Arena Network* is provided.
+The actual infrastructure depends on the local organization.
+Reliability and performance of the network is **NOT guaranteed**;
+robots are expected to be able to run without a wireless network.
 
-<!--
-Therefore, the use of team-specific WiFi access points will be allowed at the venue.
+<!-- OPL -->
+The following rules apply:
+- Only the *Arena Network* can be used during tests.
+- Only the active team in a task is allowed to use the *Arena Network*.
+<!-- - The *Arena Network* provides one Virtual Local Area Network (VLANs) per team. -->
+<!-- - Each VLAN is most likely to have its own SSID/password. -->
+<!-- - VLAN traffic is separated from any other team and is routed to the team’s network cable in the team area. -->
+- Each VLAN is also connected to the Internet.
+- The use of Pocket Wi-Fi is allowed if:
+ - has internet connection with the robot through LAN cable,
+ - does not broadcast an SSIDs (wireless networks) and
+ - any team member is not close to any electronic device \(keyboard, mouse, computer...\).
 
-> **Warning**
-> If any unnatural robot movements (caused by remote operation or other means) are detected, penalties such as deduction of points, disqualification, or even disqualification of the entire competition may be imposed.
--->
+Teams broadcasting unauthorized (aka rogue) wireless networks will be disqualified from the competition and their devices may be temporarily confiscated by the OC;
+this includes smartphones and concealed SSIDs.
+It is thus advised to verify your devices for any breaches of this nature.
+
+> [!IMPORTANT]  
+> Notice that provided wireless communication **network may not be stable** during the competition.
+
 
 ## Robots
-`The robots used in RCJ2023 must meet the following requirements. Verification of compliance will be conducted at the [Robot Inspection](./ri_en.md).
+The robots used in *RCJ2024* must meet the following requirements.
+Verification of compliance will be conducted at the [Robot Inspection](./ri_en.md).
 
 ### Number of Robots
 
-1. **Number of registered robots**: Each team can register up to two robots, but only robots that have cleared the [Robot Inspection](./ri_en.md) can be used in the competition.
+1. **Registration**: The maximum number of robots per team is *two* (2).
+Remember that only robots that have cleared the [Robot Inspection](./ri_en.md) can participate during the regular test.
 
-1. **Number of robots during competition tasks**: Only one robot can be used in each competition test. Different robots can be used in different competition tests.
+1. **Regular Tests**: Only one robot is allowed per test. 
+For different test runs, different robots can be used.
 
-1. **Number of robots in the Technical Challenge**: In the Technical Challenge, teams can use a maximum of two registered robots simultaneously.
+1. **Technical Challenge**: In the *Technical Challenge*, both robots can be used simultaneously.
 
-### Robot Specification
-Robots participating in the RoboCup@Home Open Platform League must comply with the following specifications to ensure that they do not cause harm during operation.
+### Robot Specifications
+Robots competing in the RoboCup@Home JapanOpen Open Platform League must comply with security specifications in order to avoid causing any harm while operating.
 
-#### **Size and Weight**
+#### Size and Weight
 
-1. **Dimensions**: The dimensions of a robot should be able to pass through the door used in the task environment (1.2 [m]). The TC may allow the qualification and registration of larger robots, but, due to local restrictions, it cannot be guaranteed that the robots can actually enter the Arena. In doubt, please contact the organizers.
+1. **Dimensions**: The dimensions of a robot should not exceed the limits of the door in the *Arena* (1.2 [m]).
+The TC may allow the qualification and registration of larger robots, but, due to local restrictions, it cannot be guaranteed that the robots can actually enter the *Arena*.
+In doubt, please contact the *Local Organizing Committee* (LOC) or the *Technical Committee* (TC).
 
-1. **Weight**: There are no specific weight restrictions; however, the weight of the robot and the pressure it exerts on the floor should not exceed local regulations for the construction of offices and/or buildings which are used for living in the country where the competitions is being held.
+1. **Weight**: There are no specific weight restrictions;
+however, the weight of the robot and the pressure it exerts on the floor should not exceed local regulations for the construction of offices and/or buildings which are used for living in the country where the competitions is being held.
 
-1. **Transportation**: Team members are responsible for quickly moving the robot out of the
-Arena. If the robot cannot move by itself (for any reason), the team members must be
-able to transport the robot away quickly and easily.
+1. **Transportation**: Team members are responsible for quickly moving the robot out of the *Arena*.
+If the robot cannot move by itself (for any reason), the team members must be able to transport the robot away quickly and easily.
 
-#### **Appearance and Safety**
+#### Appearance and Safety
 
-1. **Cover**: The robot’s internal hardware (electronics and cables) should be covered so that safety is ensured. The use of (visible) duct tape is strictly prohibited.
+1. **Cover**: The robot’s internal hardware (electronics and cables) should be covered so that safety is ensured.
+The use of (visible) duct tape is strictly prohibited.
 
 1. **Loose cables**: Loose cables hanging out of the robot are not permitted.
 
@@ -142,104 +258,180 @@ able to transport the robot away quickly and easily.
 
 1. **Annoyance**: The robot must not be continuously making loud noises or use blinding lights.
 
-1. **Driving**: To be safe, the robots should be careful when driving. Obstacle avoidance is mandatory.
+1. **Driving**: To be safe, the robots should be careful when driving.
+Obstacle avoidance is mandatory.
 
 <!-- 1. **Marks**: The robot may not exhibit any kind of artificial marks or patterns. -->
-<!-- ロゴとかをつけているチームやハンドにQRマーカをつけているチームがある． -->
 
-#### **Emergency Stop Button**
+#### Emergency Stop Button
 
-1. **Accessibility and visibility**: Every robot has to provide an easily accessible and visible Emergency Stop button.
-
-1. **Color**: The Emergency Stop must be coloured red and be the only red button on the robot. The TC may ask the team to tape over or remove any other red buttons present on the robot.
-
-1. **Robot behavior**: When the Emergency Stop button is pressed, the robot and all its
+1. **Accessibility and visibility**: Every robot has to provide an easily accessible and visible *Emergency Stop* button.
+1. **Color**: The *Emergency Stop* must be coloured red and be the only red button on the robot.
+The TC may ask the team to tape over or remove any other red buttons present on the robot.
+1. **Robot behavior**: When the *Emergency Stop* button is pressed, the robot and all its
 parts must stop moving immediately.
 
 <!-- スタートボタンについては要検討 -->
+#### Start Button
+TBD
+
+<!-- 1. **Requirements**: Teams that aren’t able to carry out the default start signal (opening the door) have to provide a *Start Button* that can be used to start tests.
+Teams need to announce this to the TC before every test that involves a start signal, including the *Robot Inspection*.
+1. **Definition**: The *Start Button* can be any “one-button procedure” that can be easily executed by a referee
+(such as releasing the *Emergency Stop*, a green button, or a software button in a graphical user interface). -->
 
 <!-- 外部機器については要検討 -->
-<!-- ## 5 外部機器
-チームが競技中に使用するロボットの一部でないものは全て「外部機器」とみなされます．全ての外部機器は，[Robot Inspection](https://github.com/RoboCupAtHomeJP/Rule2023/blob/rules/opl/robot_inspection.md)において，運営の認可を受けなければいけません．この際，運営は外部機器を自由に使用できるか，審判の監視下で使用できるかを指定し，採点に与える影響を判断します．なお，イヤホンやヘッドホンなどの無線機器の使用は，外部機器としても使用が認められません．また，大会主催者は，アリーナ内のネットワークやインターネット接続の可用性や信頼性に関して，いかなる保証や責任も負わないことに注意してください．チームは自己の責任において外部機器を使用することができます．
--->
+## External devices
+Everything that a team uses during a test and is not part of the robot is considered an *External Device*.
+All *External Devices* must be authorized by the *technical committee* (TC) during the [Robot Inspection](https://github.com/RoboCupAtHomeJP/AtHome2024/blob/rules/opl/robot_inspection.md) test.
+The TC specifies whether an *External Device* can be used freely or under referee supervision, and determines its impact on scoring.
 
+Note that the use of wireless devices, such as hand microphones and headsets, is not allowed, with the exception of *External Computing* as specified below.
+Please also note that the competition organizers do not guarantee or take any responsibility regarding the availability or reliability of the network or the internet connection in the Arena.
+Teams can thus use *External Computing* resources at their own risk.
+
+### On-site External Computing
+
+TBD
+
+<!-- Computing resources that are not physically attached to the robot are considered *External Computing* resources.
+The use of up to five *External Computing* resources is allowed, but only in the *Arena Network* and with a prior approval of the TC.
+Teams must inform the TC about the use of any *External Computing* at least one month before the competition.
+Note, however, that robots must be able to operate safely even if *External Computing* is unavailable.
+
+*External Computing* devices must be placed in the *External Computing Resource Area* (ECRA), which is announced by the TC during the *Setup Days*.
+A switch connected to the Arena wireless network will be available to teams in the ECRA.
+During a *Test Block*, at most two laptops and two people from different teams are allowed in the ECRA simultaneously, one member each of the teams up next.
+No peripherals, such as screens, mice, keyboards, and so forth, are allowed
+to be used.
+
+During a *Test Slot*, everyone must stay at least 1 m away from the ECRA.
+Interacting with anything in the ECRA after the referee has given the start signal for a test will result in the test being stopped with a score of zero.
+
+If a laptop is used as *External Computing*, a team can only place it in the ECRA if their *Test Slot* is up next and must remove the device immediately after the test. -->
+
+### On-line External Computing
+
+TDB
+
+<!-- Teams are allowed to use *External Computing* through the internet connection of the *Arena Network*;
+this includes cloud services or online APIs.
+These must be announced to and approved by the TC one month prior to the competition. -->
 
 ## Organization of the Competition
 
-The RCJ2023 competition will be held over several days with tasks that will be published in the [AtHome2023](https://github.com/RoboCupAtHomeJP/AtHome2023).
+### Competition System
+The competition begins with a *Robot Inspection*, a number of specific tasks and ends with a *Technical Challenge*.
 
-### Scoring System
+1. **Robot Inspection**: For security, robots are inspected during the *Setup Days*.
+A robot must pass the [*Robot Inspection*](ri_en.md) test so that it is allowed to compete.
 
-The RCJ2023 competition includes two events: the `competition tasks` and the `Technical Challenge`, which is a research presentation. The scoring for each event will be separate and will have separate awards. Participants can choose to compete in one or both events, and should inform the organizers of their participation in advance.
+1. **Competition Tasks**: All qualified teams that have passed the *Robot Inspection* can participate in *Challenge Tasks*.
 
-#### **Tasks**
-
-All teams have the right to participate in all the competition tasks at RCJ2023. These tasks will be carried out according to separate announcements regarding the rules, point system, and schedule. Teams will compete based on the total highest score obtained in each task, except for the `Technical Challenge`. The maximum score for each task, except for `Robot Inspection`, is 500 points. The scoring process is as follows:
-
-Scoring will be carried out by two members of each team, one from their own team and one from another team, in a clockwise order. For example:
-
-- First Task
-  - `Team A` scoring: 1 member from `Team A` and 1 member from `Team B` (2 members total)
-  - `Team B` scoring: 1 member from `Team B` and 1 member from `Team C` (2 members total)
-  - `Team C` scoring: 1 member from `Team C` and 1 member from `Team A` (2 members total)
-- Second Task
-  - `Team A` scoring: 1 member from `Team A` and 1 member from `Team C` (2 members total)
-  - `Team B` scoring: 1 member from `Team B` and 1 member from `Team A` (2 members total)
-  - `Team C` scoring: 1 member from `Team C` and 1 member from `Team B` (2 members total)
-- And so on
-
-> [!NOTE]  
-> The RCJ2023 OPL aims to have a strong connection with the Education League. It is hoped that the technical skills acquired in the Education League will be demonstrated in the OPL. To this end, the `Carry My Luggage` competition from the Education League will be adopted in the OPL, and the rules for this competition will be the same as those for the Education League.
-
-#### **Technical Challenge**
-
-All teams have the right to participate in the `Technical Challenge` at `RCJ2023`. This event will be carried out according to separate announcements regarding the rules, point system, and schedule. This is an opportunity to showcase unique technical skills, and teams will be judged based on their presentations and demonstrations by a panel of judges.
+1. **Technical Challenge**: All qualified teams have the right to participate in *Technical Challenge* (previously known as *Final*).
 
 ### Schedule
 
-Details of the schedule for the competition will be publish in the [AtHome2023](https://github.com/RoboCupAtHomeJP/AtHome2023) repository.
+The *RCJ2024* competition will be held over several days which schedule will be published in the [AtHome2024](https://github.com/RoboCupAtHomeJP/AtHome2024) repository.
+
+### Scoring System
+<!-- 要検討 -->
+Each task has a main objective and a set of bonus scores.
+To score in a test, a team must successfully accomplish the main objective of the task;
+<!-- bonuses are not awarded otherwise. -->
+
+The scoring system has the following constrains:
+
+1. **Competition Tasks**: The maximum total score per task is *500 points* (bonuses included).
+
+1. **Technical Challenge**: The score is normalized.
+
+1. **Minimum score**: The minimum total score per test is *0 points*.
+
+In principle, teams cannot receive negative points, except if they receive penalties.
+In particular, penalties for not attending can result in a total negative score.
+
+> [!NOTE]
+> *Competition Tasks* scoring is independent from the *Technical Challenge* scoring.
+Thus, separate awarding for each challenge will be conducted.
+
+#### Competition Tasks Evaluation
+
+Scoring will be carried out by *two different team members*;
+one from the competing team and one from another team, following this formula:
+- Team $ (a+n)\%n $ : 1 scoring member
+- Team $ (1+a+n)\%n $ : 1 scoring member
+
+> [!NOTE]
+> $n$ refers to the number of teams.
+$a$ refers to the participant order.
+
+For example, if the number of participant teams are *3 teams*, the order will be the following:
+
+- First Task
+  - *Team 1* competing: member from *Team 1* and *Team 2* (2 members scoring)
+  - *Team 2* competing: member from *Team 2* and *Team 3* (2 members scoring)
+  - *Team 3* competing: member from *Team 3* and *Team 1* (2 members scoring)
+- Second Task
+  - *Team 2* competing: member from *Team 2* and *Team 3* (2 members scoring)
+  - *Team 3* competing: member from *Team 3* and *Team 1* (2 members scoring)
+  - *Team 1* competing: member from *Team 1* and *Team 2* (2 members scoring)
+- Third Task
+  - *Team 3* competing: member from *Team 3* and *Team 3* (2 members scoring)
+  - *Team 1* competing: member from *Team 1* and *Team 1* (2 members scoring)
+  - *Team 2* competing: member from *Team 2* and *Team 2* (2 members scoring)
+- And so on
+
 
 ## Procedure during Tests
 
-The competition of `RCJ2023` will be carried out following a predetermined procedure. Please, pay attention to the following points.
+The competition of *RCJ2024* will be carried out following a predetermined procedure.
+Please, pay attention to the following points.
 
 ### Safety First!
 
-1. **Emergency Stop**: At any time when operating the robot inside and outside the scenario the owners have to stop the robot immediately if there is a possibility of dangerous behavior towards people and/or objects.
+1. **Emergency Stop**: At any time when operating the robot inside and outside the scenario the owners have to stop the robot *immediately* if there is a possibility of dangerous behavior towards people and/or objects.
 
-1. **Stopping on request**: If a referee, member of the Technical or Organizational committee, an Executive or Trustee of the federation stops the robot (by pressing the emergency button) there will be no discussion. Similarly if they tell the team to stop the robot, the robot must be stopped immediately.
+1. **Stopping on request**: If a referee, member of the Technical or Organizational committee, an Executive or Trustee of the federation stops the robot (by pressing the emergency button) there will be no discussion.
+Similarly if they tell the team to stop the robot, the robot must be stopped *immediately*.
 
-1. **Penalties**: If the team does not comply, the team and its members will be excluded from the ongoing competition immediately by a decision of the RoboCup@Home Technical Committee (TC). Furthermore, the team and its members may be banned from future competitions for a period not less than a year by a decision of the RoboCup Federation Trustee Board.
+1. **Penalties**: If the team does not comply, the team and its members will be excluded from the ongoing competition *immediately* by a decision of the RoboCup@Home JapanOpen *Technical Committee* (TC).
+Furthermore, the team and its members may be banned from future competitions for a period not less than a year by a decision of the RoboCup JapanOpen Federation Trustee Board.
 
 ### Maximum number of team members
 
-1. **Regular Tasks**: During a regular task, the maximum number of team members allowed inside the Arena is one (1). Exceptions are tasks that explicitly require volunteer assistance.
+1. **Regular Tasks**: During a regular task, the maximum number of team members allowed inside the *Arena* is *one* (1).
+Exceptions are tasks that explicitly require volunteer assistance.
 
-1. **Setup**: During the setup of a task, the number of team members inside the Arena is not limited.
+1. **Setup**: During the setup of a task, the number of team members inside the *Arena* is not limited.
 
-1. **Technical Challenge**: During the `Technical Challenge`, the number of team members inside the Arena is not limited.
+1. **Technical Challenge**: During the *Technical Challenge*, the number of team members inside the Arena is not limited.
 
 ### Fair Play
 
-Fair Play and cooperative behavior is expected from all teams during the entire competition, in particular:
+*Fair Play* and cooperative behavior is expected from all teams during the entire competition, in particular:
+
 - while evaluating other teams,
 - while refereeing, and
 - when having to interact with other teams’ robots.
 
 This also includes:
+
 - not trying to cheat (e.g., pretending autonomous behavior where there is none),
 - not trying to exploit the rules (e.g., not trying to solve the task but trying to score), and
 - not trying to make other robots fail on purpose.
 - not modifying robots in standard platforms.
 
-
-> **Warning**
+> [!WARNING]
 > Disregard of this rule can lead to penalties in the form of negative scores, disqualification for a test, or even for the entire competition.
 
 ### Expected Robot’s Behavior
 
-Unless stated otherwise, it is expected that the robot always behave and react in the same way a polite and friendly human being would do. This applies also to how robots try solve the assigned task As rule of thumb, one may ask any non-scientist how she would solve the task.
-Please consider that average users will not know the specific procedure to operate a robot. Hence, interaction should be as with any other human being.In detail, we require your robot to speak out what it is about to do.
+Unless stated otherwise, it is expected that the robot always behave and react in the same way a polite and friendly human being would do.
+This applies also to how robots try solve the assigned task As rule of thumb, one may ask any non-scientist how she would solve the task.
+
+Please consider that average users will not know the specific procedure to operate a robot.
+Hence, interaction should be as with any other human being.
 
 ### Robot Autonomy and Remote Control
 
@@ -249,81 +441,133 @@ Please consider that average users will not know the specific procedure to opera
 
 1. **Natural commands**: Anything that resembles direct control is forbidden.
 
-1. **Remote Control**: Disregard of these rules will lead to disqualification for a test or for the entire competition.
+1. **Remote Control**: Remotely controlling the robot(s) is strictly prohibited.
+This also includes pressing buttons, or influencing sensors on purpose.
 
-> **Warning**
+> [!WARNING]
 > Disregard of this rule can lead to penalties in the form of negative scores, disqualification for a test, or even for the entire competition.
 
 ### Collisions
 
-1. **Touching**: Gently touching objects is tolerated but unadvised. However, robots are not
-allowed to crash with something. The 「[safety first!](#safety-first)」 rule overrides any other rule.
+1. **Touching**: Gently *touching* objects is tolerated but unadvised.
+However, robots are not allowed to crash with something.
+The "[safety first!](#safety-first)" rule overrides any other rule.
 
-1. **Major collisions**: If a robot crushes into something during a test, the robot is immediately stopped. Additional penalties may apply.
+1. **Major collisions**: If a robot crushes into something during a test, the robot is immediately stopped.
+Additional penalties may apply.
 
-1. **Functional touching**: Robots are allowed to apply pressure on objects, push away furniture and, in general, interact with the environment using structural parts other than their manipulators. This is known as functional touching. However, the robot must clearly announce the collision-like interaction and kindly request not being stopped.
+1. **Functional touching**: Robots are allowed to apply pressure on objects, push away furniture and, in general, interact with the environment using structural parts other than their manipulators.
+This is known as *functional touching*.
+However, the robot must clearly announce the collision-like interaction and kindly request not being stopped.
 
-1. **Collision avoidance between robots**: If two robots encounter each other in a competition, both robots must actively try to avoid the other robot. Robots that do not aim for a different route within a reasonable time (e.g. 30 seconds) may be removed.
-
-> **Warning**
-> Referees can (and will) immediately stop a robot in case or suspicion of dangerous behavior.
+> [!WARNING]
+> Referees can (and will) immediately stop a robot in case or suspicion of *dangerous* behavior.
 
 ### Removal of robots
 
-Robots not obeying the rules are stopped and removed from the Arena.
+Robots not obeying the rules are stopped and removed from the *Arena*.
 
 1. It is the decision of the referees and the TC member monitoring the test if and when to remove a robot.
 
-1. When told to do so by the referees or the TC member monitoring the test, the team must immediately stop the robot, and remove it from the Arena without disturbing the ongoing test.
+1. When told to do so by the referees or the TC member monitoring the test, the team must immediately stop the robot, and remove it from the *Arena* without disturbing the ongoing test.
+
+1. More than 1 team member is allowed to enter the *Arena* after the robot has been stopped to quickly remove the robot from the *Arena*.
 
 ### Start signal
 
-The default start signal (unless stated otherwise) is door opening. Other start signals are allowed but must be authorized by the Technical Committee (TC).
+The default *start signal* (unless stated otherwise) is *door opening*.
+Other start signals are allowed but must be authorized by the *Technical Committee* (TC) during the *Robot Inspection*.
 
 ### Entering and leaving the Arena
 
-1. **Start position**: Unless stated otherwise, the robot starts outside of the Arena.
+1. **Start position**: Unless stated otherwise, the robot starts outside of the *Arena*.
 
-1. **Entering**: The robot must autonomously enter the Arena right after the door is opened.
+1. **Entering**: The robot must autonomously enter the *Arena*.
 
 > [!NOTE]  
-> After the robot enters through the `door open`, it is possible to close the door that was used. In this case, if the robot is not blocking the passage, it is considered as entered.
+> After the robot enters through the *door opening*, it is possible to close the door that was used.
+In this case, if the robot is not blocking the passage, it is considered as entered.
+
+<!-- ### Gestures -->
+<!-- 要検討 -->
+<!-- Hand gestures may be used to control the robot in the following way:
+
+1. **Definition**: The teams define the hand gestures by themselves.
+
+1. **Approval**: Gestures need to be approved by the referees and TC member monitoring the test.
+Gestures should not involve more than the movement of both arms.
+This includes, e.g., expressions of sign language or pointing gestures.
+
+1. **Instructing operators**: It is the responsibility of the team to instruct operators.
+    1. The team may only instruct the operator when told to so by a referee.
+    1. The team may only instruct the operator in the presence of a referee.
+    1. The team may only instruct the robot for as long as allowed by the referee.
+    1. When the robot has to instruct the operator, it is the robot that instructs the operator and not the team.
+  The team is not allowed to additionally guide the operator, e.g., tell the operator to come closer, speak louder, or to repeat a command.
+    1. The robot is allows to instruct the operator at any time.
+
+1. **Receiving gestures**: Unless stated otherwise, it is not allowed to use a speech command to set the robot into a special mode for receiving gestures. -->
+
+### Referees
+
+All tests are monitored by a referee, who is a member of the *Technical Committee* (TC).
+The referee may appoint an assistant to aid in keeping time and filling in scoresheets.
+The following rules apply:
+
+1. Selection: Referees are chosen by EC/TC/OC.
+
+1. Referee instructions: Right before each test, referee chooses one or more assistant to aid during the test.
+The assistants will be instructed by the referee.
+
+> [!NOTE]
+> Please, check the [*Competition Tasks Evaluation*](#competition-tasks-evaluation) section for further information about the assistant selection process.
 
 ### Operators
 
-In RCJ2023, operators of robots are generally allowed to be from the same team. However, in some cases, operators other than the same team may be selected by the organizers.
+<!-- Unless stated otherwise, robots are operated by the referee or by a person selected by the referee.
+If the robot fails to understand the default operator, the team may request the use of a custom operator.
+Penalty may apply when using a custom operator. -->
+
+Unless stated otherwise, robots are operated by a person selected by the competing team.
+However, in some cases, *operators* other than the competing team may be selected by the referee.
 
 ### Time limits
 
-In RCJ2023, the time limits set for each task are strictly followed, and there are no additional points for completing a task quickly.
+1. **Competition Task**: The time limits set for each task are *strictly* followed.
+Please, check each task time limit in the rules section.
 
-### Restart
+1. **Inactivity**: Robots are not allowed to stand still or get stuck into endless loops.
+A robot not progressing in the task execution (and obviously not trying to), is consider as inactive.
+Robots must be removed after 30 seconds of inactivity.
 
-In RCJ2023, teams are allowed to restart as many times as they want within the time limit. However, the points earned right after the restart will be reduced to half.
+1. **Requesting time**: A robot (not the team) can request referees to make exception from the 30-seconds inactivity time limit.
+In its request, the robot must clearly state for how long it will be performing a time-consuming process (e.g., 60 seconds).
+This time cannot exceed 3 minutes and cannot be used more than once per test.
 
-If the robot is holding an object during a restart, the team can choose whether to keep it or release it. Objects released will be stored outside the arena and cannot be used again until the end of the task.
+1. **Setup time**: Unless stated otherwise, there is no setup time.
+Robots need to be ready to enter the *Arena* no later than one minute after the door has been closed to the former team.
 
-### Verification in Voice Recognition
+1. **Time-up**: When the time is up, the team must immediately remove their robot(s) from the *Arena*.
+No more additional score will be giving.
 
-In `RCJ2023`, there is no deduction based on the number of times a team uses voice recognition to verify a task. However, there are time limits for each task, so it is recommended to use strategies such as [Deus Ex Machina](#deus-ex-machina-bypassing-features-with-human-help) to operate the robot and score points as much as possible.
-
-### Placement of the objects
-
-In `RCJ2023`, teams are allowed to place the objects to be used in the competition. However, the order and use of the objects specified by the organizers must be followed during the competition.
+1. **Show must go on**: On special cases, the referee may let the robot continue the test for demonstration purposes, but no additional points will be scored.
 
 
 ## Deus ex Machina: Bypassing Features With Human Help
 
-Robots can’t score unless they accomplish the main goal of a task. However, in many real-life situations, a minor malfunction may prevent the robot from accomplishing a task. To prevent this situation, while fostering awareness and human-robot interaction, robots are allowed to request human assistance during a task.
+**Because the Show Must Go On**
 
-To avoid undesirable situations for both teams and spectators, such as tasks not starting due to voice recognition not working, or tasks not continuing because objects cannot be grasped, it is recommended to actively use means to avoid those partial tasks.
+Robots can’t score unless they accomplish the main goal of a task.
+However, in many real-life situations, a minor malfunction may prevent the robot from accomplishing a task.
+To prevent this situation, while fostering awareness and human-robot interaction, robots are allowed to request human assistance during a task.
 
-### Usage
+> [!NOTE]
+> It is recommended to actively use *Deus ex Machina* features to avoid undesirable situations for both teams and spectators and complete partial tasks.
+
+### Procedure
 
 The procedure to request human assistance while solving a task is as follows:
-
 1. **Request help**: The robot must indicate loud and clear that it requires human assistance.
-
 It must be clearly stated:
     - The nature of the assistance
     - The particular goal or desired result
@@ -336,32 +580,84 @@ It must be clearly stated:
 
 ### Examples
 
-For each competition task, `Deus Ex Machina` provides various items. For details, please check each task contents. If you want to add any additional `Deus Ex Machina` rule, please let us know on GitHub Issue. We would like to actively consider and adopt them.
+For each competition task, *Deus Ex Machina* provides various features.
+For further details, please check each task contents.
+If you want to add any additional *Deus Ex Machina* features, please let us know through GitHub Issue.
+We would like to actively consider and adopt them.
 
-<!--
-`RCJ2023` strongly recommends the following Deus Ex Machina in particular:
+Referees will try to respond as clear as possible to the instructions given by the robot, such as "*Open the door*," "*Move the chair*," or "*Take the object and put it in the hand*."
+However, we cannot handle points that exceed the limits of the referee, such as unclear voice from the guests, instructions in languages other than English or Japanese, or images that are too small to read.
 
-- Ensure reliable alternative means of voice recognition through active use of QR codes.
-- Utilize interaction methods such as touch displays mounted on robots.
-- Provide instructions to referees using the robot's voice and display.
--->
+> [!WARNING]
+> Directly sending commands from *External Computing* to the robot is prohibited even in *Deus Ex Machina*.
+The main purpose of this tool is to simplify interactions with the robot.
 
-Referees will respond as much as possible to clear instructions given by the robot, such as "Open the door," "Move the chair," or "Take the object and put it in the hand." However, they cannot handle points that exceed the limits of the referee, such as unclear voice, instructions in languages other than English or Japanese, or images that are too small to read.
+### Scoring
 
-> **Warning**
-> Directly sending commands to the robot is prohibited even in `Deus Ex Machina`. The main purpose of this tool is to simplify interactions with the robot.
+There is no limit the amount of times a robot can request a *Deus Ex Machina* feature requesting human assistance.
+However, using *Deus Ex Machina* may result in a deduction of points for the task every time it is requested.
+For details, please refer to the rules for each competition task.
 
-### Scoring System
+1. **Bonuses**: No bonus points can be scored when the robot requests help to solve part of a task that normally would grant a bonus.
+1. **Score reduction overlap**: The score reduction for multiple requests of the same kind do not stack, but overlap.
+The total reduction applied correspond to the worse execution (higher reduction of all akin help requests).
+This means, a robot won’t be reduced again for requesting help to transport a second object, but a second reduction will apply when the robot asks for a door to be opened.
+1. **Allowed types of assistance**: The types of assistance allowed in a given task are specified in the respective task description.
+It should be noted that only the assistance types explicitly mentioned in a task description are actually allowed in a task;
+other types of assistance are not allowed and will nullify the obtained points for the part of the task in which they are applied.
+For instance, if a task focused on manipulation does not explicitly mention a *Deus Ex Machina* penalty for instructing a person to perform a manipulation activity, it should not be assumed that this is a loophole that can be exploited.
 
-There is no limit on the number of times a robot can use a `Deus Ex Machina` that requires assistance from a human. However, using `Deus Ex Machina` may result in a deduction or loss of points for the task. For details, please refer to the rules for each competition task.
+### Bypassing Automatic Speech Recognition
+
+Giving commands to the robot is essential in many tests.
+When the robot is not able to receive spoken commands, teams are allowed to provide means to bypass via *Deus Ex Machina* if stated in the task rules.
+Nonetheless, Automatic Speech Recognition is preferred.
+
+Moreover, in *RCJ2024*, there is no deduction based on the number of times a team uses voice recognition to verify a task.
+However, there are time limits for each task, so it is recommended to use strategies such as *Deus Ex Machina* to operate the robot and score points as much as possible.
+
+<!-- ### Placement of the objects
+
+In *RCJ2024*, teams are allowed to place the objects to be used in the competition. However, the order and use of the objects specified by the organizers must be followed during the competition. -->
+
+### Restart
+
+In *RCJ2024*, teams are allowed to restart as many times as they want within the time limit.
+However, the points earned from the completed task right after the restart will be reduced to half.
+After that, points will be given as it is set in the score sheet of each competition task. 
+
+If the robot is holding an object during a restart, the team can choose whether to keep it or release it.
+Released objects will be stored outside the arena and cannot be used again until the end of the task.
 
 
-## Penalty for not attending
+## Special penalties and bonuses
+
+### Penalty for not attending
 
 In addition to penalties during the competition, penalties will also be imposed for unauthorized absence. Please check the following points until the start of the competition.
 
-1. **Automatic schedule**：All teams are automatically scheduled for all tests. However, if you inform the organizers your intention of not participating in a specific task when registering, your team will be excluded from the schedule for the requested task.
+1. **Automatic schedule**：All teams are automatically scheduled for all tests.
 
-1. **Announcement**: If a team cannot participate in a test (for any reason), the team leader has to announce this to the OC at least 60 minutes before the test slot begins.
+1. **Announcement**: If a team cannot participate in a test (for any reason), the team leader has to announce this to the OC/TC at least *60 minutes* before the test slot begins.
 
-1. **Penalties**: A team that is not present at the start position when their scheduled test starts, the team is not allowed to participate in the test anymore. If the team has not announced that it is not going to participate, it gets a penalty of 500 points.
+1. **Penalties**: A team that is not present at the start position when their scheduled test starts, the team is not allowed to participate in the test anymore. If the team has not announced that it is not going to participate, it gets a penalty of *500 points*.
+
+### Extraordinary penalties
+
+1. **Penalty for cheating**: If a team member is found cheating or breaking the Fair Play rule, the team will be automatically disqualified of the running test, and a penalty of *500 points* is handed out.
+The *Technical Committee* (TC) may also disqualify the team for the entire competition.
+
+1. **Penalty for faking robots**: If a team starts a test, but it does not solve any of the partial tasks (and is obviously not trying to do so), a penalty of *250 points* is handed out.
+The decision is made by the referees and the monitoring TC member.
+
+1. **Extra penalty for collision**: In case of major, (grossly) negligent collisions the *Technical Committee* (TC) may disqualify the team for a test (the team receives *0 points*), or for the entire competition.
+1. **Not showing up as referee or jury member**: If a team does not provide a referee or jury member (being at the *Arena* on time), the team receives a penalty of *250 points*, and will be remembered for qualification decisions in future competitions.
+Jury members missing a performance to evaluate are excluded from the jury, and the team is disqualified from the test (receives *0 points*).
+
+1. **Modifying or altering standard platform robots**: If any unauthorized modification is found on a Standard Platform League robot, the responsible team will be immediately disqualified for the entire competition while also receiving a penalty of *500 points* in the overall score.
+This behavior will be remembered for qualification decisions in future competitions.
+
+### Bonus for outstanding performance
+
+In *RCJ2024*, there will be no for *Bonus for outstanding performance*.
+Thank you for your understanding.
