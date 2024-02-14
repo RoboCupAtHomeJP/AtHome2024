@@ -178,9 +178,9 @@ Three types of objects are used in the tasks:
 
 1. **Known Objects**: Objects previously known to the robot, divided into:
 
-  1. **Consistent Objects**: Objects published on the *Setup Day*, and
+    1. **Consistent Objects**: Objects published on the *Setup Day*, and
 
-  1. **Standard Objects**: Objects chosen from the **TBD**.
+    1. **Standard Objects**: Objects chosen from the **TBD**.
 These objects published a few months before the *RCJ2024* competition, so that they can be aquired and trained beforehand.
 
 1. **Unknown Objects**: Any other object that is not in the object list but can be grasped or handled.
