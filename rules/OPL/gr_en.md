@@ -4,20 +4,20 @@
 
 # General Rules and Regulations
 
-These are the general rules and regulations for the competition in the JapanOpen @Home league 2024 (referred to as *RCJ2024* below).
+These are the general rules and regulations for the competition in the RoboCup JapanOpen @Home league 2024 (referred to as *RCJ2024* below).
 Every rule in this section can be considered to implicitly include the term “unless stated other-wise”.
 This means that **additional or contrary rules**, in particular with respect to the specification of tests, 
 have a higher priority than those mentioned in the general rules and regulations.
 
 > [!NOTE]  
-> The *RCJ2024 OPL General Rules and Regulations* are based on *Chapter 3: General Rules & Regulations* of the [RoboCup 2023.2 Rulebook (Revision-0)](https://github.com/RoboCupAtHome/RuleBook/releases/tag/2023.2).
+> The *RCJ2024 General Rules and Regulations* are based on *Chapter 3: General Rules & Regulations* of the [RoboCup 2023.2 Rulebook (Revision-0)](https://github.com/RoboCupAtHome/RuleBook/releases/tag/2023.2).
 
 > [!IMPORTANT]  
 > Any changes not mentioned on this page related to the [RoboCup 2023.2 Rulebook (Revision-0)](https://github.com/RoboCupAtHome/RuleBook/releases/tag/2023.2) will NOT be considered.
 Therefore, the rules will be finalized through discussions with the participating teams via *GitHub Issues* and *Team Leader Meeting* (TLM).
 
 > [!IMPORTANT]  
-> Any inconsistency found between the Japanese version and English version of the *RCJ2024 General Rules & Regulations*, the **Japanese version** will be taken as first priority.
+> Any inconsistency found between the Japanese version and English version of the *General Rules & Regulations*, the **Japanese version** will be taken as first priority.
 
 
 ## Team Registration and Qualification
@@ -40,7 +40,6 @@ All teams that have completed registration can participate.
 
 Please register for *RCJ2024* using the following link.
 The deadline for team registration is **TBD**.
-We look forward to your registration.
 
 > [!NOTE]
 > Pre-registration form: **TBD**
@@ -97,12 +96,13 @@ However, it is necessary for each team to consider measures to deal with situati
 
 ## Scenario
 
-Most competition tests take place in the [*Arena*](#arena), but some tests may take place outside, in a previously unknown public place.
+Most competition tests take place in the *Arena*, but some tests may take place outside, in a previously unknown public place.
 In this section, the [*Arena*](#arena) and its contents are described, in particular the furnishing and other information that is common between tests and leagues.
 
 ### Arena
 
 The *Arena* is a realistic home setting (an apartment) consisting of interconnected rooms based on the [WRS2020](https://wrs.nedo.go.jp/wrs2020/challenge/download/Rules/DetailedRules_Partner_EN.pdf) setup.
+
 The minimal configuration consists of:
 - a living room, and
 - a dining room
@@ -112,7 +112,11 @@ Depending on the local organization, there may also be multiple *Arenas* that ma
 
 However, as robots need to function in the real world, the *Arena* is not fixed and may be changed without notice.
 
-1. **Major changes**: Any furniture (at a Predefined Location or not) that cannot be expected to be fully static in an everyday environment might be moved slightly between tests. In particular, furniture will not change rooms or move drastically inside a room, but a couch or table may be slightly rotated or moved; fixed locations for such furniture items should not be assumed. Walls will stay in place and rooms will not change function. Passages might be blocked.
+1. **Major changes**: Any furniture (at a Predefined Location or not) that cannot be expected to be fully static in an everyday environment might be moved slightly between tests.
+In particular, furniture will not change rooms or move drastically inside a room, but a couch or table may be slightly rotated or moved;
+fixed locations for such furniture items should not be assumed.
+Walls will stay in place and rooms will not change function.
+Passages might be blocked.
 
 1. **Minor changes**: Slightly moved chairs, slightly closed doors, or anything similar cannot be avoided and might happen at any time, even during a test.
 
@@ -123,7 +127,8 @@ The indoor home setting will be surrounded by low walls, which are built up usin
 1. **Walls**: Walls are fixed and will not be modified during the competition.
 The [selected material](https://www.bestcarton.com/cardboard/flex/index.php?as=700&bs=450&cs=150&mm=25&fl=4) will be cardboard and the wall height is 0.45 \[m\]; allowing the audience to watch the competition.
 
-1. **Doors**: Inside the *Arena*, rooms are **NOT** connected by doors. There will be only one entrance door, and will be closed right after the robot goes inside the *Arena*.
+1. **Doors**: Inside the *Arena*, rooms are **NOT** connected by doors.
+There will be only one entrance door, and will be closed right after the robot goes inside the *Arena*.
 
 1. **Floor**: The floor and doorways of the *Arena* are even, so there are no significant steps or stairways;
 however, minor unevenness, such as carpets, transitions in floor covering between different areas, and minor gaps (especially at doorways) can be expected.
@@ -161,7 +166,7 @@ The TC will compile a list of objects for this purpose;
 the list will contain a *picture of the each object*, as well as its *official name* and *Object Category* (for example, *Noodle* belongs to the *Food* category).
 Most objects are likely to be lightweight and easy to grasp with one hand.
 Every *Object Category* has an assigned *Predefined Location*,
-where objects of that category can usually be found or placed during tests (for example, an *Food* can be found or placed on the Kitchen Table);
+where objects of that category can usually be found or placed during tests (for example, an *Food* can be found or placed on the *Kitchen Table*);
 assignments are announced during the *Setup Days*.
 
 Objects are provided at the competition for training.
@@ -175,7 +180,7 @@ Three types of objects are used in the tasks:
 
   1. **Consistent Objects**: Objects published on the *Setup Day*, and
 
-  1. **Standard Objects**: Objects chosen from the [*RCAP2021 Object List*](https://github.com/RoboCupAtHomeJP/AtHome2021/blob/master/Data/opl_known_object_list.pdf).
+  1. **Standard Objects**: Objects chosen from the **TBD**.
 These objects published a few months before the *RCJ2024* competition, so that they can be aquired and trained beforehand.
 
 1. **Unknown Objects**: Any other object that is not in the object list but can be grasped or handled.
@@ -208,14 +213,14 @@ robots are expected to be able to run without a wireless network.
 The following rules apply:
 - Only the *Arena Network* can be used during tests.
 - Only the active team in a task is allowed to use the *Arena Network*.
-<!-- - The *Arena Network* provides one Virtual Local Area Network (VLANs) per team. -->
-<!-- - Each VLAN is most likely to have its own SSID/password. -->
-<!-- - VLAN traffic is separated from any other team and is routed to the team’s network cable in the team area. -->
 - The VLAN is also connected to the Internet.
 - The use of mobile router is allowed if:
   - has internet connection with the robot through LAN cable,
   - does not broadcast any VLAN (wireless networks) and
   - any team member is not close to any electronic device such as keyboards, mouses, remotes and computers.
+<!-- - The *Arena Network* provides one Virtual Local Area Network (VLANs) per team. -->
+<!-- - Each VLAN is most likely to have its own SSID/password. -->
+<!-- - VLAN traffic is separated from any other team and is routed to the team’s network cable in the team area. -->
 
 Teams broadcasting unauthorized (aka rogue) wireless networks will be disqualified from the competition and their devices may be temporarily confiscated by the OC;
 this includes smartphones and concealed SSIDs.
@@ -240,7 +245,7 @@ For different test runs, different robots can be used.
 1. **Technical Challenge**: In the *Technical Challenge*, both robots can be used simultaneously.
 
 ### Robot Specifications
-Robots competing in the *RCJ2024* Open Platform League must comply with security specifications in order to avoid causing any harm while operating.
+Robots competing in the *RCJ2024* must comply with security specifications in order to avoid causing any harm while operating.
 
 #### Size and Weight
 
@@ -288,7 +293,7 @@ Teams need to announce this to the TC before every test that involves a start si
 1. **Definition**: The *Start Button* can be any “one-button procedure” that can be easily executed by a referee
 (such as releasing the *Emergency Stop*, a green button, or a software button in a graphical user interface). -->
 
-<!-- 外部機器については要検討 -->
+
 ## External devices
 Everything that a team uses during a test and is not part of the robot is considered an *External Device*.
 All *External Devices* must be authorized by the *technical committee* (TC) during [*Robot Inspection*](https://github.com/RoboCupAtHomeJP/AtHome2024/blob/rules/opl/robot_inspection.md).
@@ -347,7 +352,7 @@ Bonus points can be scored even if the main objective of the task is accomplishe
 
 The scoring system has the following constrains:
 
-1. **Competition Tasks**: The maximum total score per task is *500 points* (bonuses included).
+1. **Regular Tasks**: The maximum total score per task is *500 points* (bonuses included).
 
 1. **Technical Challenge**: The score is normalized.
 
@@ -357,10 +362,10 @@ In principle, teams cannot receive negative points, except if they receive penal
 In particular, penalties for not attending can result in a total negative score.
 
 > [!NOTE]
-> *Competition Tasks* scoring is independent from the *Technical Challenge* scoring.
+> *Regular Tasks* scoring is independent from the *Technical Challenge* scoring.
 Thus, separate awarding for each challenge will be conducted.
 
-### Competition Tasks Evaluation
+### Regular Tasks Evaluation
 
 Scoring will be carried out by *two (2) different team members*;
 one from the competing team and one from another team, following this formula:
@@ -525,7 +530,7 @@ The following rules apply:
 The assistants will be instructed by the referee.
 
 > [!NOTE]
-> Please, check the [*Competition Tasks Evaluation*](#competition-tasks-evaluation) section for further information about the assistant selection process.
+> Please, check the [*Regular Tasks Evaluation*](#regular-tasks-evaluation) section for further information about the assistant selection process.
 
 ### Operators
 
@@ -538,14 +543,14 @@ However, in some cases, *operators* other than the competing team may be selecte
 
 ### Time limits
 
-1. **Competition Task**: The time limits set for each task are *strictly* followed.
+1. **Regular Task**: The time limits set for each task are *strictly* followed.
 Please, check each task time limit in the rules section.
 
 1. **Setup time**: Unless stated otherwise, there is *5 minutes* for setup time.
-Robots need to be ready to enter the *Arena* no later than one minute after the door has been closed to the former team.
+Robots need to be ready right after the door has been closed to the former team.
 
 1. **Time-up**: When the time is up, the team must immediately remove their robot(s) from the *Arena*.
-No more additional score will be giving.
+No additional points will be scored.
 
 1. **Show must go on**: On special cases, the referee may let the robot continue the test for demonstration purposes, but no additional points will be scored.
 
@@ -590,7 +595,6 @@ For further details, please check each task contents.
 
 > [!NOTE]
 > If you want to add any additional *Deus Ex Machina* features, please let us know through GitHub Issue.
-We would like to actively consider and adopt them.
 
 Referees will try to respond as clear as possible to the instructions given by the robot, such as "*Open the door*," "*Move the chair*," or "*Take the object and put it in the hand*."
 However, we cannot handle points that exceed the limits of the referee, such as unclear voice from the guests, instructions in languages other than English or Japanese, or images that are too small to read.
@@ -637,7 +641,8 @@ In addition to penalties during the competition, penalties will also be imposed 
 
 1. **Announcement**: If a team cannot participate in a test (for any reason), the team leader has to announce this to the OC/TC at least *60 minutes* before the test slot begins.
 
-1. **Penalties**: A team that is not present at the start position when their scheduled test starts, the team is not allowed to participate in the test anymore. If the team has not announced that it is not going to participate, it gets a penalty of *500 points*.
+1. **Penalties**: A team that is not present at the start position when their scheduled test starts, the team is not allowed to participate in the test anymore.
+If the team has not announced that it is not going to participate, it gets a penalty of *500 points*.
 
 ### Extraordinary penalties
 
@@ -648,6 +653,7 @@ The *Technical Committee* (TC) may also disqualify the team for the entire compe
 The decision is made by the referees and the monitoring TC member.
 
 1. **Extra penalty for collision**: In case of major, (grossly) negligent collisions the *Technical Committee* (TC) may disqualify the team for a test (the team receives *0 points*), or for the entire competition.
+
 1. **Not showing up as referee or jury member**: If a team does not provide a referee or jury member (being at the *Arena* on time), the team receives a penalty of *250 points*, and will be remembered for qualification decisions in future competitions.
 Jury members missing a performance to evaluate are excluded from the jury, and the team is disqualified from the test (receives *0 points*).
 
