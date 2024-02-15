@@ -4,7 +4,7 @@
 
 # General Purpose Service Robot - GPSR
 
-Reference video: https://youtu.be/p9ki89buY68
+Reference video: https://www.youtube.com/watch?v=Ef1RzF9Wj9U
 
 > [!WARNING]
 > This is a sample video for reference and the task content may differ depending on the RoboCup@Home JapanOpen rules.
