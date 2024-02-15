@@ -25,13 +25,13 @@ The score also changes based on the difficulty of the category.
 
 ## Setup
 
--**Locations**:
+- **Locations**:
   - **Task location**: The task takes place inside the *Arena*, but some commands may require the robot to go out.
   The *Arena* is in its nominal state for this task.
   - **Start Location**: The robot starts from a *predefined location* announced in the *Setup Days*.
   When the Referee gives the *start signal*, the robot moves towards the *Instruction Point*.
-  - **Instruction point**: At the beginning of the test, as well as after finishing the first and second command, the robot moves to the *Instruction Point*.
-  This *Instruction point* is a *predefined location* and is announced in the *Setup Days*.
+  - **Instruction Point**: At the beginning of the test, as well as after finishing the first and second command, the robot moves to the *Instruction Point*.
+  This *Instruction Point* is announced in the *Setup Days*.
 - **People**:
   - **Operator**: The operator instructs the robot commands given by the Referee.
   The operator is selected from the competing team.
@@ -43,9 +43,9 @@ The score also changes based on the difficulty of the category.
 
 1. Start Phase
 
-    1. **Task Time**: The time limit is ten (10) minutes.
+    1. **Task Time**: The time limit is **ten (10) minutes**.
 
-    1. **Setup**: The TC instructs the team to move the robot to the *Starting Location*.
+    1. **Setup**: The TC instructs the team to move the robot to the *Start Location*.
 
     1. **Category Selection**: The team tells the referee the selected category.
     Depending on the category, the referee choose an arbitrary command and gives it to the operator.
@@ -120,7 +120,7 @@ If restart is decided to be done:
 
 ## Command Category
 
-### Examples
+### Task Category Examples
 
 | Category | Example |
 | --- | --- |
@@ -174,7 +174,6 @@ The variable $Weight$ changes depending on the category difficulty (see the tabl
 | &emsp; - Restart                                        | Next earned score  $\times 0.5$| 
 | &emsp; - Not attending (absence without permission)     | $-500$ |
 | **Total Score**                                         | $500$ |
-
 
 
 ## Instructions
