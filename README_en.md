@@ -41,6 +41,7 @@ Any future participant teams and/or members who are planning to join us in this 
 - [TidyUp for OPL](rules/OPL/tu_en.md)
 - [General Purpose Service Robot (GPSR)](rules/OPL/gpsr_en.md)
 - [Technical Challenge](rules/OPL/tc_en.md)
+- [Poster Session](rules/OPL/ps_en.md)
 
 
 ## Domestic Standard Platform League (DSPL)

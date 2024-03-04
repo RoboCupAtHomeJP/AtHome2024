@@ -38,6 +38,7 @@
 - [TidyUp for OPL](rules/OPL/tu_ja.md)
 - [General Purpose Service Robot (GPSR)](rules/OPL/gpsr_ja.md)
 - [Technical Challenge](rules/OPL/tc_ja.md)
+- [Poster Session](rules/OPL/ps_ja.md)
 
 
 ## Domestic Standard Platform League (DSPL)
