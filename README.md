@@ -69,7 +69,11 @@
 ## Simulation Open Platform League
 
 ### Overall Rules
-未定
+- [General Rules and Regulations](rules/S-OPL/gr_ja.md)
 
 ### Tasks
-未定
+- [Handyman](rules/S-OPL/hm_ja.md)
+- [Interactive Cleanup](rules/S-OPL/ic_ja.md)
+- [Human Navigation](rules/S-OPL/hn_ja.md)
+- [Technical Challenge](rules/S-OPL/tc_ja.md)
+
