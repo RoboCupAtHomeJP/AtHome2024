@@ -4,7 +4,7 @@
 
 # Interactive Cleanup（IC）
 
-参考動画：[Interactive Cleanup参考動画]()
+参考動画：[Interactive Cleanup参考動画](https://youtu.be/HHMxg-a5puo)
 
 > **Note**
 > 参考動画は完璧ではありません．開催年度のルールによってタスク内容が異なる可能性があるので，あくまで参考程度にしてください．
@@ -16,7 +16,7 @@
 
 ## システム構成
 コンピュータと各プログラムは，図に示すような構成で接続されています．
-<div align="center"><img src="/img/ic_1.png" width="80%"></div>
+<div align="center"><img src="./img/ic_1.png" width="80%"></div>
 Windows PC では Unity と SIGVerse をベースにした Handyman ソフトウェアを実行します．UbuntuPC は rosbridge server，SIGVerse rosbridge server，チームが実装したロボットコントローラを実行します．
 Interactive Cleanup ソフトウェアとロボットコントローラの通信は基本的に rosbridge server を経由しますが，センサーデータなどの大量のデータを含む通信は SIGVerse の rosbridge server を経由して送られます．Interactive Cleanup ソフトウェアは，JointState，TF，センサー情報などの ROS メッセージを一定時間ごとにロボットコントローラに送信します．
 Interactive Cleanup では，人間のアバターがロボットに対して片付け命令を出すと，ロボットはロボットコントローラの指示に従って移動する必要があります．片付けの指示は，人間のアバターの動作や送られてくるメッセージに基づいて決定されます．ロボットコントローラは，Twist や JointTrajectory などのROS メッセージを Interactive Cleanup ソフトウェアに送信することでロボットを制御します．
@@ -105,7 +105,7 @@ Interactive Cleanup タスクは 10 セッションで構成され，各セッ�
 
 ## 競技画面
 Unity の競技中の画面の例を下図に示します．
-<div align="center"><img src="/img/ic_2.png" width="80%"></div>
+<div align="center"><img src="./img/ic_2.png" width="80%"></div>
 
 各コンポーネントの意味は，GitHub の wiki で以下のように説明されています．
 URL:https://github．com/RoboCupatHomeSim/interactive-cleanup-unity/wiki/Screen
@@ -113,16 +113,16 @@ URL:https://github．com/RoboCupatHomeSim/interactive-cleanup-unity/wiki/Screen
 ## Room Layout
 本競技で使用する部屋の一例を下図に示します．
 
-<div align="center"><img src="/img/ic_3.png" width="80%"></div>
+<div align="center"><img src="./img/ic_3.png" width="80%"></div>
 
 ## 把持対象物体
 ロボットが把持する対象物の例を下図に示します．最終的な候補物は，大会の14日前までに発表さ
 れる予定です．
-<div align="center"><img src="/img/ic_4.png" width="80%"></div>
+<div align="center"><img src="./img/ic_4.png" width="80%"></div>
 
 ## 目的地（物体の持ち運び先）
 アバターは2回目の指差しジェスチャによって，ターゲットオブジェクトの行き先をロボットに指示します．目的地は家具の上かゴミ箱の中です．タスクで使用した目的地の例を下図に示します．目的地のオブジェクトリストは，大会の14日前までに発表される予定です．
-<div align="center"><img src="/img/ic_5.png" width="80%"></div>
+<div align="center"><img src="./img/ic_5.png" width="80%"></div>
 
 
 ## 3．10． 備考

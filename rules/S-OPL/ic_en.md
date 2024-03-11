@@ -2,7 +2,7 @@
 
 # Interactive Cleanup (IC)
 
-Reference Video: [Interactive Cleanup Reference Video]()
+Reference Video: [Interactive Cleanup Reference Video](https://youtu.be/HHMxg-a5puo)
 
 > **Note**
 > The reference video is not perfect. The content of the task may vary depending on the rules of the year it is held, so please take it only as a reference.
@@ -13,7 +13,7 @@ This task evaluates the robot's ability to understand pointing gestures. Similar
 
 ## System Configuration
 Computers and programs are connected as shown in the figure.
-<div align="center"><img src="/img/ic_1.png" width="80%"></div>
+<div align="center"><img src="./img/ic_1.png" width="80%"></div>
 On the Windows PC, Handyman software based on Unity and SIGVerse is run. The Ubuntu PC runs a rosbridge server, SIGVerse rosbridge server, and the robot controller implemented by the team.
 Communication between the Interactive Cleanup software and the robot controller mainly goes through the rosbridge server, but communication involving large amounts of data such as sensor data goes through SIGVerse's rosbridge server. The Interactive Cleanup software sends ROS messages like JointState, TF, sensor information to the robot controller at regular intervals.
 In Interactive Cleanup, when the human avatar issues a cleanup command to the robot, the robot must move according to the instructions from the robot controller. The cleanup instruction is determined based on the actions of the human avatar and the messages sent. The robot controller controls the robot by sending ROS messages such as Twist or JointTrajectory to the Interactive Cleanup software.
@@ -101,7 +101,7 @@ The score for a session is calculated as the total of the above scores during th
 
 ## Competition Screen
 An example of the screen during the Unity competition is shown below.
-<div align="center"><img src="/img/ic_2.png" width="80%"></div>
+<div align="center"><img src="./img/ic_2.png" width="80%"></div>
 
 The meaning of each component is explained in GitHub's wiki as follows.
 URL: https://github.com/RoboCupatHomeSim/interactive-cleanup-unity/wiki/Screen
@@ -109,15 +109,15 @@ URL: https://github.com/RoboCupatHomeSim/interactive-cleanup-unity/wiki/Screen
 ## Room Layout
 An example of the room used in the competition is shown below.
 
-<div align="center"><img src="/img/ic_3.png" width="80%"></div>
+<div align="center"><img src="./img/ic_3.png" width="80%"></div>
 
 ## Target Objects for Grasping
 Examples of objects that the robot will grasp are shown below. The final list of candidate objects will be announced 14 days before the competition.
-<div align="center"><img src="/img/ic_4.png" width="80%"></div>
+<div align="center"><img src="./img/ic_4.png" width="80%"></div>
 
 ## Destination (Carrying Destination for Objects)
 The avatar indicates the destination of the target object to the robot with the second pointing gesture. The destination is either on top of furniture or inside a trash can. Examples of destinations used in the task are shown below. The list of destination objects will be announced 14 days before the competition.
-<div align="center"><img src="/img/ic_5.png" width="80%"></div>
+<div align="center"><img src="./img/ic_5.png" width="80%"></div>
 
 
 ## 3.10. Notes
