@@ -1,6 +1,6 @@
 [日本語](./gr_ja.md) | [English](./gr_en.md)
 
-# RoboCup Japan Open 2023 @Home League Simulation Open Platform League
+# General rules
 
 ## 競技概要
 
@@ -36,9 +36,9 @@
 - ### [Technical Challenge]()
 
 ## 新規参入チームの方々へ
-新規参入チームの方は[こちら](./new_team.md)から，それぞれの競技の概要をまとめた動画やセットアップ方法をご確認ください．
+新規参入チームの方は[こちら](./new_team_ja.md)から，それぞれの競技の概要をまとめた動画やセットアップ方法をご確認ください．
 
 ## 問題作成手順
 公平性の観点から，競技で使用する問題の一部を各チームで作成していただきます．
-問題作成手順は[こちら](./new_team_ja.md)
+問題作成手順は[こちら](./make_task_ja.md)
 

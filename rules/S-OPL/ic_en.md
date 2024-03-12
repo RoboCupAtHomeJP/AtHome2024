@@ -120,7 +120,7 @@ The avatar indicates the destination of the target object to the robot with the 
 <div align="center"><img src="./img/ic_5.png" width="80%"></div>
 
 
-## 3.10. Notes
+## Notes
 
 ### Pointing Gesture
 The avatar performs two pointing gestures. The first and second pointing gestures specify the object to be grasped and its destination, respectively. The avatar maintains each posture/gesture for n seconds. In pointing gestures, the avatar always uses the index finger. The direction of the pointing gestures is determined randomly for each session. The range of the duration of pause time is 2 ≤ n ≤ 10.

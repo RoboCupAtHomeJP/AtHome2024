@@ -1,6 +1,6 @@
 [日本語](./gr_ja.md) | [English](./gr_en.md)
 
-# RoboCup Japan Open 2023 @Home League Simulation Open Platform League
+# General rules
 
 ## Competition Concept
 
