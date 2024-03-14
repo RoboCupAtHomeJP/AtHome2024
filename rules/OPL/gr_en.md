@@ -354,7 +354,7 @@ The scoring system has the following constrains:
 
 1. **Regular Tasks**: The maximum total score per task is *500 points* (bonuses included).
 
-1. **Technical Challenge**: The score is normalized.
+1. **Open Challenge**: The score is normalized.
 
 1. **Minimum score**: The minimum total score per test is *0 points*.
 
