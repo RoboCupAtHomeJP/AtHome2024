@@ -362,7 +362,7 @@ In principle, teams cannot receive negative points, except if they receive penal
 In particular, penalties for not attending can result in a total negative score.
 
 > [!NOTE]
-> *Regular Tasks* scoring is independent from the *Technical Challenge* scoring.
+> *Regular Tasks* scoring is independent from the *Open Challenge* scoring.
 Thus, separate awarding for each challenge will be conducted.
 
 ### Regular Tasks Evaluation
