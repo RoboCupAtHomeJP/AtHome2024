@@ -51,10 +51,14 @@
 ## Domestic Standard Platform League (DSPL)
 
 ### Overall Rules
-未定
+準備中
 
 ### Tasks
-未定
+- [Robot Inspection](rules/DSPL/robotinspection.md) (setup day)
+- [Resutaurant](rules/DSPL/restaurant.md)
+- [TidyUp](rules/DSPL/tidyup.md)
+- [General Purpose Service Robot (GPSR) **大きくルールの変更が見込まれます**](rules/DSPL/gpsr.md)
+- [Technical Challenge](rules/DSPL/technical_challenge.md)
 
 
 ## Education League
