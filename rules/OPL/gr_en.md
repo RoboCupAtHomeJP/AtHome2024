@@ -337,7 +337,7 @@ A robot must pass the [*Robot Inspection*](ri_en.md) test so that it is allowed 
 
 1. **Competition Tasks**: All qualified teams that have passed the *Robot Inspection* can participate in *Competition Tasks*.
 
-1. **Technical Challenge**: All qualified teams have the right to participate in *Technical Challenge* (previously known as *Final*).
+1. **Open Challenge**: All qualified teams have the right to participate in *Open Challenge* (previously known as *Final*).
 
 ### Schedule
 
