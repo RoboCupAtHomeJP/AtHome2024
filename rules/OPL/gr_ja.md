@@ -191,7 +191,7 @@ TCはこのためにオブジェクトのリストを作成する．
 
 ### 事前定義された部屋と場所 (Predefined Rooms and Locations)
 
-*RCJ2024*の一部の競技では，人やオブジェクトが見つかる*Predefined Location*が関与される．
+*RCJ2024*の一部の競技では，人やオブジェクトが見つかる*Predefined Location*が設定される．
 また，*Arena*には*Entrance*という名前の*Door*があり，*Arena*への出入り口となり．
 部屋の名前，事前定義された場所，および場所のクラスは*Setup Days*に発表される．
 
