@@ -327,7 +327,7 @@ TCは，*External devices*が自由に使用できるか，または審判の監
 ## 大会の体系
 
 ### 大会システム
-大会は，*Robot Inspection*，競技タスク，そして*Technical Challenge*という流れで進行される．
+大会は，*Robot Inspection*，競技タスク，そして*Open Challenge*という流れで進行される．
 
 1. **Robot Inspection**: 安全のため，ロボットは*Setup Days*中に検査される．
 ロボットは[*Robot Inspection*](ri_ja.md)に合格することによって，競技に参加することが許可される．
