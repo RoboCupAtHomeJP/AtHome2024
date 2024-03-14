@@ -242,7 +242,7 @@ Remember that only robots that have cleared the [*Robot Inspection*](./ri_en.md)
 1. **Regular Tests**: Only one robot is allowed per test. 
 For different test runs, different robots can be used.
 
-1. **Technical Challenge**: In the *Technical Challenge*, both robots can be used simultaneously.
+1. **Open Challenge**: In the *Open Challenge*, both robots can be used simultaneously.
 
 ### Robot Specifications
 Robots competing in the *RCJ2024* must comply with security specifications in order to avoid causing any harm while operating.
