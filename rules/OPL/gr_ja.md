@@ -334,7 +334,7 @@ TCは，*External devices*が自由に使用できるか，または審判の監
 
 1. **競技タスク**: *Robot Inspection*に合格したすべてのチームが，*競技タスク*に参加することができる．
 
-1. **Technical Challenge**: *Robot Inspection*に合格したすべてのチームは，*Technical Challenge*（旧: Finals）に参加する権利がある．
+1. **Open Challenge**: *Robot Inspection*に合格したすべてのチームは，*Open Challenge*（旧: Finals）に参加する権利がある．
 
 ### スケジュール (Schedule)
 
