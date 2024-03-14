@@ -414,7 +414,7 @@ $` mod. `$は剰余を示す．
 
 1. **セットアップ (Setup)**: 競技のセットアップ中，*Arena*内のチームメンバーの数に制限はない．
 
-1. **Technical Challenge**: *Technical Challenge*中，*Arena*内のチームメンバーの数に制限はない．
+1. **Open Challenge**: *Open Challenge*中，*Arena*内のチームメンバーの数に制限はない．
 
 ### フェアプレイ (Fair Play)
 
