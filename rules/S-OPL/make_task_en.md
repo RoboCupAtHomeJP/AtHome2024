@@ -1,4 +1,4 @@
-[Japanese](./tc_ja.md) | [English](./tc_en.md)
+[日本語](./make_task_ja.md) | [English](./make_task_en.md)
 
 # Competition Task Creation Procedure
 
