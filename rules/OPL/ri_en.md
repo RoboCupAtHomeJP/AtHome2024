@@ -25,7 +25,7 @@ This task aims to test the minimum required performance and safety of the robot 
 - **Locations**: 
   - **Task location**: The task takes place inside and outside the *Arena*.
   - **Starting Location**: The robot will start from outside the arena, and start the task with *Door Open*.
-  - **Ending Location**: The robot will move towards the `Room2: Dining Room`.
+  - **Ending Location**: The robot will move towards the *Room2: Dining Room*.
 
 > [!NOTE]
 > The specific *Start Location* and *Ending Location* will be announced during the *Setup Day*.
@@ -79,7 +79,7 @@ Therefore, there is no limit to the number of attempts for this task.
 
 Referees are selected according to the *General Rules* and will perform the following tasks:
 
-- Gather thirty (30) minutes before the test starts.
+- Gather **thirty (30) minutes** before the test starts.
 - Receive instructions about the score sheet.
 - Score the competition.
 - Confirm the score with the other referees and TC.
