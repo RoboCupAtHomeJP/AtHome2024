@@ -19,7 +19,6 @@ This task assumes that the robot is tidying up a messy room. The robot will tidy
 
 This task focuses on autonomous navigation in a known environment, object recognition, object grasping, task planning, and so on.
 
-
 ## Settings
 
 - **Location**: The arena environment is based on a household environment. The competition is held in a living room. The arena can be mapped in advance (known environment).
@@ -30,7 +29,6 @@ This task focuses on autonomous navigation in a known environment, object recogn
 
 ### Starting Phase
 
-1. **Competition time**: The competition time is a total of **20 minutes**, with 15 minutes for the `Task 1: Tidy Up Phase` and 5 minutes for the `Task 2: Delivery Phase`.
 1. **Arrangement**: The referee instructs the team to move the robot to the starting position and, according to the referee's instructions, the team arranges the objects to be used. The maximum number of objects that will be used in the `Task 1: Tidy Up Phase` is 10 objects.
 1. **Start**: The referee gives the starting signal and starts the timer. At the same time, the team completes the robot starting setup (such as pressing the start button) and leaves the area. Complex setup procedures such as pressing more than two buttons are not allowed. 
 1. **Door opening**: One person from the team opens the door at the starting signal. The robot recognizes that the door has opened and autonomously enters the arena.
@@ -38,7 +36,7 @@ This task focuses on autonomous navigation in a known environment, object recogn
 ### Task 1: Tidy Up Phase
 
 1. **Competition time**: The competition time for the `Task 1: Tidy Up Phase` is **15 minutes**.
-2. **Tidying up**: After the door is opened, the robot will tidy up all the objects on the table (`Long Table B`). Known and unknown objects are placed ina household-like environment. Each object has a category, and there are designated places (`Long Table A`, `Bin A`, `Bin B`) for each object to be tidied up. The robot will tidy up the objects based on these pre-determined locations.
+2. **Tidying up**: After the door is opened, the robot will tidy up all the objects on the table (`Long Table B`). Known and unknown objects are placed in a household-like environment. Each object has a category, and there are designated places (`Long Table A`, `Bin A`, `Bin B`) for each object to be tidied up. The robot will tidy up the objects based on these pre-determined locations.
 
 ### Task 2: Delivery Phase
 
@@ -66,15 +64,19 @@ Please refer to the [Objects](gr_en.md#objects) in the General Rules & Regulatio
 
 ## Object Category and Placement Goal
 
+> [!NOTE]
+> Updating. Furniture name may be updated.
+
 The placement locations for each object category are as follows:
 <div align="center"><img src="./tu_layout.jpg" width="70%"></div>
 <br>
 
 ## Restart
+
 The following action is admitted when the robot restarts.
 
-* The team can remove the object that the robot grasps (put out of the arena) when the team declares restart. 
-* The team can rearrange the objects when the robot waiting at the start position (the team can rearrange fallen or dropped object into the initial position).
+- The team can remove the object that the robot grasps (put out of the arena) when the team declares restart.
+- The team can rearrange the objects when the robot waiting at the start position (the team can rearrange fallen or dropped objects into the initial position).
 
 ## Deus ex Machina
 
