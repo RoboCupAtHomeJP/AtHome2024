@@ -13,6 +13,8 @@ Reference video: https://youtu.be/dzyJ1dHTulc
 
 In this task, the robot is expected to assist the operator in transporting the luggage to a car parked outside (imaginary). After the robot grabs the luggage (which is a paper bag), it will follow the operator from a known environment to an unknown environment to support the luggage transport. Then, it will autonomously return to the `starting point` (inside the known environment).
 
+**Time Limit**: 7 minutes
+
 > [!NOTE]  
 > Although the same competition and rules are adopted from the Education League, a different scoring method is used for differentiation.
 
@@ -22,18 +24,17 @@ This task focuses on finger-pointing recognition, manipulation, mapping and navi
 
 ## Settings
 
-- **Location**: An arena environment based on a home environment will be used. The competition will take place both inside and outside the arena. The `inside of the arena` can be mapped in advance (`known environment`), but mapping of the `outside of the arena` is prohibited (`unknown environment`).
+- **Location**: An arena environment based on a home environment will be used. The competition will take place both inside and outside the arena. The `inside of the arena` can be mapped in advance (`known environment`), but mapping the `outside` of the arena is prohibited (`unknown environment`).
 - **Starting location**: The start location will be announced on the setup day.
 - **Luggage (paper bags)**: Two bags will be placed near the operator (within 2\[m\] of the robot and visible to it).
-  - **Size**: The bag smaller than in size of 350 x 25 x 350\[mm\] will be used.
-  - **Placement**: The possible placement location will be announced on the setup day. A team member places a bag at the location instructed by TC just before the task starts.
+  - **Size**: The bag smaller than in size of 350 x 100 x 350\[mm\] will be used.
+  - **Placement**: The possible placement location will be announced on the setup day. A team member places a bag at the location instructed by referee just before the task starts.
 - **Operator**: The operator will point to the paper bag to be used during the competition while standing in front of the robot. The operator will be selected from volunteers.
 
 ## Scenario
 
 ### Starting Phase
 
-1. **Competition time**:  The competition time is 7 minutes.
 1. **Setup**: The referee instructs the team to move the robot to the starting position.
 1. **Start**: The referee gives the start signal and starts the timer. At the same time, the team completes the final simple setup (pressing the starting button, etc.) and leaves the area. Complex setup procedures such as pressing more than two buttons are not allowed.
 1. **Pointing**: The operator points to the bag that is specified in advance at the same time as the start signal.
