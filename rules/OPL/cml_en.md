@@ -15,9 +15,6 @@ In this task, the robot is expected to assist the operator in transporting the l
 
 **Time Limit**: 7 minutes
 
-> [!NOTE]  
-> Although the same competition and rules are adopted from the Education League, a different scoring method is used for differentiation.
-
 ## Focus
 
 This task focuses on finger-pointing recognition, manipulation, mapping and navigation in known and unknown environments, human-following, voice dialogue, task planning, etc.
@@ -44,21 +41,20 @@ This task focuses on finger-pointing recognition, manipulation, mapping and navi
 
 1. **Delivery**: When the robot grasps the bag and becomes ready to follow a person, the robot informs the operator that the robot is ready.
 2. **Walking**: The operator starts walking from a known environment towards an unknown environment.
-3. **Follow-Me**: The robot follows the operator. When the operator reaches the goal, the operator will inform the robot that the operator has reached the goal.
+3. **Follow-Me**: The robot follows the operator. When the operator reaches the goal, the operator will inform the robot that the operator has reached the goal. During the follow-me phase, the robot may face up to three obstacles (bonus, the team selects the obstacles to appear in advance.)
+   - Small objects on the ground (such as building blocks)
+   - Hard-to-see 3D objects (such as chairs or glasses)
+   - Opening and closing barriers (such as guide poles)
 
-> **Warning**
+> [!IMPORTANT]
 > (Natural walking) The operator cannot look back to the robot or stop moving when the operator starts walking.
 
 ### Navigation Phase
 
 1. **Handover**： The operator receives the bag when the operator and the robot have reached the goal.
-2. **Navigation**: The robot autonomously moves from the `unknown environment` to the `Starting Point` in the `known environment` avoiding obstacles. The team can choose the obstacles used in the navigation phase (up to four obstacles, bonuses). The bonus points will be scored when the robot has reached the goal.
-   - A crowd of people (3-4 people) that obstructs in a static state
-   - Small objects on the ground (such as building blocks)
-   - Hard-to-see 3D objects (such as chairs or glasses)
-   - Opening and closing barriers (such as guide poles)
+2. **Navigation**: The robot autonomously moves from the `unknown environment` to the `Starting Point` in the `known environment`.
 3. **Goal**: When the robot returns to the `Starting Point`, the task is complete.
-
+4. **Bonus**: The robot joins at the end of the queue (with 2-4 people) near the goal position.
 
 ## Deus ex Machina
 
@@ -75,30 +71,37 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 |Action|Score|
 |------|-----|
 | **Main Task** |  |
-| Transport the paper bag to the goal outside the arena | |
-| &nbsp;&bull;&nbsp;Detection of the operator-selected paper bag | 50 |
-| &nbsp;&bull;&nbsp;Grasping the selected bag | 100 |
-| &nbsp;&bull;&nbsp;Following the operator out of the arena | 50 |
-| &nbsp;&bull;&nbsp;Arriving at the goal outside the arena while following the operator | 50 |
-| Re-enter the arena |  |
+| 1. Starting phase | |
+| &nbsp;&bull;&nbsp;Detect the selected bag | 50 |
+| &nbsp;&bull;&nbsp;Grasp the selected bag | 100 |
+| 2. Follow-me phase | |
+| &nbsp;&bull;&nbsp;Go out of the arena following the operator | 50 |
+| &nbsp;&bull;&nbsp;Arriving at the goal outside the arena | 50 |
+| 3. Navigation phase | |
 | &nbsp;&bull;&nbsp;Autonomously enter the arena | 25 |
 | &nbsp;&bull;&nbsp;Autonomously return to the `starting point` | 25 |
+|  |  |
 | **Bonus Tasks** |  |
-| Avoid static crowds of people (3-4 people) | 50 |
+| 2. Follow-me phase | |
 | Avoid small objects on the ground (such as blocks) | 50 |
 | Avoid visually confusing 3D objects (such as chairs or glasses) | 50 |
 | Avoid opening and closing barriers (such as guide posts) | 50 |
+| 3. Navigation phase | |
+| Join at the end of the queue near the goal | 50 |
 | **Penalty** |  |
 | Non-participation (without declaration) | -500 |
 |  |  |
 | Total (including bonus tasks) | 500 |
+
+> [!NOTE]
+> Bonus will be scored if one of the main task of the corresponding phase is completed.
 
 ## Instructions from the Executive Committee(EC)
 
 - Preparation
   - Select an operator
   - Announce the possible placement locations
-  - Select 3-4 people to act as obstacles for the robot on the outdoor path.
+  - Select 2-4 people who make a queue near the goal.
   - Select obstacles that the robot will face when it is outside.
 - Announcement (Setup day)
   - Select the robot's `starting point` and announce it.
