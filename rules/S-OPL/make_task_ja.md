@@ -14,8 +14,8 @@ HandymanとInteractive Cleanupの課題作成方法については，動画で�
 ## 使用するスプレッドシート
 競技課題作成は以下のGoogleスプレッドシートに課題内容シートを追加しながら進めます．
 - [Handyman Task Description](https://docs.google.com/spreadsheets/d/1mMqzx-0CZG0YOU-FLNQnZLh0BB7g3noFKtWkBDInizA/edit?usp=sharing)
-- [Interactive_Cleanup Description](https://docs.google.com/spreadsheets/d/1-ZKrXuRVkZL1UqjX_ld2nFJ09bWUW1WfOwaq7lt5qFg/edit?usp=sharing)
-- [Human_Navigation Description](https://docs.google.com/spreadsheets/d/1SK99wUuujxUdwD_PsWOkBpM4jD_pY_QRzsUibcTXRNU/edit?usp=sharing)
+- [InteractiveCleanup Task Description](https://docs.google.com/spreadsheets/d/1-ZKrXuRVkZL1UqjX_ld2nFJ09bWUW1WfOwaq7lt5qFg/edit?usp=sharing)
+- [HumanNavigation Task Description](https://docs.google.com/spreadsheets/d/1SK99wUuujxUdwD_PsWOkBpM4jD_pY_QRzsUibcTXRNU/edit?usp=sharing)
 
 
 
