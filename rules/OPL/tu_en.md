@@ -36,7 +36,7 @@ This task focuses on autonomous navigation in a known environment, object recogn
 ### Task 1: Tidy Up Phase
 
 1. **Competition time**: The competition time for the `Task 1: Tidy Up Phase` is **15 minutes**.
-2. **Tidying up**: After the door is opened, the robot will tidy up all the objects on the table (`Long Table B`). Known and unknown objects are placed in a household-like environment. Each object has a category, and there are designated places (`Long Table A`, `Bin A`, `Bin B`) for each object to be tidied up. The robot will tidy up the objects based on these pre-determined locations.
+2. **Tidying up**: After the door is opened, the robot will tidy up all the objects on the table (`Long Table B`). Known and unknown objects are placed in a household-like environment. Each object has a category, and there are designated places (`Long Table A`, `Trash Bin A`, `Trash Bin B`) for each object to be tidied up. The robot will tidy up the objects based on these pre-determined locations.
 
 ### Task 2: Delivery Phase
 
@@ -54,8 +54,8 @@ Please refer to the [Objects](gr_en.md#objects) in the General Rules & Regulatio
 
 ## Proportion of the objects
 
-- `Standard object` ｜　Announced: 9　→　Used: 6
-- `Known object` ｜　Announced: 3　→　Used: 3
+- `Standard objects` ｜　Announced: 9　→　Used: 6
+- `Consistent Objects` ｜　Announced: 3　→　Used: 3
 - `Unknown object` ｜　Announced: 0　→　Used: 1
 - `Dummy object` ｜　Announced: 1　→　Used: 1x3
 
@@ -114,7 +114,9 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 **Score Sheet**: [RCJ2023 OPL Tidy Up Score Sheet v1](https://docs.google.com/spreadsheets/d/1Dn0LTINAVYMcSL2Yoqi4iicPZOmU6h8e/edit?usp=sharing&ouid=115914283332872721627&rtpof=true&sd=true)
 
 
-## Instructions from the Executive Committee (EC)
+# Instructions
+
+### To Volunteer
 
 - Preparation (several days to several weeks before the competition)
   - Prepare for known and unknown objects.
@@ -124,7 +126,7 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
   - Select and announce the initial position of the objects.
   - Select and announce the unknown object.
 
-## Role of the scorer
+### To Referee
 
 - Gather 30 minutes before the competition, receive instructions, and receive the score sheet.
 - Act as the referee as described during the task.
