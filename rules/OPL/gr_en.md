@@ -193,7 +193,8 @@ These objects will appear as obstacles during autonomous navigation or additiona
 
 Some tests in the *RCJ2024* involve a *Predefined Location* where people or objects can be found.
 There will also be one *door*, named *Entrance*, which lead in and out of the *Arena*.
-Room names, predefined locations, and location classes are announced during the *Setup Days*.
+Room names, predefined locations, and location classes are announced at the same time as the Rulebook.
+However, if the task begins without the *Door Open*, the *Starting Location* and the *Ending Location* are announced during the *Setup Days*.
 
 ### Predefined Person Names
 <!-- OPL -->
@@ -416,7 +417,7 @@ Exceptions are tasks that explicitly require volunteer assistance.
 
 1. **Setup**: During the setup of a task, the number of team members inside the *Arena* is not limited.
 
-1. **Technical Challenge**: During the *Technical Challenge*, the number of team members inside the *Arena* is not limited.
+1. **Open Challenge**: During the *Open Challenge*, the number of team members inside the *Arena* is not limited.
 
 ### Fair Play
 

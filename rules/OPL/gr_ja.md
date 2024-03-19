@@ -140,19 +140,19 @@ RoboCup@Homeを魅力的にするためには，観客にロボットがどの�
 
 <!-- OPL -->
 アリーナの最小構成は次のようになる．
-- living room
-  - bin_a
-  - bin_b
-  - bin_c
-  - bin_d
+- living_room
+  - trash_bin_a
+  - trash_bin_b
+  - storage_box_a
+  - storage_box_b
   - long_table_a
     - tray_a
     - tray_b
-    - container_a
-    - container_b
+    - container
+    - pen_holder
   - long_table_b
   - tall_table
-- dining room
+- dining_room
   - shelf
   - chair_a
   - chair_b
@@ -192,8 +192,9 @@ TCはこのためにオブジェクトのリストを作成する．
 ### 事前定義された部屋と場所 (Predefined Rooms and Locations)
 
 *RCJ2024*の一部の競技では，人やオブジェクトが見つかる*Predefined Location*が設定される．
-また，*Arena*には*Entrance*という名前の*Door*があり，*Arena*への出入り口となり．
-部屋の名前，事前定義された場所，および場所のクラスは*Setup Days*に発表される．
+また，*Arena*には*Entrance*という名前の*Door*があり，*Arena*への出入り口となる．
+部屋の名前，事前定義された場所，および場所のクラスは基本的にルールブックと同時に公開される．
+ただし，*Door Open*により競技が開始しない場合，その*開始位置*や*終了位置*は*Setup Days*に発表される．
 
 ### 事前定義された人物名 (Predefined Person Names)
 <!-- OPL -->
