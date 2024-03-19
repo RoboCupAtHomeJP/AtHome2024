@@ -64,11 +64,15 @@
 ## Education League
 
 ### Overall Rules
-未定
+Rules are based on RoboCup2023 World Championship @Home Education League rules as follows,　
+- [Education rules 2023](https://docs.google.com/document/d/1cHRMwnPajsPiEZNw1celFjHG1CSGTA2uyJ2VcAoEuoc/edit?usp=sharing)
+- [@Home 2022 Rules](https://athome.robocup.org/wp-content/uploads/2022_rulebook.pdf).
 
 ### Tasks
-未定
-
+- Poster 
+- Carry My Luggage
+- Receptionist
+- Final
 
 ## Simulation Open Platform League
 
