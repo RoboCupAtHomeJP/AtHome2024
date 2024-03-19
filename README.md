@@ -37,7 +37,7 @@
 - [Receptionist](rules/OPL/rc_ja.md)
 - [TidyUp for OPL](rules/OPL/tu_ja.md)
 - [General Purpose Service Robot (GPSR)](rules/OPL/gpsr_ja.md)
-- [Technical Challenge](rules/OPL/tc_ja.md)
+- [Open Challenge](rules/OPL/oc_ja.md)
 - [Poster Session](rules/OPL/ps_ja.md)
 
 

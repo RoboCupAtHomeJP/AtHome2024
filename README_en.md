@@ -40,7 +40,7 @@ Any future participant teams and/or members who are planning to join us in this 
 - [Receptionist](rules/OPL/rc_en.md)
 - [TidyUp for OPL](rules/OPL/tu_en.md)
 - [General Purpose Service Robot (GPSR)](rules/OPL/gpsr_en.md)
-- [Technical Challenge](rules/OPL/tc_en.md)
+- [Open Challenge](rules/OPL/oc_en.md)
 - [Poster Session](rules/OPL/ps_en.md)
 
 
