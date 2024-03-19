@@ -96,7 +96,9 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 > [!NOTE]
 > Bonus will be scored if one of the main task of the corresponding phase is completed.
 
-## Instructions from the Executive Committee(EC)
+## Instructions
+
+### To Volunteer
 
 - Preparation
   - Select an operator
@@ -111,7 +113,7 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
   - Select the goal position.
   - Select the position where the bag is placed.
 
-## Role of the Scorer
+### To Referee
 
 - Gather 30 minutes before the competition, receive instructions, and receive the score sheet.
 - Act as the referee as described during the task.
