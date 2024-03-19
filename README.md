@@ -25,19 +25,22 @@
 
 
 ## Open Platform League (OPL)
+
 > [!IMPORTANT]  
 > OPLのルールや実施される競技は現時点では未定です．ひとまず，RCJ23の反省点を基に，こちらの内容を修正していく予定です．
 
 ### Overall Rules
+
 - [General Rules and Regulations](rules/OPL/gr_ja.md)
 
 ### Competition Tasks
+
 - [Robot Inspection](rules/OPL/ri_ja.md) (setup day)
 - [Carry My Luggage](rules/OPL/cml_ja.md)
 - [Receptionist](rules/OPL/rc_ja.md)
 - [TidyUp for OPL](rules/OPL/tu_ja.md)
 - [General Purpose Service Robot (GPSR)](rules/OPL/gpsr_ja.md)
-- [Open Challenge](rules/OPL/oc_ja.md)
+- [Open Challenge](rules/OPL/oc_ja.md) (旧: Finals)
 - [Poster Session](rules/OPL/ps_ja.md)
 
 
