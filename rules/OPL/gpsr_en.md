@@ -2,145 +2,220 @@
 
 [日本語](./gpsr_ja.md) | [English](./gpsr_en.md)
 
-# General Purpose Service Robot (GPSR)
+# General Purpose Service Robot - GPSR
 
-参考動画：https://youtu.be/p9ki89buY68 <br>
-> [!NOTE]  
-> この動画は参考動画である．RoboCupのルールによってタスク内容が異なる可能性がある．
-> 質問や議論は，GitHubの[Issues](https://github.com/RoboCupAtHomeJP/Rule2023/issues)にて行う．
+Reference video: https://www.youtube.com/watch?v=Ef1RzF9Wj9U
 
-> [!NOTE]  
-> このルールはRoboCup JapanOpen2022 OPLのGPSRに基づき作成されたものである．
+> [!WARNING]
+> This is a sample video for reference and the task content may differ depending on the RoboCup@Home JapanOpen rules.
 
-## Main Goal
 
-The robot responds to various requests from the user. No predetermined task flow, commands, or action content is defined. Tasks requested by the user in the competition are randomly selected by the TC from a large number of tasks prepared. These commands are classified into four categories according to their complexity, and the score changes based on the difficulty of the category.
+## Description
+
+Similar to a smart speaker, the robot is asked to execute arbitrary commands requested by an
+operator.
+These commands are classified into four (4) categories according to their complexity.
+The score also changes based on the difficulty of the category.
+
 
 ## Focus
 
-Complex spoken dialogues, execution of undefined instructions, efficient and speedy task execution, mapping and navigation in known environments, task planning
+*Task planning*, *object/people detection and recognition*, *object feature recognition*, *object manipulation*
+
 
 ## Setup
 
-- **Location**: The place where the task is performed is announced in advance.
-- **Start Location**: The robot starts from the predefined location announced in advance.
-- **Operator**: The operator instructs the robot to perform randomly selected tasks. The operator is selected from each team member.
-- **Guest**: Guests interact with the robot through gestures and other means depending on the selected task. Up to three guests will be selected, and they are selected from each team member.
+- **Locations**:
+  - **Task location**: The task takes place inside the *Arena*, but some commands may require the robot to go out.
+  The *Arena* is in its nominal state for this task.
+  - **Start Location**: The robot starts from a *predefined location* announced in the *Setup Days*.
+  When the Referee gives the *start signal*, the robot moves towards the *Instruction Point*.
+  - **Instruction Point**: At the beginning of the test, as well as after finishing the first and second command, the robot moves to the *Instruction Point*.
+  This *Instruction Point* is announced in the *Setup Days*.
+- **People**:
+  - **Operator**: The operator instructs the robot commands given by the Referee.
+  The operator is selected from the competing team.
+  - **Guests**: Guests interact with the robot through gestures and other means depending on the selected task.
+  Up to three (3) guests will be inside the *Arena*.
 
-## Scenario
 
-### a. Start phase
+## Procedure
 
-1. **Time limits**: The competition time is 10 minutes.
-2. **Setup**: The TC instructs the team to move their robot to the starting position.
-3. **Start**: The TC signals the start and starts the timer. The team completes the final simple setup, such as pressing the start button, and leaves the area. Complex setup steps such as pressing more than two buttons are not allowed.
-4. **Goal**: For one command task, the robot performs the command phase and service phase three times.
+1. Start Phase
 
-### b. Command phase
+    1. **Task Time**: The time limit is **ten (10) minutes**.
 
-1. **Category Selection**: The team tells the referee the desired category. Depending on the selected category, the referee gives the task command to the operator.
-   - Category 1: Low-difficulty instructions.
-   - Category 2: Medium-difficulty instructions.
-   - Category 3: High-difficulty instructions or instructions containing insufficient/mistaken information.
-2. **Commands to Robot**: The operator commands the selected task to the robot. If the robot does not understand the operator's command, the operator can repeat the command.
+    1. **Setup**: The TC instructs the team to move the robot to the *Start Location*.
 
-## c. Service phase
+    1. **Category Selection**: The team tells the referee the selected category.
+    Depending on the category, the referee choose an arbitrary command and gives it to the operator.
+        - Category 0: Predefined instructions.
+        - Category 1: Low-difficulty instructions.
+        - Category 2: Medium-difficulty instructions.
+        - Category 3: High-difficulty instructions or instructions containing insufficient/mistaken information.
 
-1. Repetition of instructions: After receiving instructions, the robot repeats them before starting to act.
-2. Service: The robot executes the task given in the instructions. After completing the task, it returns to the operator for the next set of instructions. It is unnecessary to open the door again and enter the arena.
+    1. **Start**: The TC gives the start signal and starts the timer.
+    The team completes the setup (pressing the start button, etc.) and leaves the area.
+    No complex setup procedures are allowed, such as pressing two or more buttons.
 
-## Remarks
+    1. **Goal**: The robot performs the command phase and service phase for three (3) times.
 
-### Prohibition of skipping
+1. Command Phase
 
-The task is comprised of three steps, with the score increasing for each step. The scoring step is advanced if at least step 1 of the current command is completed.
+    1. **Navigation to Operator**: The robot navigates from the *Start Location* to the *Instruction point*.
 
-### Command generator
+    1. **Instruct the Robot**: The operator commands the given task to the robot.
+    If the robot cannot understand the name or favorite drink, the robot can request the guest to repeat the command and no penalty is given.
 
-Commands from categories 1-3 are generated using the [command generator](https://github.com/kyordhel/GPSRCmdGen/tree/legacy). The TC generates enough commands in advance and changes the variables of the commands according to the test environment as needed. The commands used in the task are selected at random from the generated commands.
+1. Service Phase
 
-## Deus ex Machina
+    1. **Command Confirmation**: After receiving the command, the robot confirms it before starting to execute the task.
 
-If the deus ex machina listed in the General rules is used, the score for the task will be deducted as shown in the score sheet. If Deus ex Machina is used during the execution of a task, points are deducted for the number of times (up to 10 times) that Deus ex Machina is used, regardless of the type of Deus ex Machina (examples include grasping and placement by a human, and speech recognition by alternative means). Refer to each task in the RoboCup 2022 Rulebook for the specific example of Deus ex Machina.
+    1. **Command Execution**: The robot performs the task given in the instructions.
+
+
+## Additional Rules and Remarks
+
+### Skipping Commands
+
+The robot performs the command phase and service phase for three (3) times.
+However, the competing team cannot skip to the next command if no points where obtained during each task.
+
+### Command Generator
+
+Commands from categories 0-3 are generated using the [CommandGenerator](https://github.com/johaq/CommandGenerator/tree/master).
+The TC generates arbitrarily the commands in advance to confirm the commands are correct according to the environment.
+
+
+## Deus Ex Machina
+
+If the *Deus Ex Machina* listed in the *General Rules* is used during the execution of a task, points are deducted, up to ten (10) times.
+
+For example:
+- bypassing speech recognition by using an alternative HRI
+- receiving human assistance to accomplish a task
+- instructing a human assistant to perform the whole task
+
 
 ## Restart
 
-Restarts are handled as follows, depending on the stage. If the robot has completed Step 1, the robot can continue the previous task after restarting. In this case, the robot may repeat command understanding and task execution, and once scored, no points will be deducted. However, the score earned right after the restart is reduced to half as a penalty.
+Restarts are handled as follows, depending on the Phase.
+In any case, the robot needs to start from the *Start Point*.
+If the robot has completed *Step 1* defined in the [Steps per Category](#steps-per-category) section, the robot can continue the uncompleted task after restarting.
+In this case, the robot does not need to repeat *Command Confirmation* from the *Service Phase* as no penalty will be given.
+However, the score earned right after the restart is reduced to half as a penalty.
 
-- While understanding the $n(\le 2)$th command,
-  - Resume the next command as the $n$th command.
-- While the execution of Step 1 for the $n$th time (not yet arrived at the destination position; not ready to move to the next Step),
-  - Resume the next command as the $n$th command.
-- After completing Step 1 for the $n'(\le 3)$th time,
-  - Can resume the $n'$th command. If the robot holding an object, the team decides its handling.
+If restart is decided to be done:
+- During the understanding of the $n(\le 2)$th command,
+  - Resume from the $n$th command.
+- During the execution of *Step 1* for the $n$th time
+(if not yet arrived at the destination position, the team is not ready to move to the next Step),
+  - Resume from the $n$th command.
+- After completing *Step 1* for the $n'(\le 3)$th time,
+  - Resume from the $n'$th command.
 
-## コマンドセット
+> [!NOTE]
+> If the robot is holding an object, the team decides whether to keep it or put it back.
 
-| Task category | Example commands |
+
+## Command Category
+
+### Task Category Examples
+
+| Category | Example |
 | --- | --- |
-| **Carrying** | &bullet; Go to the ` $ROOM`, grasp the `$OBJECT` on the `$PLACE` and place it on the `$PLACE`. <br>&bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and give it to `$PERSON`. |
-| **Vision** <br>find (obj \| people) | &bullet; Tell me how many `$CATEGORY_OBJ` there are on the `$PLACE`. <br>&bullet; Tell me how many people in the `$ROOM` are `$POSTURE`. |
-| **Navigation** <br>follow, guide | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and follow (him \| her). <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and guide `(him\|her)` to the `$ROOM`. |
-| **Speech** <br>question, answer | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and answer (his \| her) question. <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and ask (him \| her) `$QUESTION`. |
+| **Manipulation** <br>grasp, give\|place | &bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and place it on the `$PLACE`. <br>&bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and give it to `$PERSON`. |
+| **Vision** <br>find (obj \| people)     | &bullet; Tell me how many `$CATEGORY_OBJ` there are on the `$PLACE`. <br>&bullet; Tell me how many people in the `$ROOM` are `$POSTURE`. |
+| **Navigation** <br>follow, guide        | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and follow (him \| her). <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and guide `(him\|her)` to the `$ROOM`. |
+| **Speech** <br>ask, answer              | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and answer (his \| her) question. <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and ask (him \| her) `$QUESTION`. |
 
-## Score Sheet
+> [!IMPORTANT]
+> Among these four (4) categories, the given command may vary.
+Please, refer to the [CommandGenerator](https://github.com/johaq/CommandGenerator/tree/master) for a more detailed sentence structure.
 
-The robot's actions are divided into four steps, and each step is scored separately. The variable $cat$ changes depending on the category difficulty (see the table below).
+### Steps per Category
 
-| Action | Score |
-| -- | -- |
-|**Main Task** |  |
-| Understand the command | $3 \times 20$ |
-| Execute the 1st command | $(5 \times 4) \times cat$ |
-| Execute the 2nd command | $(10 \times 4) \times cat$ |
-| Execute the 3rd command | $(20 \times 4) \times cat$ |
-| Exit the arena after executing all commands | $20$ |
-| **Deus Ex Machina** |  |
-| Understand the command using alternative means | $3 \times -6$ |
-| Execute the 1st command with $h (\le 10)$ times human help(s) | $-2h \times cat$ |
-| Execute the 2nd command with $h$ times human help(s) | $-4h \times cat$ |
-| Execute the 3rd command with $h$ times human help(s) | $-8h \times cat$ |
-| **Penalty** | |
-| Restart | Score earned right after the restart  $\times -0.5$| 
-| Not attending (absence without permission) | $-500$ |
-| **Total** | $500$ |
-
-### Steps per Task Category
-
-| Tasks | Step 1 | Step 2 | Step 3 | Step 4 |
+| Category | Step 1 | Step 2 | Step 3 | Step 4 |
 | --- | --- | --- | --- | --- |
-| **Carrying** | Move to the object | Grasp the object | Move to the (placement area / person) | (Place / give the object) |
-| **Vision** | Move to the (room / place) to observe | Observe the target | Move to the operator | Report the observation result |
-| **Navigation** | Move to the person | (Follow / guide) the person | Move to the destination | (Recognize the end of the following / Report the end of the guide) |
-| **Speech(ask)** | Move to the person | Ask question to the person | Move to the operator | Report the answer of the question |
-| **Speech(answer)** | Move to the person | Request for the question | Answer the question | Move to the operator |
+| **Manipulation**    | Move to the object location | Grasp the object                  | Move to the (placement area / person) | (Place / give the object) |
+| **Vision**          | Move to the location        | Observe the target                | Move to the operator                  | Report the observation result |
+| **Navigation**      | Move to the person location | (Follow / guide) the person       | Move to the destination               | (Recognize the end of the following / Report end of the guide) |
+| **Speech (ask)**    | Move to the person location | Ask given question to the person  | Move to the operator                  | Report the guest's answer to the operator |
+| **Speech (answer)** | Move to the person location | Request a question to the person  | Answer to the guest's question        | Move to the operator |
 
 ### Weights per Category
 
-| Category | $cat.$ |
+| Category | $Weight$ |
 | -------- | ------ |
 | 0 | $0.7$ |
 | 1 | $1$ |
 | 2 | $2$ |
 | 3 | $3$ |
 
-## Instructions for TC
+## Score Sheet
 
-- Preparation
-  - Assign names to two volunteers.
-  - Inform the operator of the command.
-- Announcement (Setup day)
-  - Publish room, location, and personnel names.
-  - Publish predefined object locations.
-  - Publish predefined instruction locations.
-  - Publish the location of the entrance and exit doors of the arena.
+The robot's actions are divided into four steps, and each step is scored separately.
+The variable $Weight$ changes depending on the category difficulty (see the table below).
 
-## Referee's Movement
+| Action | Score |
+| --- | --- |
+|**Main Task**                                            |  |
+| &emsp; - Understand the command                         | $3 \times 20$ |
+| &emsp; - Execute the 1st command                        | $(5 \times 4) \times Weight$ |
+| &emsp; - Execute the 2nd command                        | $(10 \times 4) \times Weight$ |
+| &emsp; - Execute the 3rd command                        | $(20 \times 4) \times Weight$ |
+| &emsp; - Exit the *Arena* after executing all commands  | $20$ |
+| ***Deus Ex Machina***                                                   |  |
+| &emsp; - Understand the command using alternative means                 | $3 \times -6$ |
+| &emsp; - Execute the 1st command with $h (\le 10)$ times human help(s)  | $-2h \times Weight$ |
+| &emsp; - Execute the 2nd command with $h$ times human help(s)           | $-4h \times Weight$ |
+| &emsp; - Execute the 3rd command with $h$ times human help(s)           | $-8h \times Weight$ |
+| **Penalty**                                             |  |
+| &emsp; - Restart                                        | Next earned score  $\times 0.5$| 
+| &emsp; - Not attending (absence without permission)     | $-500$ |
+| **Total Score**                                         | $500$ |
 
-Referees selected according to the General Rules will perform the following.
 
-- 30 minutes before the start of the competition, receive instructions, a score sheet and a command list.
-- Act as the referee described in the scenario.
+## Instructions
+
+### To Volunteer
+
+Volunteers are freely selected by the competing team, and will perform the following tasks:
+
+- Gather five (5) minutes before the test starts.
+- Receive instructions about the guests' information.
+- The guests may follow the orders given by the robot,
+and not act by their own.
+
+> [!WARNING]
+> Any information about the guests must not be shared with the competing team.
+Such action may result to the penalty in the scoring or disqualification of the team.
+
+### To Referee
+
+Referees are selected according to the *General Rules* and will perform the following tasks:
+
+- Gather thirty (30) minutes before the test starts.
+- Receive instructions about the score sheet, guests' information and command.
 - Score the competition.
-- Verify the score with other referees and TC.
-- Submit the score sheet to TC.
+- Confirm the score with the other referees and TC.
+- Submit the score sheet to the TC.
+
+> [!WARNING]
+> Any information about the guests must not be shared with the competing team.
+Such action may result to the penalty in the scoring or disqualification of the team.
+
+### To TC
+
+- During *Setup Days*:
+   - Announce the *Start Point*.
+   - Announce the *Instruction Location*.
+   - Announce objects, object categories and locations.
+   - Announce name and drink list.
+- Before the test:
+   - Confirm the volunteers (guests) selected by the competing team.
+   - Assign names to the volunteers.
+   - Confirm the *Command Category* the competing team want to challenge.
+   - Arrange the *Arena* based on the commands.
+- During the test:
+   - Inform the operator of the command.
