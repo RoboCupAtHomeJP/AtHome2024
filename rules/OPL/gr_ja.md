@@ -38,10 +38,10 @@
 ### 事前登録 (Pre-registration)
 
 以下のリンクを使用して，*RCJ2024*に登録してください．
-チーム登録の締め切りは**TBD**である．
+チーム登録の締め切りは**2024年3月19日 23時59分(JST)**である．
 
 > [!NOTE]
-> 事前登録フォーム: **TBD**
+> 事前登録フォーム: **https://sites.google.com/site/robocuphomejapan/japanopen2024#h.hvqdd3idaovc**
 
 以下のリーグが開催されますので，ご注意ください．
 複数のリーグに参加する場合は，各リーグごとに別々の登録フォームに記入してください．
@@ -63,10 +63,10 @@
 *RCJ2024*の最終登録は，以下のウェブサイトの*参加登録*（Googleフォーム）を使用して行われる．
 詳細については，公式ウェブサイトの[登録手続き](https://www.robocup.or.jp/japanopen2024/)を参照してください．
 
-事前登録時に発行されたチームコードを使用してください．
+事前登録時に発行された[チームコード](https://sites.google.com/site/robocuphomejapan/japanopen2024#h.pc1864swnh3f)を使用してください．
 
 > [!NOTE]  
-> 最終登録フォーム: **TBD**
+> 最終登録フォーム: **https://docs.google.com/forms/d/e/1FAIpQLScvIdpMUOZeEBI309HMXGwds944YdTIXLdiPqt2dvTVTY9NKQ/viewform**
 
 
 ## 組織 (Organization)

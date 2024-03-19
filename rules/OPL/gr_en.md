@@ -39,10 +39,10 @@ All teams that have completed registration can participate.
 ### Pre-registration
 
 Please register for *RCJ2024* using the following link.
-The deadline for team registration is **TBD**.
+The deadline for team registration is **March 19, 2024 23:59 (JST)**.
 
 > [!NOTE]
-> Pre-registration form: **TBD**
+> Pre-registration form: **https://sites.google.com/site/robocuphomejapan/japanopen2024#h.hvqdd3idaovc**
 
 Please note that the following leagues will be held.
 If your team plans to participate in multiple leagues, please fill out separate registration forms for each league.
@@ -62,12 +62,12 @@ If your team plans to participate in multiple leagues, please fill out separate 
 ### Final Registration
 
 Final registration for *RCJ2024* will be conducted using the *Participation Registration* (Google Form) on the website below.
-For more details, please refer to the [Registration Procedure](https://www.robocup.or.jp/japanopen2024/) on the official website.
+For more details, please refer to the [Registration Procedure](https://www.robocup.or.jp/JapanOpen2024/english.html) on the official website.
 
-Please use the team code issued at the time of pre-registration.
+Please use the team code issued at the time of [pre-registration](https://sites.google.com/site/robocuphomejapan/japanopen2024#h.pc1864swnh3f).
 
 > [!NOTE]  
-> Final Registration Form: **TBD**
+> Final Registration Form: **https://docs.google.com/forms/d/e/1FAIpQLScvIdpMUOZeEBI309HMXGwds944YdTIXLdiPqt2dvTVTY9NKQ/viewform**
 
 
 ## Organization
