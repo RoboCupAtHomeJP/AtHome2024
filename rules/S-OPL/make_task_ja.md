@@ -11,11 +11,11 @@ HandymanとInteractive Cleanupの課題作成方法については，動画で�
 
 [課題作成手順動画](https://youtu.be/JrrpMxX3Vh8)
 
-## 使用するスプレッドシート
-競技課題作成はGoogleスプレッドシートに課題内容シートを追加しながら進めます．
-- [Handymanのスプレッドシート](https://docs.google.com/spreadsheets/d/1bPj9ja2-1zixFmQ5BribwEPBQejnv7Dh/edit#gid=2127521637)
-- [Interactive_Cleanupのスプレッドシート](https://docs.google.com/spreadsheets/d/1x6L9xAIHep2MKJbjcgSgSfE7K5-zXTti/edit#gid=1095120005)
-- [Human_Navigationのスプレッドシート](https://docs.google.com/spreadsheets/d/1VVkKCui0f4fJzw2s6mIJgCGIPnFUDrnO/edit#gid=20810812)
+## 問題説明用スプレッドシート
+以下のテンプレート（Googleスプレッドシート）を複製し、作成した課題の説明資料を作成してください。確認作業や本番での解説などで利用します。
+- [Handyman Task Description Template](https://docs.google.com/spreadsheets/d/1mMqzx-0CZG0YOU-FLNQnZLh0BB7g3noFKtWkBDInizA/edit?usp=sharing)
+- [InteractiveCleanup Task Description Template](https://docs.google.com/spreadsheets/d/1-ZKrXuRVkZL1UqjX_ld2nFJ09bWUW1WfOwaq7lt5qFg/edit?usp=sharing)
+- [Human_Navigation Task Description Template](https://docs.google.com/spreadsheets/d/1SK99wUuujxUdwD_PsWOkBpM4jD_pY_QRzsUibcTXRNU/edit?usp=sharing)
 
 
 
@@ -43,10 +43,9 @@ HandymanとInteractive Cleanupの課題作成方法については，動画で�
 
 ## 課題の作成手順
 
-1. **Googleスプレッドシート準備**:
-   - 「HandymanTask Template」というGoogleスプレッドシートに課題内容シートを追加しながら進めます．
+「Handyman Task Description Template」というGoogleスプレッドシートに課題内容シートを追加しながら進めます．こちらのスプレッドシートも作成しながら作業を行ってください．
 
-   [テンプレートはこちら](https://docs.google.com/spreadsheets/d/1bPj9ja2-1zixFmQ5BribwEPBQejnv7Dh/edit#gid=2127521637)
+[テンプレートはこちら](#問題説明用スプレッドシート)
 
 ### テンプレシートの準備
 - Handyman課題メモにある以下のテンプレシートをコピーして課題シートを作成します。
@@ -120,9 +119,9 @@ HandymanとInteractive Cleanupの課題作成方法については，動画で�
 
 ## 課題の作成手順
 
-「InteractiveCleanupTask Template」というGoogleスプレッドシートに課題内容シートを追加しながら課題ファイルを作成していきます．InteractiveCleanupTask Templateも開きながら作業を行ってください．
+「InteractiveCleanup Task Description Template」というGoogleスプレッドシートに課題内容シートを追加しながら課題ファイルを作成していきます．こちらのスプレッドシートも作成しながら作業を行ってください．
 
-[テンプレートはこちら](https://docs.google.com/spreadsheets/d/1x6L9xAIHep2MKJbjcgSgSfE7K5-zXTti/edit#gid=1095120005)
+[テンプレートはこちら](#問題説明用スプレッドシート)
 
 
 ### 課題シートの準備
@@ -186,9 +185,9 @@ HandymanとInteractive Cleanupの課題作成方法については，動画で�
 
 ## 課題の作成手順
 
-1. 「HumanNavigationTask Template」というGoogleスプレッドシートに課題内容シートを追加しながら課題ファイルを作成していきます．HumanNavigationTask Templateも開きながら作業を行ってください．
+1. 「HumanNavigation Task Description Template」というGoogleスプレッドシートに課題内容シートを追加しながら課題ファイルを作成していきます．こちらのスプレッドも開きながら作業を行ってください．
 
-      [テンプレートはこちら](https://docs.google.com/spreadsheets/d/1VVkKCui0f4fJzw2s6mIJgCGIPnFUDrnO/edit#gid=20810812)
+      [テンプレートはこちら](#問題説明用スプレッドシート)
 
    1. 課題を考えます．新規問題と過去問の比率を決め，新規問題に関しては新しくレイアウトを作成します．新しいレイアウトからは2題出題します．つまり新規問題を4問作成する場合は，新規レイアウトを2つ作成します．(2022年時点)この時点ではどのようなレイアウトにするか構想を考えるだけです．
    2. 通常の[HumanNavi](https://github.com/RoboCupatHomeSim/human-navigation-unity)(Cloud版ではない方)をUnityエディタで開きます．
