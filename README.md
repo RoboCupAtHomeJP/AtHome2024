@@ -77,3 +77,7 @@
 - [Human Navigation](rules/S-OPL/hn_ja.md)
 - [Technical Challenge](rules/S-OPL/tc_ja.md)
 
+### Task Creation
+S-OPLでは、各参加チームに問題を作成していただき、それらを利用して競技を実施します。作成していただいたチームのインセンティブとして、タスク内で１問は自チームが作成した問題が出題されることになります。
+問題作成の手順については以下をご覧ください。提出先などについてはDiscordで連絡いたします。
+- [課題作成手順](rules/S-OPL/make_task_ja.md)
