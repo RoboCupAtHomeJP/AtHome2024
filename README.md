@@ -77,3 +77,6 @@
 - [Human Navigation](rules/S-OPL/hn_ja.md)
 - [Technical Challenge](rules/S-OPL/tc_ja.md)
 
+### その他
+- [環境セットアップ](./rules/S-OPL/new_team_ja.md)
+- [問題作成について](./rules/S-OPL/new_team_en.md)

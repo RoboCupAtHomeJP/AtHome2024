@@ -155,12 +155,6 @@ HandymanとInteractive Cleanupの課題作成方法については，動画で�
   - 新しいa-likeオブジェクトを追加したり、3Dモデルの扱いを変更する場合は、このリストを更新します。
 
 
-
-
-
-
-
-
 <br><br>
 
 # Human Navigation 課題作成手順
@@ -314,7 +308,7 @@ HandymanとInteractive Cleanupの課題作成方法については，動画で�
 7. PunLauncherにアタッチされている `PunLauncher` の`RootsOfSyncTarget` に新レイアウトのGraspablesを追加します．Cloud版にはPhotonの機能を追加するため追加の手順が幾つかあります．`RootsOfSyncTarget`のサイズを追加するレイアウト数だけ大きくし，Elementに新レイアウトの下のGraspablesオブジェクトを追加します．
 <div align="center"><img src="./img/make_task/mthn_20.png" width="60%"></div>
 
-8. PunLauncherにアタッチされている `PunLauncher` の `[Update Photon Scripts]` ボタンをクリックします．これにより同期すべきオブジェクト一覧が更新されます．RoomObjectsの数が増えていることが分かります．把持対象や引き出しなど動く物体(Rigidbodyが付いている物体)が自動で取得されます．
+8. PunLauncherにアタッチされている `PunLauncher`の `[Update Photon Scripts]` ボタンをクリックします．これにより同期すべきオブジェクト一覧が更新されます．RoomObjectsの数が増えていることが分かります．把持対象や引き出しなど動く物体(Rigidbodyが付いている物体)が自動で取得されます．
 <div align="center"><img src="./img/make_task/mthn_21.png" width="80%"></div>
 
 9. PhotonTransformViewスクリプトがアタッチされていることを確認します．GraspableObjectsの下にある全ての把持可能オブジェクトに対してPhotonTransformViewスクリプトがアタッチされていることを確認してください．

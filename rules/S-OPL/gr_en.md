@@ -36,7 +36,7 @@ For videos and details of each competition, please click on the respective links
 - ### [Technical Challenge]()
 
 ## For New Teams
-If you are a new team, please check [here](./new_team.md) for overview videos and setup instructions for each competition.
+If you are a new team, please check [here](./new_team_en.md) for overview videos and setup instructions for each competition.
 
 ## Question Creation Procedure
 For fairness, each team will create some of the questions used in the competitions.
