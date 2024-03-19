@@ -10,9 +10,9 @@ For Handyman and Interactive Cleanup task creation methods, please also refer to
 
 ## Spreadsheets Used
 The creation of competition tasks is progressed by adding task content sheets to a Google Spreadsheet.
-- [Handyman Spreadsheet](https://docs.google.com/spreadsheets/d/1bPj9ja2-1zixFmQ5BribwEPBQejnv7Dh/edit#gid=2127521637)
-- [Interactive Cleanup Spreadsheet](https://docs.google.com/spreadsheets/d/1x6L9xAIHep2MKJbjcgSgSfE7K5-zXTti/edit#gid=1095120005)
-- [Human Navigation Spreadsheet](https://docs.google.com/spreadsheets/d/1VVkKCui0f4fJzw2s6mIJgCGIPnFUDrnO/edit#gid=20810812)
+- [Handyman Spreadsheet](https://docs.google.com/spreadsheets/d/1mMqzx-0CZG0YOU-FLNQnZLh0BB7g3noFKtWkBDInizA/edit#gid=1561196861)
+- [Interactive Cleanup Spreadsheet](https://docs.google.com/spreadsheets/d/1-ZKrXuRVkZL1UqjX_ld2nFJ09bWUW1WfOwaq7lt5qFg/edit?usp=sharing)
+- [Human Navigation Spreadsheet](https://docs.google.com/spreadsheets/d/1SK99wUuujxUdwD_PsWOkBpM4jD_pY_QRzsUibcTXRNU/edit?usp=sharing)
 
 # Handyman Competition Task Creation
 
@@ -40,7 +40,7 @@ For the basic flow of task creation, please refer to GitHub's [Readme](https://g
 1. **Google Spreadsheet Preparation**:
    - Proceed by adding task content sheets to a Google Spreadsheet named "HandymanTask Template."
 
-   [Template here](https://docs.google.com/spreadsheets/d/1bPj9ja2-1zixFmQ5BribwEPBQejnv7Dh/edit#gid=2127521637)
+   [Template here](https://docs.google.com/spreadsheets/d/1mMqzx-0CZG0YOU-FLNQnZLh0BB7g3noFKtWkBDInizA/edit#gid=1561196861)
 
 ### Preparing the Template Sheet
 - Copy the following template sheets listed in the Handyman task memo to create your task sheet.
@@ -106,7 +106,7 @@ Before creating tasks, please review the items related to task difficulty adjust
 
 Proceed with creating task files by adding task content sheets to a Google Spreadsheet named "InteractiveCleanupTask Template". Please also have the InteractiveCleanupTask Template open while working.
 
-[Template here](https://docs.google.com/spreadsheets/d/1x6L9xAIHep2MKJbjcgSgSfE7K5-zXTti/edit#gid=1095120005)
+[Template here](https://docs.google.com/spreadsheets/d/1-ZKrXuRVkZL1UqjX_ld2nFJ09bWUW1WfOwaq7lt5qFg/edit?usp=sharing)
 
 ### Preparing the Task Sheet
 - Copy the "Template" sheet to create your task sheet.
@@ -167,7 +167,7 @@ When creating tasks, it's important to consider these factors and adjust the lev
 
 Proceed with creating task files by adding task content sheets to a Google Spreadsheet named "HumanNavigationTask Template". Work with the HumanNavigationTask Template open.
 
-[Template here](https://docs.google.com/spreadsheets/d/1VVkKCui0f4fJzw2s6mIJgCGIPnFUDrnO/edit#gid=20810812)
+[Template here](https://docs.google.com/spreadsheets/d/1SK99wUuujxUdwD_PsWOkBpM4jD_pY_QRzsUibcTXRNU/edit?usp=sharing)
 
 1. Develop your task idea. Decide on the ratio of new problems to past problems, and for new problems, create new layouts. Two questions will be asked from each new layout. For example, if you are creating four new problems, you need to create two new layouts. (As of 2022) At this stage, you only need to think about what kind of layout to create.
 2. Open the standard [HumanNavi](https://github.com/RoboCupatHomeSim/human-navigation-unity) (not the Cloud version) in Unity Editor.
