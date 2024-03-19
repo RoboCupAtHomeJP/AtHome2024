@@ -137,7 +137,7 @@ Such action may result to the penalty in the scoring or disqualification of the 
 
 Referees are selected according to the *General Rules* and will perform the following tasks:
 
-- Gather five (5) minutes before the test starts.
+- Gather thirty (30) minutes before the test starts.
 - Receive instructions about the score sheet and guests' information.
 - Score the competing team task.
 - Confirm the score with the other referees and TC.
@@ -158,4 +158,4 @@ Such action may result to the penalty in the scoring or disqualification of the 
    - Confirm the selected volunteers as host and guests by the competing team.
    - Assign names and drinks to three (3) volunteers.
 - During the test:
-   - Arrange (and re-arrange) people in the *living room*.
+   - Announce to the first guest who is sit in the *living room*, to *Switching Places* if required.
