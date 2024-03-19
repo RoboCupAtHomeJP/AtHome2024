@@ -92,6 +92,5 @@ Referees are selected according to the *General Rules* and will perform the foll
 - Before the test:
   - Close the *Arena* door.
 - During the test:
-   - TCが1名競技の最中に経路を妨害し，ロボットがTCを避ける／停止するか確認する．
    - When the TC interferes the path of the robot, check if the robot avoids the collission with the TC or stops in place.
    - If the robot avoids the collission and approaches the *Ending Point*, press the Emergency Stop button.
