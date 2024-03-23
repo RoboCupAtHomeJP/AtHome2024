@@ -79,7 +79,11 @@ The score also changes based on the difficulty of the category.
 ### Skipping Commands
 
 The robot performs the command phase and service phase for three (3) times.
-However, the competing team cannot skip to the next command if no points where obtained during each task.
+However, the competing team is able to skip to the next command if the robot misunderstood the given command by the host.
+In order to demonstrate so, the robot needs to complete the mistaken task, and go back to the host position requesting for another task.
+
+> [!WARNING]
+> Teams may not take advantage of this rule to skip commands until their desired command is given.
 
 ### Command Generator
 
