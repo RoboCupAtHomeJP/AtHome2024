@@ -77,8 +77,12 @@
 
 ### コマンドのスキップ (Skipping Commands)
 
-The robot performs the command phase and service phase for three (3) times.
-However, the competing team cannot skip to the next command if no points where obtained during each task.
+ロボットは`コマンドフェーズ`と`サービスフェーズ`を3回行う．
+ただし，ロボットがホストから与えられたコマンドを誤認識した場合，競技チームは次のコマンドにスキップすることができる．
+ロボットが誤認識したことを示すためには，ロボットは間違ったタスクを完了させ，ホストの位置に戻って，次のコマンドを要求する必要がある．
+
+> [!WARNING]
+> チームはこのルールを悪用して，希望のコマンドが与えられるまでコマンドをスキップすることはできない．
 
 ### コマンドジェネレータ (Command Generator)
 
