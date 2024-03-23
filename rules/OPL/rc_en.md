@@ -123,24 +123,30 @@ but actions can be skipped more easily with simpler methods to continue the task
 
 Volunteers are freely selected by the competing team, and will perform the following tasks:
 
-- Gather five (5) minutes before the test starts.
-- Receive instructions about the guests' information.
+- Select one (1) volunteer who will act as `Host`.
+- Select two (2) volunteers who will act as `Guest`.
+- Gather **thirty (30) minutes** before the test starts.
+- Receive instructions about the guests' and host's information.
 - The host must stay in the given *predefined location*.
-- The guests may follow the orders given by the robot,
+- The guests may follow the orders given by the robot only,
 and not act by their own.
 
 > [!WARNING]
 > Any information about the guests must not be shared with the competing team.
 Such action may result to the penalty in the scoring or disqualification of the team.
 
-### To Referee
+> [!NOTE]
+> If the competing team is not able to gather enough volunteers,
+support from other teams will be requested.
 
-Referees are selected according to the *General Rules* and will perform the following tasks:
+### To Scorer
 
-- Gather thirty (30) minutes before the test starts.
-- Receive instructions about the score sheet and guests' information.
-- Score the competing team task.
-- Confirm the score with the other referees and TC.
+Scorers are selected according to the *General Rules* [Scoring System](./gr_en.md#scoring-system) and will perform the following tasks:
+
+- Gather **thirty (30) minutes** before the test starts.
+- Receive instructions about the score sheet, guests' information and command.
+- Score the competition.
+- Confirm the score with the other scorers and TC.
 - Submit the score sheet to the TC.
 
 > [!WARNING]
