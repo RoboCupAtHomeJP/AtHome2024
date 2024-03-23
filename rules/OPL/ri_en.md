@@ -37,9 +37,9 @@ This task aims to test the minimum required performance and safety of the robot 
 
     1. **Competition Time**: The time limit is **five (5) minutes**.
 
-    1. **Setup**: The referee instructs the team to move the robot to the starting position.
+    1. **Setup**: The `TC` instructs the team to move the robot to the starting position.
 
-    1. **Start**: The referee gives the start signal and starts the timer.
+    1. **Start**: The `TC` gives the start signal and starts the timer.
     At the same time, the team completes the final simple setup (such as pressing the start button) and leaves the area.
     It is not allowed to perform complex setup procedures such as pressing two or more buttons.
 
@@ -75,22 +75,22 @@ Therefore, there is no limit to the number of attempts for this task.
 
 ## Instructions
 
-### To Referee
+### To Scorer
 
-Referees are selected according to the *General Rules* and will perform the following tasks:
+Scorers are selected according to the *General Rules* [Scoring System](./gr_en.md#scoring-system) and will perform the following tasks:
 
 - Gather **thirty (30) minutes** before the test starts.
-- Receive instructions about the score sheet.
+- Receive instructions about the score sheet, guests' information and command.
 - Score the competition.
-- Confirm the score with the other referees and TC.
+- Confirm the score with the other scorers and TC.
 - Submit the score sheet to the TC.
 
 ### To TC
 
 - During *Setup Days*:
-  - Announce the *Starting Point* and *Ending Point*.
+  - Announce the *Starting Location* and *Ending Location*.
 - Before the test:
   - Close the *Arena* door.
 - During the test:
    - When the TC interferes the path of the robot, check if the robot avoids the collission with the TC or stops in place.
-   - If the robot avoids the collission and approaches the *Ending Point*, press the Emergency Stop button.
+   - If the robot avoids the collission and approaches the *Ending Location*, press the Emergency Stop button.

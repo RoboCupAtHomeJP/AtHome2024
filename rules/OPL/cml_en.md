@@ -25,15 +25,15 @@ This task focuses on finger-pointing recognition, manipulation, mapping and navi
 - **Starting location**: The start location will be announced on the setup day.
 - **Luggage (paper bags)**: Two bags will be placed near the operator (within 2\[m\] of the robot and visible to it).
   - **Size**: The bag smaller than in size of 350 x 100 x 350\[mm\] will be used.
-  - **Placement**: The possible placement location will be announced on the setup day. A team member places a bag at the location instructed by referee just before the task starts.
+  - **Placement**: The possible placement location will be announced on the setup day. A team member places a bag at the location instructed by `TC` just before the task starts.
 - **Operator**: The operator will point to the paper bag to be used during the competition while standing in front of the robot. The operator will be selected from volunteers.
 
 ## Scenario
 
 ### Starting Phase
 
-1. **Setup**: The referee instructs the team to move the robot to the starting position.
-1. **Start**: The referee gives the start signal and starts the timer. At the same time, the team completes the final simple setup (pressing the starting button, etc.) and leaves the area. Complex setup procedures such as pressing more than two buttons are not allowed.
+1. **Setup**: The `TC` instructs the team to move the robot to the starting position.
+1. **Start**: The `TC` gives the start signal and starts the timer. At the same time, the team completes the final simple setup (pressing the starting button, etc.) and leaves the area. Complex setup procedures such as pressing more than two buttons are not allowed.
 1. **Pointing**: The operator points to the bag that is specified in advance at the same time as the start signal.
 1. **Grasping**:  The robot recognizes the bag pointed to by the operator and grasps it.
 
@@ -52,8 +52,8 @@ This task focuses on finger-pointing recognition, manipulation, mapping and navi
 ### Navigation Phase
 
 1. **Handover**： The operator receives the bag when the operator and the robot have reached the goal.
-2. **Navigation**: The robot autonomously moves from the `unknown environment` to the `Starting Point` in the `known environment`.
-3. **Goal**: When the robot returns to the `Starting Point`, the task is complete.
+2. **Navigation**: The robot autonomously moves from the `unknown environment` to the `Starting Location` in the `known environment`.
+3. **Goal**: When the robot returns to the `Starting Location`, the task is complete.
 4. **Bonus**: The robot joins at the end of the queue (with 2-4 people) near the goal position.
 
 ## Deus ex Machina
@@ -79,7 +79,7 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 | &nbsp;&bull;&nbsp;Arriving at the goal outside the arena | 50 |
 | 3. Navigation phase | |
 | &nbsp;&bull;&nbsp;Autonomously enter the arena | 25 |
-| &nbsp;&bull;&nbsp;Autonomously return to the `starting point` | 25 |
+| &nbsp;&bull;&nbsp;Autonomously return to the `starting location` | 25 |
 |  |  |
 | **Bonus Tasks** |  |
 | 2. Follow-me phase | |
@@ -100,25 +100,48 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 
 ### To Volunteer
 
-- Preparation
-  - Select an operator
-  - Announce the possible placement locations
-  - Select 2-4 people who make a queue near the goal.
-  - Select obstacles that the robot will face when it is outside.
-- Announcement (Setup day)
-  - Select the robot's `starting point` and announce it.
+Volunteers are freely selected by the competing team, and will perform the following tasks:
+
+- Select one (1) volunteer for the `Follow Me` task.
+- Select from two (2) to four (4) people who make a queue near the goal.
+- Gather thirty (30) minutes before the test starts.
+- Receive instructions about the task.
+- The guests may follow the orders given by the robot only,
+and not act by their own.
+
+> [!WARNING]
+> Any information about the guests must not be shared with the competing team.
+Such action may result to the penalty in the scoring or disqualification of the team.
+
+> [!NOTE]
+> If the competing team is not able to gather enough volunteers,
+support from other teams will be requested.
+
+### To Scorer
+
+Scorers are selected according to the *General Rules* [Scoring System](./gr_en.md#scoring-system) and will perform the following tasks:
+
+- Gather **thirty (30) minutes** before the test starts.
+- Receive instructions about the score sheet, guests' information and command.
+- Score the competition.
+- Confirm the score with the other scorers and TC.
+- Submit the score sheet to the TC.
+
+> [!WARNING]
+> Any information about the guests must not be shared with the competing team.
+Such action may result to the penalty in the scoring or disqualification of the team.
+
+### To TC
+
+- During `Setup Day`:
+  - Select the robot's `starting location` and announce it.
   - Select which bag to be grasped and announce it.
   - Announce the obstacles to be used.
-- Announce (just before the competition starts)
-  - Select the goal position.
-  - Select the position where the bag is placed.
 
-### To Referee
+- Before the test:
+  - Prepare the obstacles that the robot will face when it is outside.
+  - Announce the possible placement of the obstacles.
 
-- Gather 30 minutes before the competition, receive instructions, and receive the score sheet.
-- Act as the referee as described during the task.
-- Verify scoring content with other TCs.
-- Submit the score sheet.
-
-> [!NOTE]  
-> Members of each teams are selected to be TCs and score the tasks of other teams' competitions. For details, please refer to the [Scoring System](./gr_en.md#scoring-system).
+- During the test:
+  - Announce the position where the bag is placed.
+  - Announce the `Follow-me goal location`.

@@ -29,8 +29,8 @@ This task focuses on autonomous navigation in a known environment, object recogn
 
 ### Starting Phase
 
-1. **Arrangement**: The referee instructs the team to move the robot to the starting position and, according to the referee's instructions, the team arranges the objects to be used. The maximum number of objects that will be used in the `Task 1: Tidy Up Phase` is 10 objects.
-1. **Start**: The referee gives the starting signal and starts the timer. At the same time, the team completes the robot starting setup (such as pressing the start button) and leaves the area. Complex setup procedures such as pressing more than two buttons are not allowed. 
+1. **Arrangement**: The `TC` instructs the team to move the robot to the starting position and, according to the `TC`'s instructions, the team arranges the objects to be used. The maximum number of objects that will be used in the `Task 1: Tidy Up Phase` is 10 objects.
+1. **Start**: The `TC` gives the starting signal and starts the timer. At the same time, the team completes the robot starting setup (such as pressing the start button) and leaves the area. Complex setup procedures such as pressing more than two buttons are not allowed. 
 1. **Door opening**: One person from the team opens the door at the starting signal. The robot recognizes that the door has opened and autonomously enters the arena.
 
 ### Task 1: Tidy Up Phase
@@ -84,9 +84,9 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 
 |Action|Bypassing|
 |------|---------|
-| Object grasping | Referee holds the object instructed by the robot and gives it to the robot (or places it in a specific location). At this time, the robot needs to accurately convey the object's position, name, instructions, etc to the referee |
-| Object placement | Referee places the object that the robot is holding (or is in a specific location) in the location specified by the robot. At this time, the robot needs to accurately convey the object's placement position, name, instructions, etc to the referee |
-| Object delivery | The guest receives the object that the robot is holding (or is in a specific location) without being handed over by the robot. At this time, the robot needs to accurately convey the guest's location, object name, instructions, etc to the referee |
+| Object grasping | `TC` holds the object instructed by the robot and gives it to the robot (or places it in a specific location). At this time, the robot needs to accurately convey the object's position, name, instructions, etc to the `TC` |
+| Object placement | `TC` places the object that the robot is holding (or is in a specific location) in the location specified by the robot. At this time, the robot needs to accurately convey the object's placement position, name, instructions, etc to the `TC` |
+| Object delivery | The guest receives the object that the robot is holding (or is in a specific location) without being handed over by the robot. At this time, the robot needs to accurately convey the guest's location, object name, instructions, etc to the `TC` |
 
 
 ## Score Sheet
@@ -118,21 +118,36 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 
 ### To Volunteer
 
-- Preparation (several days to several weeks before the competition)
-  - Prepare for known and unknown objects.
-- Announcements (Before the task starts)
-  - Select two guests
-- Announcements (30 minutes before the task starts)
-  - Select and announce the initial position of the objects.
-  - Select and announce the unknown object.
+Volunteers are freely selected by the competing team, and will perform the following tasks:
 
-### To Referee
+- Select two (2) volunteers.
+- Gather **thirty (30) minutes** before the test starts.
+- Receive instructions from the TC to raise the hand.
+- The guests may follow the orders given by the robot only,
+and not act by their own.
 
-- Gather 30 minutes before the competition, receive instructions, and receive the score sheet.
-- Act as the referee as described during the task.
+### To Scorer
+
+Scorers are selected according to the *General Rules* [Scoring System](./gr_en.md#scoring-system) and will perform the following tasks:
+
+- Gather **thirty (30) minutes** before the test starts.
+- Receive instructions about the score sheet, guests' information and command.
 - Score the competition.
-- Verify scoring content with other TCs.
-- Submit the score sheet.
+- Confirm the score with the other scorers and TC.
+- Submit the score sheet to the TC.
 
-> [!NOTE]  
-> Scorers are selected from each team and score other team's task. Please refer to the [Scoring System](./gr_en.md#scoring-system).
+> [!WARNING]
+> Any information about the guests must not be shared with the competing team.
+Such action may result to the penalty in the scoring or disqualification of the team.
+
+### To TC
+
+- During *Setup Days*:
+   - Announce the `Consistent Objects` list.
+   - Prepare the `Unknown Objects`.
+- Before the test:
+   - Confirm the two (2) selected volunteers by the competing team.
+   - Select the `unknown object` and announce it.
+   - Select the predefined position of the objects and announce it.
+- During the test:
+   - Give instructions to one (1) of the volunteers to raise the hand.

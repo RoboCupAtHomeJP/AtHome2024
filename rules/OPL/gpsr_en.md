@@ -13,7 +13,7 @@ Reference video: https://www.youtube.com/watch?v=Ef1RzF9Wj9U
 ## Description
 
 Similar to a smart speaker, the robot is asked to execute arbitrary commands requested by an
-operator.
+host.
 These commands are classified into four (4) categories according to their complexity.
 The score also changes based on the difficulty of the category.
 
@@ -29,12 +29,12 @@ The score also changes based on the difficulty of the category.
   - **Task location**: The task takes place inside the *Arena*, but some commands may require the robot to go out.
   The *Arena* is in its nominal state for this task.
   - **Start Location**: The robot starts from a *predefined location* announced in the *Setup Days*.
-  When the Referee gives the *start signal*, the robot moves towards the *Instruction Point*.
+  When the `TC` gives the *start signal*, the robot moves towards the *Instruction Point*.
   - **Instruction Point**: At the beginning of the test, as well as after finishing the first and second command, the robot moves to the *Instruction Point*.
   This *Instruction Point* is announced in the *Setup Days*.
 - **People**:
-  - **Operator**: The operator instructs the robot commands given by the Referee.
-  The operator is selected from the competing team.
+  - **Host**: The host instructs the robot commands given by the `TC`.
+  The host is selected from the competing team.
   - **Guests**: Guests interact with the robot through gestures and other means depending on the selected task.
   Up to three (3) guests will be inside the *Arena*.
 
@@ -47,8 +47,8 @@ The score also changes based on the difficulty of the category.
 
     1. **Setup**: The TC instructs the team to move the robot to the *Start Location*.
 
-    1. **Category Selection**: The team tells the referee the selected category.
-    Depending on the category, the referee choose an arbitrary command and gives it to the operator.
+    1. **Category Selection**: The team tells the `TC` the selected category.
+    Depending on the category, the `TC` choose an arbitrary command and gives it to the host.
         - Category 0: Predefined instructions.
         - Category 1: Low-difficulty instructions.
         - Category 2: Medium-difficulty instructions.
@@ -62,9 +62,9 @@ The score also changes based on the difficulty of the category.
 
 1. Command Phase
 
-    1. **Navigation to Operator**: The robot navigates from the *Start Location* to the *Instruction point*.
+    1. **Navigation to Host**: The robot navigates from the *Start Location* to the *Instruction point*.
 
-    1. **Instruct the Robot**: The operator commands the given task to the robot.
+    1. **Instruct the Robot**: The host commands the given task to the robot.
     If the robot cannot understand the name or favorite drink, the robot can request the guest to repeat the command and no penalty is given.
 
 1. Service Phase
@@ -138,10 +138,10 @@ Please, refer to the [CommandGenerator](https://github.com/johaq/CommandGenerato
 | Category | Step 1 | Step 2 | Step 3 | Step 4 |
 | --- | --- | --- | --- | --- |
 | **Manipulation**    | Move to the object location | Grasp the object                  | Move to the (placement area / person) | (Place / give the object) |
-| **Vision**          | Move to the location        | Observe the target                | Move to the operator                  | Report the observation result |
+| **Vision**          | Move to the location        | Observe the target                | Move to the host                  | Report the observation result |
 | **Navigation**      | Move to the person location | (Follow / guide) the person       | Move to the destination               | (Recognize the end of the following / Report end of the guide) |
-| **Speech (ask)**    | Move to the person location | Ask given question to the person  | Move to the operator                  | Report the guest's answer to the operator |
-| **Speech (answer)** | Move to the person location | Request a question to the person  | Answer to the guest's question        | Move to the operator |
+| **Speech (ask)**    | Move to the person location | Ask given question to the person  | Move to the host                  | Report the guest's answer to the host |
+| **Speech (answer)** | Move to the person location | Request a question to the person  | Answer to the guest's question        | Move to the host |
 
 ### Weights per Category
 
@@ -182,23 +182,28 @@ The variable $Weight$ changes depending on the category difficulty (see the tabl
 
 Volunteers are freely selected by the competing team, and will perform the following tasks:
 
-- Gather five (5) minutes before the test starts.
+- Select volunteers who will act as `guests`.
+- Gather thirty (30) minutes before the test starts.
 - Receive instructions about the guests' information.
-- The guests may follow the orders given by the robot,
+- The guests may follow the orders given by the robot only,
 and not act by their own.
 
 > [!WARNING]
 > Any information about the guests must not be shared with the competing team.
 Such action may result to the penalty in the scoring or disqualification of the team.
 
-### To Referee
+> [!NOTE]
+> If the competing team is not able to gather enough volunteers,
+support from other teams will be requested.
 
-Referees are selected according to the *General Rules* and will perform the following tasks:
+### To Scorer
 
-- Gather thirty (30) minutes before the test starts.
+Scorers are selected according to the *General Rules* [Scoring System](./gr_en.md#scoring-system) and will perform the following tasks:
+
+- Gather **thirty (30) minutes** before the test starts.
 - Receive instructions about the score sheet, guests' information and command.
 - Score the competition.
-- Confirm the score with the other referees and TC.
+- Confirm the score with the other scorers and TC.
 - Submit the score sheet to the TC.
 
 > [!WARNING]
@@ -208,14 +213,14 @@ Such action may result to the penalty in the scoring or disqualification of the 
 ### To TC
 
 - During *Setup Days*:
-   - Announce the *Start Point*.
+   - Announce the *Start Location*.
    - Announce the *Instruction Location*.
    - Announce objects, object categories and locations.
    - Announce name and drink list.
 - Before the test:
-   - Confirm the volunteers (guests) selected by the competing team.
-   - Assign names to the volunteers.
+   - Confirm the volunteers (guests/host) selected by the competing team.
+   - Assign names and to the volunteers.
    - Confirm the *Command Category* the competing team want to challenge.
    - Arrange the *Arena* based on the commands.
 - During the test:
-   - Inform the operator of the command.
+   - Inform the host of the command.

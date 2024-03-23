@@ -298,7 +298,7 @@ Teams need to announce this to the TC before every test that involves a start si
 ## External devices
 Everything that a team uses during a test and is not part of the robot is considered an *External Device*.
 All *External Devices* must be authorized by the *technical committee* (TC) during [*Robot Inspection*](https://github.com/RoboCupAtHomeJP/AtHome2024/blob/rules/opl/robot_inspection.md).
-The TC specifies whether an *External Device* can be used freely or under referee supervision, and determines its impact on scoring.
+The TC specifies whether an *External Device* can be used freely or under TC supervision, and determines its impact on scoring.
 
 Note that the use of wireless devices, such as hand microphones and headsets, is not allowed, with the exception of *External Computing* as specified below.
 Please also note that the competition organizers do not guarantee or take any responsibility regarding the availability or reliability of the network or the internet connection in the *Arena*.
@@ -318,7 +318,7 @@ No peripherals, such as screens, mice, keyboards, and so forth, are allowed
 to be used. -->
 
 During a *Competition Task*, everyone must stay at least 1 \[m\] away from the ECRA.
-Interacting with anything in the ECRA after the referee has given the start signal for a test will result in the test being stopped with a score of zero.
+Interacting with anything in the ECRA after the TC has given the start signal for a test will result in the test being stopped with a score of zero.
 
 <!-- If a laptop is used as *External Computing*, a team can only place it in the ECRA if their *Test Slot* is up next and must remove the device immediately after the test. -->
 
@@ -369,9 +369,9 @@ Thus, separate awarding for each challenge will be conducted.
 ### Regular Tasks Evaluation
 
 Scoring will be carried out by *two (2) different team members*;
-one from the competing team and one from another team, following this formula:
-- Team $` (a+n) mod. n `$ : *one* (1) scoring member
-- Team $` (1+a+n) mod. n `$ : *one* (1) scoring member
+one from the competing team and one from another team as scorers, following this formula:
+- Team $` (a+n) mod. n `$ : *one* (1) scorer
+- Team $` (1+a+n) mod. n `$ : *one* (1) scorer
 
 > [!NOTE]
 > $` n `$ refers to the number of teams.
@@ -381,17 +381,17 @@ $` mod. `$ refers to the modulo.
 For example, if the number of participant teams are *3 teams*, the order will be the following:
 
 - First Task:
-  - *Team 1* competing: a member from *Team 1* and *Team 2* (*two* (2) scoring members)
-  - *Team 2* competing: a member from *Team 2* and *Team 3* (*two* (2) scoring members)
-  - *Team 3* competing: a member from *Team 3* and *Team 1* (*two* (2) scoring members)
+  - *Team 1* competing: a member from *Team 1* and *Team 2* (*two* (2) scorers)
+  - *Team 2* competing: a member from *Team 2* and *Team 3* (*two* (2) scorers)
+  - *Team 3* competing: a member from *Team 3* and *Team 1* (*two* (2) scorers)
 - Second Task:
-  - *Team 2* competing: a member from *Team 2* and *Team 3* (*two* (2) scoring members)
-  - *Team 3* competing: a member from *Team 3* and *Team 1* (*two* (2) scoring members)
-  - *Team 1* competing: a member from *Team 1* and *Team 2* (*two* (2) scoring members)
+  - *Team 2* competing: a member from *Team 2* and *Team 3* (*two* (2) scorers)
+  - *Team 3* competing: a member from *Team 3* and *Team 1* (*two* (2) scorers)
+  - *Team 1* competing: a member from *Team 1* and *Team 2* (*two* (2) scorers)
 - Third Task:
-  - *Team 3* competing: a member from *Team 3* and *Team 3* (*two* (2) scoring members)
-  - *Team 1* competing: a member from *Team 1* and *Team 1* (*two* (2) scoring members)
-  - *Team 2* competing: a member from *Team 2* and *Team 2* (*two* (2) scoring members)
+  - *Team 3* competing: a member from *Team 3* and *Team 3* (*two* (2) scorers)
+  - *Team 1* competing: a member from *Team 1* and *Team 1* (*two* (2) scorers)
+  - *Team 2* competing: a member from *Team 2* and *Team 2* (*two* (2) scorers)
 - And so on
 
 
@@ -404,7 +404,7 @@ Please, pay attention to the following points.
 
 1. **Emergency Stop**: At any time when operating the robot inside and outside the scenario the owners have to stop the robot *immediately* if there is a possibility of dangerous behavior towards people and/or objects.
 
-1. **Stopping on request**: If a referee, member of the Technical or Organizational committee, an Executive or Trustee of the federation stops the robot (by pressing the emergency button) there will be no discussion.
+1. **Stopping on request**: If a member of the Technical or Organizational committee, an Executive or Trustee of the federation stops the robot (by pressing the emergency button) there will be no discussion.
 Similarly if they tell the team to stop the robot, the robot must be stopped *immediately*.
 
 1. **Penalties**: If the team does not comply, the team and its members will be excluded from the ongoing competition *immediately* by a decision of the *Technical Committee* (TC).
@@ -424,7 +424,7 @@ Exceptions are tasks that explicitly require volunteer assistance.
 *Fair Play* and cooperative behavior is expected from all teams during the entire competition, in particular:
 
 - while evaluating other teams,
-- while refereeing, and
+- while scoring, and
 - when having to interact with other teams’ robots.
 
 This also includes:
@@ -473,15 +473,15 @@ This is known as *functional touching*.
 However, the robot must clearly announce the collision-like interaction and kindly request not being stopped.
 
 > [!WARNING]
-> Referees can (and will) immediately stop a robot in case or suspicion of *dangerous* behavior.
+> TC can (and will) immediately stop a robot in case or suspicion of *dangerous* behavior.
 
 ### Removal of robots
 
 Robots not obeying the rules are stopped and removed from the *Arena*.
 
-1. It is the decision of the referees and the TC member monitoring the test if and when to remove a robot.
+1. It is the decision of the TC member monitoring the test if and when to remove a robot.
 
-1. When told to do so by the referees or the TC member monitoring the test, the team must immediately stop the robot, and remove it from the *Arena* without disturbing the ongoing test.
+1. When told to do so by the TC member monitoring the test, the team must immediately stop the robot, and remove it from the *Arena* without disturbing the ongoing test.
 
 1. More than 1 team member is allowed to enter the *Arena* after the robot has been stopped to quickly remove the robot from the *Arena*.
 
@@ -489,7 +489,7 @@ Robots not obeying the rules are stopped and removed from the *Arena*.
 
 The default *start signal* (unless stated otherwise) is *door opening*.
 The robot is waiting behind the door, outside the *Arena* and accompanied by a team member.
-The test starts when a referee (not a team member) opens the door.
+The test starts when a TC (not a team member) opens the door.
 <!-- Other start signals are allowed but must be authorized by the *Technical Committee* (TC) during the *Robot Inspection*. -->
 
 ### Entering and leaving the *Arena*
@@ -519,13 +519,13 @@ This includes, e.g., expressions of sign language or pointing gestures.
 
 1. **Receiving gestures**: Unless stated otherwise, it is not allowed to use a speech command to set the robot into a special mode for receiving gestures. -->
 
-### Referees
+### Referees and Scorer
 
 All tests are monitored by a referee, who is a member of the *Technical Committee* (TC).
-The referee may appoint an assistant to aid in keeping time and filling in scoresheets.
+The TC may appoint an assistant scorer to aid in keeping time and filling in scoresheets.
 The following rules apply:
 
-1. **Selection**: Referees are chosen by EC/TC/OC.
+1. **Referee Selection**: Referees are EC/OC/TC members.
 
 1. **Referee instructions**: Right before each test, referee chooses one or more assistant to aid during the test.
 The assistants will be instructed by the referee.
@@ -540,7 +540,7 @@ If the robot fails to understand the default operator, the team may request the 
 Penalty may apply when using a custom operator. -->
 
 Unless stated otherwise, robots are operated by a person selected by the competing team.
-However, in some cases, *operators* other than the competing team may be selected by the referee.
+However, in some cases, *operators* other than the competing team may be selected by the TC.
 
 ### Time limits
 
@@ -553,7 +553,7 @@ Robots need to be ready right after the door has been closed to the former team.
 1. **Time-up**: When the time is up, the team must immediately remove their robot(s) from the *Arena*.
 No additional points will be scored.
 
-1. **Show must go on**: On special cases, the referee may let the robot continue the test for demonstration purposes, but no additional points will be scored.
+1. **Show must go on**: On special cases, the TC may let the robot continue the test for demonstration purposes, but no additional points will be scored.
 
 <!-- 1. **Inactivity**: Robots are not allowed to stand still or get stuck into endless loops.
 A robot not progressing in the task execution (and obviously not trying to), is consider as inactive.
@@ -597,8 +597,8 @@ For further details, please check each task contents.
 > [!NOTE]
 > If you want to add any additional *Deus Ex Machina* features, please let us know through GitHub Issue.
 
-Referees will try to respond as clear as possible to the instructions given by the robot, such as "*Open the door*," "*Move the chair*," or "*Take the object and put it in the hand*."
-However, we cannot handle points that exceed the limits of the referee, such as unclear voice from the guests, instructions in languages other than English or Japanese, or images that are too small to read.
+Volunteers will try to respond as clear as possible to the instructions given by the robot, such as "*Open the door*," "*Move the chair*," or "*Take the object and put it in the hand*."
+However, TC cannot handle events, such as unclear voice from the guests, instructions in languages other than English or Japanese, or images that are too small to read.
 
 > [!WARNING]
 > Directly sending commands from *External Computing* to the robot is prohibited even in *Deus Ex Machina*.
@@ -651,12 +651,12 @@ If the team has not announced that it is not going to participate, it gets a pen
 The *Technical Committee* (TC) may also disqualify the team for the entire competition.
 
 1. **Penalty for faking robots**: If a team starts a test, but it does not solve any of the partial tasks (and is obviously not trying to do so), a penalty of *250 points* is handed out.
-The decision is made by the referees and the monitoring TC member.
+The decision is made by the monitoring TC member.
 
 1. **Extra penalty for collision**: In case of major, (grossly) negligent collisions the *Technical Committee* (TC) may disqualify the team for a test (the team receives *0 points*), or for the entire competition.
 
-1. **Not showing up as referee or jury member**: If a team does not provide a referee or jury member (being at the *Arena* on time), the team receives a penalty of *250 points*, and will be remembered for qualification decisions in future competitions.
-Jury members missing a performance to evaluate are excluded from the jury, and the team is disqualified from the test (receives *0 points*).
+1. **Not showing up as scorer or volunteer**: If a team does not provide a scorer or volunteer (being at the *Arena* on time), the team receives a penalty of *250 points*, and will be remembered for qualification decisions in future competitions.
+Scorer missing a performance to evaluate are excluded from the scoring, and the team is disqualified from the test (receives *0 points*).
 
 1. **Modifying or altering standard platform robots**: If any unauthorized modification is found on a Standard Platform League robot, the responsible team will be immediately disqualified for the entire competition while also receiving a penalty of *500 points* in the overall score.
 This behavior will be remembered for qualification decisions in future competitions.
