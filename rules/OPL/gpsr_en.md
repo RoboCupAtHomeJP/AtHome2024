@@ -169,15 +169,15 @@ The variable $Weight$ is defined in [Weights per Category](#weights-per-category
 | --- | --- |
 |**Main Task**                                            |  |
 | &emsp; - Understand the command                         | $3 \times 20$ |
-| &emsp; - Execute the 1st command                        | $(5 \times 4) \times Weight$ |
-| &emsp; - Execute the 2nd command                        | $(10 \times 4) \times Weight$ |
-| &emsp; - Execute the 3rd command                        | $(20 \times 4) \times Weight$ |
+| &emsp; - Execute the 1st command                        | $(15 \times 4) \times Weight$ |
+| &emsp; - Execute the 2nd command                        | $(30 \times 4) \times Weight$ |
+| &emsp; - Execute the 3rd command                        | $(60 \times 4) \times Weight$ |
 | &emsp; - Exit the *Arena* after executing all commands  | $20$ |
 | ***Deus Ex Machina***                                                   |  |
-| &emsp; - Understand the command using alternative means                 | $3 \times -6$ |
-| &emsp; - Execute the 1st command with $h (\le 10)$ times human help(s)  | $-2h \times Weight$ |
-| &emsp; - Execute the 2nd command with $h$ times human help(s)           | $-4h \times Weight$ |
-| &emsp; - Execute the 3rd command with $h$ times human help(s)           | $-8h \times Weight$ |
+| &emsp; - Understand the command using alternative means                 | $3 \times -10$ |
+| &emsp; - Execute the 1st command with $h (\le 10)$ times human help(s)  | $-6h \times Weight$ |
+| &emsp; - Execute the 2nd command with $h$ times human help(s)           | $-12h \times Weight$ |
+| &emsp; - Execute the 3rd command with $h$ times human help(s)           | $-24h \times Weight$ |
 | **Penalty**                                             |  |
 | &emsp; - Restart                                        | Next earned score  $\times 0.5$| 
 | &emsp; - Not attending (absence without permission)     | $-500$ |

@@ -168,16 +168,16 @@ $Weight$ の変数は[カテゴリごとの重み](#カテゴリごとの重み-
 | アクション (Action) | スコア (Score) |
 | --- | --- |
 | **メインタスク (Main Task)**                            |  |
-| &emsp; - 命令を理解する | $3 \times 20$                 |
-| &emsp; - 1回目の命令タスクを実行する                    | $(5 \times 4) \times Weight$ |
-| &emsp; - 2回目の命令タスクを実行する                    | $(10 \times 4) \times Weight$ |
-| &emsp; - 3回目の命令タスクを実行する                    | $(20 \times 4) \times Weight$ |
+| &emsp; - 命令を理解する | $3 \times 20$                 | $3 \times 20$ |
+| &emsp; - 1回目の命令タスクを実行する                    | $(15 \times 4) \times Weight$ |
+| &emsp; - 2回目の命令タスクを実行する                    | $(30 \times 4) \times Weight$ |
+| &emsp; - 3回目の命令タスクを実行する                    | $(60 \times 4) \times Weight$ |
 | &emsp; - 全てのコマンドを実行した後*Arena*から退出する  | $20$ |
 | ***デウス・エクス・マキナ (Deus Ex Machina)***                        |  |
-| &emsp; - 代替手段を用いて命令を理解する                               | $3 \times -6$ |
-| &emsp; - $h (\le 10)$ 回の人間の支援により1回目の命令タスクを実行する | $-2h \times Weight$ |
-| &emsp; - $h$ 回の人間の支援により2回目の命令タスクを実行する          | $-4h \times Weight$ |
-| &emsp; - $h$ 回の人間の支援により3回目の命令タスクを実行する          | $-8h \times Weight$ |
+| &emsp; - 代替手段を用いて命令を理解する                               | $3 \times -10$ |
+| &emsp; - $h (\le 10)$ 回の人間の支援により1回目の命令タスクを実行する | $-6h \times Weight$ |
+| &emsp; - $h$ 回の人間の支援により2回目の命令タスクを実行する          | $-12h \times Weight$ |
+| &emsp; - $h$ 回の人間の支援により3回目の命令タスクを実行する          | $-24h \times Weight$ |
 | **ペナルティ (Penalty)**                                |  |
 | &emsp; - リスタート                                     | $直後に獲得した点数  \times 0.5$| 
 | &emsp; - 不参加（無断）                                 | $-500$ |
