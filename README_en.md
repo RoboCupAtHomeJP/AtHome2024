@@ -37,9 +37,6 @@ Any future participant teams and/or members who are planning to join us in this 
 
 ## Open Platform League (OPL)
 
-> [!IMPORTANT]  
-> The OPL rules and competition tasks are not decided yet. All the changes in the following contents will be based on the feedback from the last RCJ23.
-
 ### Overall Rules
 
 - [General Rules and Regulations](rules/OPL/gr_en.md)
