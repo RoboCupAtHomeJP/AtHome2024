@@ -142,4 +142,4 @@ Such action may result to the penalty in the scoring or disqualification of the 
 - During the test:
   - Instruct where the bag needs to be placed.
   - Instruct the bag that the operator should point at.
-  - Announce the goal location of follow-me.
+  - Announce the *goal location* in `Follow-Me` phase.
