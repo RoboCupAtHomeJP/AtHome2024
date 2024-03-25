@@ -6,8 +6,8 @@
 
 The poster session is held on a setup day. Each team will present their research activities in the poster session. The poster is evaluated by other presenters.
 
-1. Presentation: 3 min
-2. Evaluation: The poster presentation is evaluated by other teams' participants (1 per team). However, it is not allowed to evaluate your own team's presentation.
+1. Presentation: 3 min (without Q&A)
+2. Evaluation: The poster presentation is evaluated by juries and other teams' participants (1 per team). It is not allowed to evaluate your own team's presentation. The best poster presentation award (OPL) is awarded by @Home league.
 3. Criterion
    1. Novelty
    2. Scientific contribution
