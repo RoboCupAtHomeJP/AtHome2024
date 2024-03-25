@@ -34,9 +34,6 @@
 
 ## Open Platform League (OPL)
 
-> [!IMPORTANT]  
-> OPLのルールや実施される競技は現時点では未定です．ひとまず，RCJ23の反省点を基に，こちらの内容を修正していく予定です．
-
 ### Overall Rules
 
 - [General Rules and Regulations](rules/OPL/gr_ja.md)
