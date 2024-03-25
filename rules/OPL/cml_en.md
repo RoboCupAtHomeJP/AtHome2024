@@ -140,6 +140,6 @@ Such action may result to the penalty in the scoring or disqualification of the 
 - Just before the test:
   - Place obstacles, if the team requests for bonus task during `Follow-Me` phase.
 - During the test:
-  - Instruct where the bag is placed.
+  - Instruct where the bag needs to be placed.
   - Instruct the bag that the operator should point at.
   - Announce the goal location of follow-me.
