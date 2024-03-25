@@ -37,11 +37,22 @@ Any future participant teams and/or members who are planning to join us in this 
 
 ## Open Platform League (OPL)
 
+> [!IMPORTANT]  
+> The OPL rules and competition tasks are not decided yet. All the changes in the following contents will be based on the feedback from the last RCJ23.
+
 ### Overall Rules
-TBD
+
+- [General Rules and Regulations](rules/OPL/gr_en.md)
 
 ### Competition Tasks
-TBD
+
+- [Robot Inspection](rules/OPL/ri_en.md) (setup day)
+- [Carry My Luggage](rules/OPL/cml_en.md)
+- [Receptionist](rules/OPL/rc_en.md)
+- [TidyUp for OPL](rules/OPL/tu_en.md)
+- [General Purpose Service Robot (GPSR)](rules/OPL/gpsr_en.md)
+- [Open Challenge](rules/OPL/oc_en.md) (Previously known as Finals)
+- [Poster Session](rules/OPL/ps_en.md)
 
 
 ## Domestic Standard Platform League (DSPL)
