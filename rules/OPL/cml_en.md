@@ -141,5 +141,5 @@ Such action may result to the penalty in the scoring or disqualification of the 
   - (If the team requests for bonus challenge) Place obstacles.
 - During the test:
   - Instruct where the bag is placed.
-  - Instruct a bag that the operator points at.
+  - Instruct the bag that the operator should point at.
   - Announce the goal location of follow-me.
