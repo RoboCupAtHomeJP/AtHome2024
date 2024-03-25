@@ -138,7 +138,7 @@ Such action may result to the penalty in the scoring or disqualification of the 
   - Select which bag to be grasped and announce it.
   - Announce obstacles to be used.
 - Just before the test:
-  - (If the team requests for bonus challenge) Place obstacles.
+  - Place obstacles, if the team requests for bonus task during `Follow-Me` phase.
 - During the test:
   - Instruct where the bag is placed.
   - Instruct the bag that the operator should point at.
