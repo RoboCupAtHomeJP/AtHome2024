@@ -150,8 +150,8 @@ If restart is decided to be done:
 | **Vision (Description)** | Move to the given location  | Find the requested (people \| object) | Move to the host                       | Report the observation result |
 | **Navigation**           | Move to the person location | (Follow \| guide) the person          | Move to the destination                | (Recognize the end of the following \| Report end of the guide) |
 | **Speech (Answer)**      | Move to the person location | Request a question to the person      | Answer to the guest's question         | Move to the host |
-<!-- | **Speech (Ask)**         | Move to the person location | Ask given question to the person      | Move to the host                       | Report the guest's answer to the host | -->
 | **Speech (Tell)**        | Move to the given location  | Find the requested person             | Tell the person some information       | Move to the host |
+<!-- | **Speech (Ask)**         | Move to the person location | Ask given question to the person      | Move to the host                       | Report the guest's answer to the host | -->
 
 ### Weights per Category
 
