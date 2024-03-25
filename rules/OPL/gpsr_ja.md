@@ -127,23 +127,30 @@ Step 1を完了している場合，リスタート後に直前のタスクを�
 
 | タスク | 文章構成 |
 | --- | --- |
-| **Manipulation** <br>grasp, give\|place | &bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and place it on the `$PLACE`. <br>&bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and give it to `$PERSON`. |
-| **Vision** <br>find (obj \| people)     | &bullet; Tell me how many `$CATEGORY_OBJ` there are on the `$PLACE`. <br>&bullet; Tell me how many people in the `$ROOM` are `$POSE/GESTURE`. |
-| **Navigation** <br>follow, guide        | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and follow (him \| her). <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and guide `(him\|her)` to the `$ROOM`. |
-| **Speech** <br>answer, ask              | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and answer (his \| her) question. <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and ask (him \| her) `$QUESTION`. |
+| **Manipulation** <br>grasp, give\|place            | &bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and place it on the `$PLACE`. <br>&bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and give it to `$PERSON`. |
+| **Vision (Enumeration)** <br>count (obj \| people) | &bullet; Tell me how many `$CATEGORY_OBJ` there are on the `$PLACE`. <br>&bullet; Tell me how many people in the `$ROOM` are `$POSE/GESTURE`. |
+| **Vision (Description)** <br>find (obj \| person)  | &bullet; Tell me what is the `$OBJ_COMP` object on the `$PLACE`. <br>&bullet; Tell me the `$PERS_INFO` of the person at the `$PLACE` |
+| **Navigation** <br>follow, guide                   | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and follow (him \| her). <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and guide `(him\|her)` to the `$ROOM`. |
+<!-- | **Speech** <br>answer, ask                         | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$PLACE` and answer (his \| her) question. <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$PLACE` and ask (him \| her) `$QUESTION`. | -->
+| **Speech** <br>answer, tell                        | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$PLACE` and answer (his \| her) question. <br>&bullet; Go to the `$ROOM`, find the person who is `$POSE/GESTURE` and tell (him \| her) `$TELL_LIST`. |
 
 > [!NOTE]
-> TLMやDiscordを通して，`$POSE/GESTURE`と`$QUESTION`を決定する．
+> `$POSE/GESTURE`, `$OBJ_COMP`, `PERS_INFO`, `QUESTION_LIST` と `$TELL_LIST` はTLMやDiscordを通して決定する．
+
+> [!IMPORTANT]
+> RCJ2024 OPL中では`greetNameInRm` と `greetClothDscInRm` というコマンドを抽選しない．
 
 ### タスクごとのStep一覧 (Steps per Task)
 
 | タスク | Step 1 | Step 2 | Step 3 | Step 4 |
 | --- | --- | --- | --- | --- |
-| **Manipulation**    | 物体の前まで移動する      | 物体を把持する                | (配置場所 / 人の前)まで移動する | 物体を(配置 / 手渡し)する |
-| **Vision**          | 観測する位置まで移動する  | 対象を観測する                | ホストの前まで移動する    | 観測結果を報告する |
-| **Navigation**      | 人の前まで移動する        | 人を(追従 / 誘導)する         | (追従 / 誘導)先まで移動する     | (追従終了を認識 / 誘導終了を報告)する |
-| **Speech (answer)** | 人の前まで移動する        | 人に質問を要求する            | 人にその質問を答える            | ホストの前まで移動する |
-| **Speech (ask)**    | 人の前まで移動する        | 与えられた質問を人に質問する  | ホストの前まで移動する    | 質問の答えを報告する |
+| **Manipulation**         | 物体の前へ移動する | 物体を把持する               | (配置場所 \| 人の前)へ移動する | 物体を(配置 \| 手渡し)する |
+| **Vision (Enumeration)** | 指定位置へ移動する | 対象の(物体 \| 人)を数える   | ホストの前へする               | 観測結果を報告する |
+| **Vision (Description)** | 指定位置へ移動する | 対象の(物体 \| 人)を検出する | ホストの前へ移動する           | 観測結果を報告する |
+| **Navigation**           | 人の前へ移動する   | 人を(追従 \| 誘導)する       | (追従 \| 誘導)先へ移動する     | (追従終了を認識 \| 誘導終了を報告)する |
+| **Speech (Answer)**      | 人の前へ移動する   | 人に質問を要求する           | 人にその質問を答える           | ホストの前へ移動する |
+<!-- | **Speech (Ask)**         | 人の前へ移動する   | 与えられた質問を人に質問する | ホストの前へ移動する           | 質問の答えを報告する | -->
+| **Speech (Tell)**        | 指定位置へ移動する | 対象の人を検出する           | 情報をゲストに提供する         | ホストの前へ移動する |
 
 ### カテゴリごとの重み (Weights per Category)
 

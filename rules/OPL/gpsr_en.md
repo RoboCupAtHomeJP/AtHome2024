@@ -128,23 +128,30 @@ If restart is decided to be done:
 
 | Task | Sentence Structure |
 | --- | --- |
-| **Manipulation** <br>grasp, give\|place | &bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and place it on the `$PLACE`. <br>&bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and give it to `$PERSON`. |
-| **Vision** <br>find (obj \| people)     | &bullet; Tell me how many `$CATEGORY_OBJ` there are on the `$PLACE`. <br>&bullet; Tell me how many people in the `$ROOM` are `$POSE/GESTURE`. |
-| **Navigation** <br>follow, guide        | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and follow (him \| her). <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and guide `(him\|her)` to the `$ROOM`. |
-| **Speech** <br>answer, ask               | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and answer (his \| her) question. <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and ask (him \| her) `$QUESTION`. |
+| **Manipulation** <br>grasp, give\|place            | &bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and place it on the `$PLACE`. <br>&bullet; Go to the `$ROOM`, grasp the `$OBJECT` on the `$PLACE` and give it to `$PERSON`. |
+| **Vision (Enumeration)** <br>count (obj \| people) | &bullet; Tell me how many `$CATEGORY_OBJ` there are on the `$PLACE`. <br>&bullet; Tell me how many people in the `$ROOM` are `$POSE/GESTURE`. |
+| **Vision (Description)** <br>find (obj \| person)  | &bullet; Tell me what is the `$OBJ_COMP` object on the `$PLACE`. <br>&bullet; Tell me the `$PERS_INFO` of the person at the `$PLACE` |
+| **Navigation** <br>follow, guide                   | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and follow (him \| her). <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$ROOM` and guide `(him\|her)` to the `$ROOM`. |
+<!-- | **Speech** <br>answer, ask                         | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$PLACE` and answer (his \| her) question. <br>&bullet; Go to the `$ROOM`, find `$PERSON` at the `$PLACE` and ask (him \| her) `$QUESTION`. | -->
+| **Speech** <br>answer, tell                        | &bullet; Go to the `$ROOM`, find `$PERSON` at the `$PLACE` and answer (his \| her) question. <br>&bullet; Go to the `$ROOM`, find the person who is `$POSE/GESTURE` and tell (him \| her) `$TELL_LIST`. |
 
 > [!NOTE]
-> `$POSE/GESTURE` and `$QUESTION` will be selected through TLM or Discord．
+> `$POSE/GESTURE`, `$OBJ_COMP`, `PERS_INFO`, `QUESTION_LIST` and `$TELL_LIST` will be selected through TLM or Discord．
+
+> [!IMPORTANT]
+> All the `greetNameInRm` and `greetClothDscInRm` commands will not be selected during RCJ2024 OPL.
 
 ### Steps per Task
 
 | Task | Step 1 | Step 2 | Step 3 | Step 4 |
 | --- | --- | --- | --- | --- |
-| **Manipulation**    | Move to the object location | Grasp the object                  | Move to the (placement area / person) | (Place / give the object) |
-| **Vision**          | Move to the location        | Observe the target                | Move to the host                  | Report the observation result |
-| **Navigation**      | Move to the person location | (Follow / guide) the person       | Move to the destination               | (Recognize the end of the following / Report end of the guide) |
-| **Speech (answer)** | Move to the person location | Request a question to the person  | Answer to the guest's question        | Move to the host |
-| **Speech (ask)**    | Move to the person location | Ask given question to the person  | Move to the host                  | Report the guest's answer to the host |
+| **Manipulation**         | Move to the object location | Grasp the object                      | Move to the (placement area \| person) | (Place \| give the object) |
+| **Vision (Enumeration)** | Move to the given location  | Count the (people \| object)          | Move to the host                       | Report the observation result |
+| **Vision (Description)** | Move to the given location  | Find the requested (people \| object) | Move to the host                       | Report the observation result |
+| **Navigation**           | Move to the person location | (Follow \| guide) the person          | Move to the destination                | (Recognize the end of the following \| Report end of the guide) |
+| **Speech (Answer)**      | Move to the person location | Request a question to the person      | Answer to the guest's question         | Move to the host |
+<!-- | **Speech (Ask)**         | Move to the person location | Ask given question to the person      | Move to the host                       | Report the guest's answer to the host | -->
+| **Speech (Tell)**        | Move to the given location  | Find the requested person             | Tell the person some information       | Move to the host |
 
 ### Weights per Category
 
