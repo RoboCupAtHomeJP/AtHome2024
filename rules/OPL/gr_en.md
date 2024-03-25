@@ -572,7 +572,7 @@ In many real-life situations, a minor malfunction may prevent the robot from acc
 To prevent this situation, while fostering awareness and human-robot interaction, robots are allowed to request human assistance during a task.
 
 > [!NOTE]
-> It is recommended to actively use *Deus ex Machina* features to avoid undesirable situations for both teams and spectators and complete partial tasks.
+> The request from the robot should be concrete. The robot should mention the mistake if a human misunderstands the request or behaves incorrectly.
 
 ### Procedure
 
