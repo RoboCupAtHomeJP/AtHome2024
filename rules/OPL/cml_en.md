@@ -136,12 +136,10 @@ Such action may result to the penalty in the scoring or disqualification of the 
 - During `Setup Day`:
   - Select the robot's `starting location` and announce it.
   - Select which bag to be grasped and announce it.
-  - Announce the obstacles to be used.
-
-- Before the test:
-  - Prepare the obstacles that the robot will face when it is outside.
-  - Announce the possible placement of the obstacles.
-
+  - Announce obstacles to be used.
+- Just before the test:
+  - Place obstacles, if the team requests for bonus task during `Follow-Me` phase.
 - During the test:
-  - Announce the position where the bag is placed.
-  - Announce the `Follow-me goal location`.
+  - Instruct where the bag needs to be placed.
+  - Instruct the bag that the operator should point at.
+  - Announce the *goal location* in `Follow-Me` phase.
