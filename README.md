@@ -72,7 +72,7 @@ Rules are based on RoboCup2023 World Championship @Home Education League rules a
 ### Tasks
 - Poster 
 - Carry My Luggage
-- Receptionist
+- [Receptionist](rules/EDU/rc_jp.md)
 - Technical Challenge (Final)
 
 ## Simulation Open Platform League
