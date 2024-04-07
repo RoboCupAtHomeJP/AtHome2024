@@ -20,7 +20,7 @@ Location: Shiga Daihatsu Arena, Japan
 ## Registration
 To proceed with registration, the team number issued after the pre-registration is required. For more information, please visit [RoboCup Japan Open @Home League](https://sites.google.com/site/robocuphomejapan/japanopen2024).
 
-## 締切
+## Deadlines
 - Pre-registration: 2024-03-19
 - Registration: 2024-03-22
 - Payment: 2024-04-01 - 2024-04-05
