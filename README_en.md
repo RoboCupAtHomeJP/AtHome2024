@@ -51,6 +51,16 @@ Any future participant teams and/or members who are planning to join us in this 
 - [Open Challenge](rules/OPL/oc_en.md) (Previously known as Finals)
 - [Poster Session](rules/OPL/ps_en.md)
 
+### Detailed Information
+
+- [Maps](rules/OPL/sd_maps.md)
+- [Name List](rules/OPL/sd_name_list.md)
+- [Drink List](rules/OPL/sd_drink_list.md)
+- [Object List](rules/OPL/sd_tu_info.md)
+- [Pose/Gesture List](rules/OPL/sd_pose_gesture_list.md)
+- [Question List](rules/OPL/sd_question_list.md)
+- [Predefined Location List](rules/OPL/sd_pd_loc_list.md)
+
 
 ## Domestic Standard Platform League (DSPL)
 
