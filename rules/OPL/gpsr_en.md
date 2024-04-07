@@ -121,8 +121,6 @@ If restart is decided to be done:
 > [!NOTE]
 > If the robot is holding an object, the team decides whether to keep it or put it back.
 
-**Score Sheet for the Scorer**: [GPSR-score_sheet](./doc/RCJ2024_OPL_GPSR-score_sheet.pdf)
-
 
 ## Command Category
 
@@ -184,6 +182,8 @@ The variable $Weight$ is defined in [Weights per Category](#weights-per-category
 | &emsp; - Restart                                        | Next earned score  $\times 0.5$| 
 | &emsp; - Not attending (absence without permission)     | $-500$ |
 | **Total Score**                                         | $500$ |
+
+**Score Sheet for the Scorer**: [GPSR-score_sheet](./doc/RCJ2024_OPL_GPSR-score_sheet.pdf)
 
 
 ## Instructions
