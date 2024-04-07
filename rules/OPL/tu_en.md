@@ -64,12 +64,16 @@ Please refer to the [Objects](gr_en.md#objects) in the General Rules & Regulatio
 
 ## Object Category and Placement Goal
 
-> [!NOTE]
-> Updating. Furniture name may be updated.
-
 The placement locations for each object category are as follows:
-<div align="center"><img src="./tu_layout.jpg" width="70%"></div>
-<br>
+
+| ID | Placement Goal (Furniture) | Object Category |
+| --- | --- | --- |
+| 5a | Tray A        | Food Item |
+| 5b | Tray B        | Food Item |
+| 6  | Container​     | Kitchen Item​ |
+| 8a | Trash Bin A   | Unknown Item​ |
+| 9a | Storage Box A | Task Item​ |
+​
 
 ## Restart
 

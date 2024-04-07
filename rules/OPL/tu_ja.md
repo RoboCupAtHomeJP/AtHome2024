@@ -65,13 +65,16 @@
 
 ## 物体カテゴリーごと配置場所
 
-> [!NOTE]
-> 更新中．家具名等が変更される可能性がある．
-
 物体カテゴリーごとの配置場所については以下の通りである．
-<div align="center"><img src="./tu_layout.jpg" width="70%"></div>
-<br>
 
+| ID | Placement Goal (Furniture) | Object Category |
+| --- | --- | --- |
+| 5a | Tray A        | Food Item |
+| 5b | Tray B        | Food Item |
+| 6  | Container​     | Kitchen Item​ |
+| 8a | Trash Bin A   | Unknown Item​ |
+| 9a | Storage Box A | Task Item​ |
+​
 
 ## リスタート
 
