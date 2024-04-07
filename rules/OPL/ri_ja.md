@@ -73,6 +73,8 @@
 | &emsp; - 不参加（無断）                                       | $-500$ |
 | **合計**                                                      | $100$ |
 
+**得点係用のスコアシート**: [RI-score_sheet](./doc/RCJ2024_OPL_RI-score_sheet.pdf)
+
 
 ## 指示 (Instructions)
 

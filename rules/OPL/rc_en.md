@@ -116,6 +116,8 @@ but actions can be skipped more easily with simpler methods to continue the task
 | &emsp; - Not attending (absence without permission)                      | $-500$ |
 | **Total Score (including Bonus Task)**                                   | $500$ |
 
+**Score Sheet for the Scorer**: [RC-score_sheet](./doc/RCJ2024_OPL_RC-score_sheet.pdf)
+
 
 ## Instructions
 

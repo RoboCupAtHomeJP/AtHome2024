@@ -96,6 +96,8 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 > [!NOTE]
 > Bonus will be scored if one of the main task of the corresponding phase is completed.
 
+**Score Sheet for the Scorer**: [CML-score_sheet](./doc/RCJ2024_OPL_CML-score_sheet.pdf)
+
 ## Instructions
 
 ### To Volunteer

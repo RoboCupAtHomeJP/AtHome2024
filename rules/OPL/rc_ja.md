@@ -115,6 +115,8 @@
 | &emsp; - 不参加（無断）                             | $-500$ |
 | **合計 (ボーナス点を含む)**                         | $500$ |
 
+**得点係用のスコアシート**: [RC-score_sheet](./doc/RCJ2024_OPL_RC-score_sheet.pdf)
+
 
 ## 指示 (Instructions)
 

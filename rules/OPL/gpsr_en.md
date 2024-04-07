@@ -121,6 +121,8 @@ If restart is decided to be done:
 > [!NOTE]
 > If the robot is holding an object, the team decides whether to keep it or put it back.
 
+**Score Sheet for the Scorer**: [GPSR-score_sheet](./doc/RCJ2024_OPL_GPSR-score_sheet.pdf)
+
 
 ## Command Category
 

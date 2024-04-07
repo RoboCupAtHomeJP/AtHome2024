@@ -97,7 +97,10 @@
 > [!NOTE]
 > † ボーナススコアは，対象となるフェーズのメインタスクを最低一つ達成した場合にのみ獲得可能である．
 
-# 指示 (Instructions)
+**得点係用のスコアシート**: [CML-score_sheet](./doc/RCJ2024_OPL_CML-score_sheet.pdf)
+
+
+## 指示 (Instructions)
 
 ### ボランティアへ (To Volunteer)
 
@@ -116,7 +119,6 @@
 > [!NOTE]
 > ボランティアできる人数が足りない場合，
 他チームからの支援をお願いする場合がある．
-
 
 ### 得点係へ (To Scorer)
 
