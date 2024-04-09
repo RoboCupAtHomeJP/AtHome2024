@@ -3,7 +3,7 @@
 # Layout List
 
 > [!WARNING]
-> Layout dimensions may from the original *Arena*.
+> Layout dimensions may differ from the original *Arena*.
 
 ## Environment Setup
 
