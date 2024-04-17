@@ -97,18 +97,16 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 
 | Action                                                                           | Score |
 | -------------------------------------------------------------------------------- | ----- |
-| **Task 1: Tidy Up Phase**                                                        |       |
-| Tidying up objects                                                               |       |
+| **1. Tidying up objects**                                                        |       |
 | &nbsp;&nbsp;Grasping objects (10 points per item)                                | 10x10 |
 | &nbsp;&nbsp;Transporting and placing/storing objects (10 points per item)        | 10x10 |
 | &nbsp;&nbsp;Placing/storing objects in the correct location (15 points per item) | 15x10 |
-| **Task 2: Delivery Phase**                                                       |       |
-| Enter `Room 2: Dining Room` without colliding with any obstacle                  | 30    |
-| Object Delivery                                                                  | 30    |
-| Grasping food item from the shelf                                                | 30    |
-| Grasping the instructed food item from the shelf                                 | 30    |
-| Handing over the item to a person                                                | 30    |
-| Handing over the item to the person waving (or raising) its hand                 | 30    |
+| **2a. Enter `Room 2: Dining Room` without colliding with any obstacle**          | 30    |
+| **2b. Object Delivery**                                                          |       |
+| &nbsp;&nbsp;Grasping food item from the shelf                                    | 30    |
+| &nbsp;&nbsp;Grasping the instructed food item from the shelf                     | 30    |
+| &nbsp;&nbsp;Handing over the item to a person                                    | 30    |
+| &nbsp;&nbsp;Handing over the item to the person waving (or raising) its hand     | 30    |
 | Penalty                                                                          |       |
 | Non-participation (without previous instance)                                    | -500  |
 |                                                                                  |       |
