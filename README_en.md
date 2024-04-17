@@ -20,7 +20,7 @@ Location: Shiga Daihatsu Arena, Japan
 ## Registration
 To proceed with registration, the team number issued after the pre-registration is required. For more information, please visit [RoboCup Japan Open @Home League](https://sites.google.com/site/robocuphomejapan/japanopen2024).
 
-## 締切
+## Deadlines
 - Pre-registration: 2024-03-19
 - Registration: 2024-03-22
 - Payment: 2024-04-01 - 2024-04-05
@@ -50,6 +50,16 @@ Any future participant teams and/or members who are planning to join us in this 
 - [General Purpose Service Robot (GPSR)](rules/OPL/gpsr_en.md)
 - [Open Challenge](rules/OPL/oc_en.md) (Previously known as Finals)
 - [Poster Session](rules/OPL/ps_en.md)
+
+### Detailed Information
+
+- [Layout List](rules/OPL/sd/layout_list.md)
+- [Name List](rules/OPL/sd/name_list.md)
+- [Drink List](rules/OPL/sd/drink_list.md)
+- [Object List](rules/OPL/sd/object_info.md)
+- [Pose/Gesture List](rules/OPL/sd/pose_gesture_list.md)
+- [Question List](rules/OPL/sd/question_list.md)
+- [Predefined Location List](rules/OPL/sd/pd_loc_list.md)
 
 
 ## Domestic Standard Platform League (DSPL)

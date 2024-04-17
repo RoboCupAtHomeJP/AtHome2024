@@ -48,6 +48,16 @@
 - [Open Challenge](rules/OPL/oc_ja.md) (旧: Finals)
 - [Poster Session](rules/OPL/ps_ja.md)
 
+### Detailed Information
+
+- [Layout List](rules/OPL/sd/layout_list.md)
+- [Name List](rules/OPL/sd/name_list.md)
+- [Drink List](rules/OPL/sd/drink_list.md)
+- [Object List](rules/OPL/sd/object_info.md)
+- [Pose/Gesture List](rules/OPL/sd/pose_gesture_list.md)
+- [Question List](rules/OPL/sd/question_list.md)
+- [Predefined Location List](rules/OPL/sd/pd_loc_list.md)
+
 
 ## Domestic Standard Platform League (DSPL)
 

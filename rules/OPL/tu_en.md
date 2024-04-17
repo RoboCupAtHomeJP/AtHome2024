@@ -36,7 +36,7 @@ This task focuses on autonomous navigation in a known environment, object recogn
 ### Task 1: Tidy Up Phase
 
 1. **Competition time**: The competition time for the `Task 1: Tidy Up Phase` is **15 minutes**.
-2. **Tidying up**: After the door is opened, the robot will tidy up all the objects on the table (`Long Table B`). Known and unknown objects are placed in a household-like environment. Each object has a category, and there are designated places (`Long Table A`, `Trash Bin A`, `Trash Bin B`) for each object to be tidied up. The robot will tidy up the objects based on these pre-determined locations.
+2. **Tidying up**: After the door is opened, the robot will tidy up all the objects on the table (`Long Table B`). Known and unknown objects are placed in a household-like environment. Each object has a category, and there are designated places (`Long Table A`, `Trash Bin A`, `Storage Box A`) for each object to be tidied up. The robot will tidy up the objects based on these pre-determined locations.
 
 ### Task 2: Delivery Phase
 
@@ -64,12 +64,16 @@ Please refer to the [Objects](gr_en.md#objects) in the General Rules & Regulatio
 
 ## Object Category and Placement Goal
 
-> [!NOTE]
-> Updating. Furniture name may be updated.
-
 The placement locations for each object category are as follows:
-<div align="center"><img src="./tu_layout.jpg" width="70%"></div>
-<br>
+
+| ID | Placement Goal (Furniture) | Object Category |
+| --- | --- | --- |
+| 5a | Tray A        | Food Item |
+| 5b | Tray B        | Food Item |
+| 6  | Container​     | Kitchen Item​ |
+| 8a | Trash Bin A   | Unknown Item​ |
+| 9a | Storage Box A | Task Item​ |
+​
 
 ## Restart
 
