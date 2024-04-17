@@ -110,8 +110,7 @@ The following Deus ex Machina will be adopted in this task. With Deus ex Machina
 |                                                                                  |       |
 | Total (including bonus tasks)                                                    | 500   |
 
-
-**Score Sheet**: [RCJ2023 OPL Tidy Up Score Sheet v1](https://docs.google.com/spreadsheets/d/1Dn0LTINAVYMcSL2Yoqi4iicPZOmU6h8e/edit?usp=sharing&ouid=115914283332872721627&rtpof=true&sd=true)
+**Score Sheet for the Scorer**: [TU-score_sheet](./doc/RCJ2024_OPL_TU-score_sheet.pdf)
 
 
 # Instructions

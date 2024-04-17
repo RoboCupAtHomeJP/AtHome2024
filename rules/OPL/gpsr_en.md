@@ -183,6 +183,8 @@ The variable $Weight$ is defined in [Weights per Category](#weights-per-category
 | &emsp; - Not attending (absence without permission)     | $-500$ |
 | **Total Score**                                         | $500$ |
 
+**Score Sheet for the Scorer**: [GPSR-score_sheet](./doc/RCJ2024_OPL_GPSR-score_sheet.pdf)
+
 
 ## Instructions
 

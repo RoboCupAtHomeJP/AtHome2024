@@ -29,6 +29,9 @@ The start time and the place to have a poster session will be announced by the s
 | Presentation (Qualify of poster and talk) | 5 |
 | **Sum** | **20** |
 
+**Score Sheet for the Scorer**: [PS-score_sheet](./doc/RCJ2024_OPL_PS-score_sheet.pdf)
+
+
 ### Evaluation
 The normalized score of the summary of each evaluator will be affected to the score sheet.
 

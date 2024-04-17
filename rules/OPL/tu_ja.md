@@ -111,7 +111,8 @@
 |                                                     |       |
 | 合計（ボーナスタスクを含む）                        | 500   |
 
-**スコアシート**：[RCJ2023 OPL Tidy Up Score Sheet v1](https://docs.google.com/spreadsheets/d/1Dn0LTINAVYMcSL2Yoqi4iicPZOmU6h8e/edit?usp=sharing&ouid=115914283332872721627&rtpof=true&sd=true)
+**得点係用のスコアシート**: [TU-score_sheet](./doc/RCJ2024_OPL_TU-score_sheet.pdf)
+
 
 ## 指示 (Instructions)
 
