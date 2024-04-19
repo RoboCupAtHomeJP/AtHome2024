@@ -66,7 +66,7 @@ This task focuses on pointing recognition, manipulation, mapping and navigation 
 ### Main Goals
 | Action                                  | Score |
 | --------------------------------------- | -----:|
-| Picking up the correct bag (skip rule)  |   100 |
+| Picking up the correct bag (skip rule)  |   200 |
 | Following a person to the car           |   300 |
 | Avoiding small objects on the ground (skip rule) | 50 |
 | Avoiding hard-to-see objects (skip rule)|   50 |
@@ -95,7 +95,7 @@ This task focuses on pointing recognition, manipulation, mapping and navigation 
 | Non-participation             |  -500 |
 | Using an alternative start signal |  100 |
 
-Total Score: **700 points**
+Total Score: **750 points**
 
 ## Executive Committee (EC) Instructions
 - Preparation:
