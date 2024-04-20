@@ -1,6 +1,6 @@
 [日本語](./rc_jp.md) | [English](./rc_en.md)
 
-# Receptionist(RC) proposal rule
+# Receptionist(RC) rule
 
 Eventhough most of the rules are based on the RoboCup World competition Rulebook, It will be discussed about some local rules for the RCJ2024 in the TLM.
 
@@ -21,7 +21,7 @@ System Integration, Human-Robot Interaction, Person Detection, Person Recognitio
 ## Setup
 - Start Position： The robot will start from a specified position near the entrance to the arena.
 - Time：Setup (5 min)，Competition Time (7 min)
-- Host：The host’s name and favorite drink will be announced before the test. The host’s predefined location will be announced during the Setup Days.
+- Host：The host’s name is John and favorite drink is coffee. The host’s predefined location will be announced during the Setup Days.
 - Guest：Both guests have a name and favorite drink. An arriving guest will step in front of the robot. Guests have to be guided to the host's predefined location to be introduced. Each of the guest will arrive separately.
 
 <br>
@@ -70,23 +70,48 @@ The characteristics to be count will be those only chosen during the TLM.
 You can use any of the characteristics listed below. -->
 The organization comittee will confirm characteristics that each team will be using during the last TLM the day before the task.
 
-【last year(Find My Mates)】
-- Age
-- Sex
-- Glass (with/without)
-- Hair color
-- Color of clothes（tops belongs to one attribute. Bottoms belongs to other attributes）
-- Pattern of clothes
-- Type of clothes
-- Height
-- Length of hair（long/short）
-- Hat (with/without)
-- Mask (with/without)
+- height
+- age
+- gender
+- hair color
+- color of pants
+- Whether or not to wear a mask
+- Whether or not to wear glasses
+- Whether or not to wear a hat
+- color of pants
+- color of clothes
+- sleeve length
 
-【This year】
-- 〇〇
-- 〇〇
-- 〇〇
+【Note】
+・Masks, glasses, and hats cannot be reported if not worn
+・If you wish to use any other feature than this, you must obtain approval from all teams at the TLM.
+
+<br>
+
+
+## About name and drink
+It will be assigned randomly from the list below.
+
+【Name】
+- Adam
+- Axel
+- Chris
+- Hunter
+- Jack
+- Max	
+- Paris	
+- Robin	
+- Olivia
+- William
+
+【Drink】
+- coke
+- green tea,
+- wine,
+- orange juice,
+- sprite
+- soda
+
 
 <br>
 
@@ -143,7 +168,7 @@ The highest score between the two trials will be choosen as final result.
   </tr>
   <tr>
     <td> 　Direct attention toward the first guest during introduction</td>
-    <td align="center"> 50 </td>
+    <td align="center"> 45 </td>
   </tr>
   <tr>
     <td> Guide the first guest to the empty seat </td>
@@ -172,7 +197,7 @@ The highest score between the two trials will be choosen as final result.
   </tr>
   <tr>
     <td> 　Direct attention toward the second guest during introduction</td>
-    <td align="center"> 50 </td>
+    <td align="center"> 45 </td>
   </tr>
   <tr>
     <td> Guide the second guest to the empty seat </td>
@@ -202,7 +227,7 @@ The highest score between the two trials will be choosen as final result.
   </tr>
   <tr>
     <td> <b>Total Score (including Bonus Task)</b> </td>
-    <td align="center"> <b>760</b> </td>
+    <td align="center"> <b>750</b> </td>
   </tr>
 </table>
 
