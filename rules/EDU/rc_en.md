@@ -83,8 +83,8 @@ The organization comittee will confirm characteristics that each team will be us
 - sleeve length
 
 【Note】
-・Masks, glasses, and hats cannot be reported if not worn
-・If you wish to use any other feature than this, you must obtain approval from all teams at the TLM.
+- Masks, glasses, and hats cannot be reported if not worn
+- If you wish to use any other feature than this, you must obtain approval from all teams at the TLM.
 
 <br>
 
