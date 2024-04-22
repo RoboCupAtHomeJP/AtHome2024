@@ -54,7 +54,7 @@
 - [Name List](rules/OPL/sd/name_list.md)
 - [Drink List](rules/OPL/sd/drink_list.md)
 - [Object List](rules/OPL/sd/object_info.md)
-- [Pose/Gesture List](rules/OPL/sd/pose_gesture_list.md)
+- [Features List](rules/OPL/sd/features_list.md)
 - [Question List](rules/OPL/sd/question_list.md)
 - [Predefined Location List](rules/OPL/sd/pd_loc_list.md)
 
