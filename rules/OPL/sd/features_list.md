@@ -13,8 +13,9 @@ This list will be used during *GPSR* task. \
 | 02 | standing person |
 | 03 | squatting person |
 | 04 | person looking back |
-| 05 | person looking up |
-| 06 | person crossing one's arms |
+| 05 | person crossing one's arms |
+<!-- | 00 | person looking up | -->
+<!-- | 00 | - | -->
 
 
 ## Gesture List
@@ -22,13 +23,14 @@ This list will be used during *GPSR* task. \
 | # | Gesture |
 | --- | --- |
 | 01 | person raising their right arm |
-| 02 | person doing thumbs up (👍) |
-| 03 | person clapping hands (👏) |
-| 04 | person pointing to the left |
-| 05 | person waving their left arm |
-| 06 | person giving the V sign (✌️) |
-<!-- | 07 | person picking up an object | -->
-<!-- | 08 | person with OK signal | -->
+| 02 | person pointing to the left |
+| 03 | person giving the V sign (✌️) |
+<!-- | 00 | person clapping hands (👏) | -->
+<!-- | 00 | person doing thumbs up (👍) | -->
+<!-- | 00 | person picking up an object | -->
+<!-- | 00 | person with OK signal | -->
+<!-- | 00 | person waving their left arm | -->
+<!-- | 00 | - | -->
 
 
 ## Person Information List
@@ -36,15 +38,15 @@ This list will be used during *GPSR* task. \
 | # | Information |
 | --- | --- |
 | 01 | name |
-| 02 | pose |
-| 03 | gesture |
-| 04 | gender |
-| 05 | shirt color |
-| 06 | pants color |
-| 07 | age |
-| 08 | height |
-| 09 | number of glasses |
-<!-- | 10 | - | -->
+| 02 | shirt color |
+| 03 | age |
+| 04 | height |
+<!-- | 00 | gender | -->
+<!-- | 00 | pose | -->
+<!-- | 00 | gesture | -->
+<!-- | 00 | pants color | -->
+<!-- | 00 | number of glasses | -->
+<!-- | 00 | - | -->
 
 
 ## Color List (Example)
