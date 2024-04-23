@@ -8,7 +8,7 @@ This list will be used during *GPSR* task. \
 
 | Category | Room | Location |
 | --- | --- | --- |
-| food item    | living room | long table B |
+| food         | living room | long table B |
 | kitchen item | living room | long table A |
 | task item    | dining room | shelf (3rd platform) |
 | dummy item   | dining room | shelf (2nd platform) |
