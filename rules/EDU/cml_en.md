@@ -65,33 +65,20 @@ This task focuses on pointing recognition, manipulation, mapping and navigation 
 
 ### Main Goals
 | Action                                  | Score |
-| --------------------------------------- | -----:|
 | Picking up the correct bag (skip rule)  |   200 |
 | Following a person to the car           |   300 |
+| Bonus Points               |  |
 | Avoiding small objects on the ground (skip rule) | 50 |
 | Avoiding hard-to-see objects (skip rule)|   50 |
 | Avoiding areas blocked by retractable barriers (skip rule) | 50 |
-
-### Bonus Points
-| Action                      | Score |
-| --------------------------- | -----:|
 | Re-entering the arena       |   100 |
-
-### Standard Penalties
-| Action             | Score |
-| ------------------ | -----:|
+| Standard Penalties             |  |
 | Dropping the bag   |   -50 |
-
-### Deus Ex Machina Penalties
-| Action                                        | Score |
-| --------------------------------------------- | -----:|
+| Deus Ex Machina Penalties      |  |
 | Rediscovering the operator through natural interaction |  50 |
 | Rediscovering the operator through unnatural interaction | 100 |
 | Rediscovering the operator through direct contact | 200 |
-
-### Special Penalties & Bonuses
-| Action                        | Score |
-| ----------------------------- | -----:|
+| Special Penalties & Bonuses   |  |
 | Non-participation             |  -500 |
 | Using an alternative start signal |  100 |
 
