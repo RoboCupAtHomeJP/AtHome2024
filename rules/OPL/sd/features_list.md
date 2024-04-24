@@ -62,7 +62,7 @@ This list will be used during *GPSR* task. \
 | 07 | Pink |
 | 08 | Black |
 | 09 | White |
-| 10 | Grey |
+| 10 | Gray |
 | 11 | Brown |
 
 > [!NOTE]
