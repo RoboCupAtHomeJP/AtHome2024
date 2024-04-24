@@ -81,7 +81,7 @@ Rules are based on RoboCup2023 World Championship @Home Education League rules a
 
 ### Tasks
 - Poster 
-- Carry My Luggage
+- [Carry My Luggage](rules/EDU/cml_ja.md)
 - [Receptionist](rules/EDU/rc_jp.md)
 - Technical Challenge (Final)
 
