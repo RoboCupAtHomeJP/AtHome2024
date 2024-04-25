@@ -1,7 +1,7 @@
 # Technical Challenge (Finals)
 
-[Education rules 2023](https://docs.google.com/document/d/1cHRMwnPajsPiEZNw1celFjHG1CSGTA2uyJ2VcAoEuoc/edit?usp=sharing)
-The description in Chapter 7 Finals (pg. 85-86) is referred to.
+The description in Chapter 7 Finals (pg. 85-86) of [Education rules 2023](https://docs.google.com/document/d/1cHRMwnPajsPiEZNw1celFjHG1CSGTA2uyJ2VcAoEuoc/edit?usp=sharing)
+is referred to.
 
 All teams compete in Finals.
 
