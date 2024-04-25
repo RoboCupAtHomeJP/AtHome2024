@@ -80,7 +80,7 @@ Rules are based on RoboCup2023 World Championship @Home Education League rules a
 - [@Home 2022 Rules](https://athome.robocup.org/wp-content/uploads/2022_rulebook.pdf).
 
 ### Tasks
-- Poster 
+- [Poster](rules/EDU/poster_ja.md) 
 - [Carry My Luggage](rules/EDU/cml_ja.md)
 - [Receptionist](rules/EDU/rc_jp.md)
 - Technical Challenge (Final)
