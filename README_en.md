@@ -71,7 +71,7 @@ TBD
 TBD
 
 
-## Education League
+## Education League (EDU)
 
 ### Overall Rules
 Rules are based on RoboCup2023 World Championship @Home Education League rules as follows,　
