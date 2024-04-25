@@ -11,15 +11,15 @@
 - 評価：チームリーダによる相互評価
 - 発表順：チームコード順
   - AHEDU-01	KIT happy robot
--- AHEDU-02	Ri-one
--- AHEDU-03	SOBITS
--- AHEDU-04	PyLoT Robotics
--- AHEDU-05	BoNanoTech
--- AHEDU-06	RoboCompass
--- AHEDU-07	FAMBOT
--- AHEDU-08	Happy Robot Edu
--- AHEDU-09	Nexus
--- AHEDU-10	eR@sers
+  - AHEDU-02	Ri-one
+  - AHEDU-03	SOBITS
+  - AHEDU-04	PyLoT Robotics
+  - AHEDU-05	BoNanoTech
+  - AHEDU-06	RoboCompass
+  - AHEDU-07	FAMBOT
+  - AHEDU-08	Happy Robot Edu
+  - AHEDU-09	Nexus
+  - AHEDU-10	eR@sers
 - 表彰：Japan Open 2024では昨年と違いポスターセッションのみで上位チームを表彰する．Finalsの点数には含めない．
 
   ![ポスター掲示場所](https://github.com/RoboCupAtHomeJP/AtHome2024/assets/6745835/c5d90922-430c-4e86-9c38-45ee6a628ddf)
