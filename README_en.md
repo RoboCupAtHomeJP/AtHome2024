@@ -77,7 +77,8 @@ TBD
 TBD
 
 ### Tasks
-TBD
+
+- [Poster Session](rules/EDU/poster_en.md)
 
 
 ## Simulation Open Platform League (S-OPL)
