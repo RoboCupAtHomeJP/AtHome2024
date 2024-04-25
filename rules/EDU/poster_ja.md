@@ -10,7 +10,7 @@
 - 使用言語：英語（ポスター，発表とも）
 - 評価：チームリーダによる相互評価
 - 発表順：チームコード順
--- AHEDU-01	KIT happy robot
+  - AHEDU-01	KIT happy robot
 -- AHEDU-02	Ri-one
 -- AHEDU-03	SOBITS
 -- AHEDU-04	PyLoT Robotics
