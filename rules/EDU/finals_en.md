@@ -5,18 +5,6 @@ The description in Chapter 7 Finals (pg. 85-86) is referred to.
 
 All teams compete in Finals.
 
-2.5.1 Task
-The objectives of this year are:
-● The robot helps a person that has had a small accident in their home.
-● The robot monitors a person while they are going about their day and reacts appropriately if it
-notices any unusual events.
-The procedure for the demonstration and the timing of slots is as follows:
-1. Setup and demonstration: The team has a maximum of 10 minutes for setup, presentation and
-demonstration.
-2. Interview and cleanup: After the demonstration, there is another 5 minutes where the team
-answers questions by the jury members. During the interview time, the team has to undo its
-changes to the environment.
-RoboCup@
 - Task
   -  Tasks are open tasks that do not specify a specific task.
 - The procedure for the demonstration and the timing of slots is as follows:
