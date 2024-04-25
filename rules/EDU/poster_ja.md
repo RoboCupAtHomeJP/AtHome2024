@@ -1,4 +1,4 @@
-# ポスターセッション
+# ポスターセッション実施要領
 
 全チームは自チームの技術開発を紹介するチームポスターを作成し，発表することが義務付けられており，次の要領で実施する．
 
@@ -9,6 +9,9 @@
 - 発表時間：3分（質疑なし）
 - 使用言語：英語（ポスター，発表とも）
 - 評価：チームリーダによる相互評価
+  - Novelty and scientific contribution (0~10)
+  - Relevance for RoboCup@Home (0~10)
+  - Presentation (Quality of poster and teaser talk) (0~10)
 - 発表順：チームコード順
   - AHEDU-01	KIT happy robot
   - AHEDU-02	Ri-one
