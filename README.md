@@ -83,7 +83,7 @@ Rules are based on RoboCup2023 World Championship @Home Education League rules a
 - [Poster Session](rules/EDU/poster_ja.md) 
 - [Carry My Luggage](rules/EDU/cml_ja.md)
 - [Receptionist](rules/EDU/rc_jp.md)
-- Technical Challenge (Final)
+- Technical Challenge (Finals)
 
 ## Simulation Open Platform League
 
