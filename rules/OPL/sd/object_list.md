@@ -1,12 +1,12 @@
 <sub>[Go back to README](../../../README_en.md)</sub>
 
-TBD
-
 # Object List
 
 ## Standard Object List
 
-The *Standard Object List* announced in the latest OPL release will be used.
+The *Standard Object List* announced in the latest OPL release will be used. \
+公開されている *Standard Object List* (標準オブジェクト)を用いる．
+
 Check it out [here](https://github.com/RoboCupAtHomeJP/AtHome2024/releases/download/v1.0.0-opl/RCJ2024_OPL_Standard_Object_List_v1.0.0.pdf).
 
 <!-- | # | Picture | Name | Category |
@@ -31,7 +31,10 @@ Check it out [here](https://github.com/RoboCupAtHomeJP/AtHome2024/releases/downl
 | 03 | - | - | - |
 
 > [!NOTE]
-> 1 (one) set of *Consistent Objects* will be given to each team.
+> 1 (one) set of *Consistent Objects* will be given to each field.
+
+> [!NOTE]
+> *Consistent Objects* (事前公開オブジェクト) はTCが各フィールドに1セットを用意される．
 
 ## Dummy Object
 
@@ -40,14 +43,19 @@ Check it out [here](https://github.com/RoboCupAtHomeJP/AtHome2024/releases/downl
 | 01 | - | - | Dummy Object |
 
 > [!NOTE]
-> 3 (three) dummy objects will be placed in the *obstacle avoidance area* during the *Tidy Up* task.
 > No dummy objects will be distributed, however they will be available during the practice time.
+
+> [!NOTE]
+> こちらの物体は配布されないが，チームが予約した練習スロット中に使うことを可能とする．
 
 
 ## Unknown Object
 
 > [!IMPORTANT]
 > The *unknown objects* will not be announced.
+
+> [!IMPORTANT]
+> *unknown objects* (未知オブジェクト)は公開されない．
 
 
 ## Bag for CML
