@@ -25,3 +25,4 @@ All teams are required to prepare and present a team poster introducing their te
   - AHEDU-10 eR@sers
 - Awards: Unlike last year, Japan Open 2024 will award prizes to the top teams only in the Poster Session, not in the Finals.
 
+![Poster location](https://github.com/RoboCupAtHomeJP/AtHome2024/assets/6745835/c5d90922-430c-4e86-9c38-45ee6a628ddf)
