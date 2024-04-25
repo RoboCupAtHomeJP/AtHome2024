@@ -79,6 +79,10 @@ TBD
 ### Tasks
 
 - [Poster Session](rules/EDU/poster_en.md)
+- [Carry My Luggage](rules/EDU/cml_en.md)
+- [Receptionist](rules/EDU/rc_en.md)
+- Technical Challenge (Final)
+
 
 
 ## Simulation Open Platform League (S-OPL)
