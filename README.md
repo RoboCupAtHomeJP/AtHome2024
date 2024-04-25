@@ -69,7 +69,7 @@
 - [Resutaurant](rules/DSPL/restaurant.md)
 - [TidyUp](rules/DSPL/tidyup.md)
 - [General Purpose Service Robot (GPSR) **大きくルールの変更が見込まれます**](rules/DSPL/gpsr.md)
-- [Technical Challenge](rules/DSPL/technical_challenge.md)
+- [Open Challenge](rules/DSPL/technical_challenge.md)
 
 ### Detailed Information
 - [Object List](rules/DSPL/dspl_objects_with_predefined_location.pdf)
