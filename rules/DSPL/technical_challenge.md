@@ -1,12 +1,12 @@
 **現在ルール策定中ですので，今後変更となる可能性があります．**
 
-# Technical Challenge
+# Open Challenge
 
-今大会ではDSPLのTechnical Challengeは全チームに参加権が付与されます．Technical Challengeの内容，審査基準についてはRoboCupのRule Bookを参照してください．
+今大会ではDSPLのOpen Challengeは全チームに参加権が付与されます．Open Challengeの内容，審査基準についてはRoboCupのRule Bookを参照してください．
 
 デモンストレーションは日本語または英語で実施する必要があります．
 
-Technical Challengeの時間配分は以下の通りです．
+Open Challengeの時間配分は以下の通りです．
 
 - デモンストレーション：10分
 - 質疑応答：5分
