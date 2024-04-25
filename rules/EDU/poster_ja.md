@@ -24,5 +24,6 @@
   - AHEDU-09	Nexus
   - AHEDU-10	eR@sers
 - 表彰：Japan Open 2024では昨年と違いポスターセッションのみで上位チームを表彰する．Finalsの点数には含めない．
+- 注意：ポスターを壁に貼るときは運営が準備した養生テープを使用してください．壁を汚さないように注意されています．
 
   ![ポスター掲示場所](https://github.com/RoboCupAtHomeJP/AtHome2024/assets/6745835/c5d90922-430c-4e86-9c38-45ee6a628ddf)
