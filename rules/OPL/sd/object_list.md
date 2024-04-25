@@ -31,10 +31,10 @@ Check it out [here](https://github.com/RoboCupAtHomeJP/AtHome2024/releases/downl
 | 03 | - | - | - |
 
 > [!NOTE]
-> 1 (one) set of *Consistent Objects* will be given to each team.
+> 1 (one) set of *Consistent Objects* will be given to each field.
 
 > [!NOTE]
-> *Consistent Objects* (事前公開オブジェクト) はTCが各チームに1セットを用意す．
+> *Consistent Objects* (事前公開オブジェクト) はTCが各フィールドに1セットを用意される．
 
 ## Dummy Object
 
