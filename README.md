@@ -72,7 +72,10 @@
 - [Open Challenge](rules/DSPL/technical_challenge.md)
 
 ### Detailed Information
+- [Name List](rules/DSPL/name_list.md)
 - [Object List](rules/DSPL/dspl_objects_with_predefined_location.pdf)
+- [Posture List](rules/DSPL/posture_list.md)
+- [Question List](rules/DSPL/question_list.md)
 
 ## Education League (EDU)
 
