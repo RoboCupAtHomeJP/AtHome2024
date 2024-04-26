@@ -26,27 +26,27 @@ Check it out [here](https://github.com/RoboCupAtHomeJP/AtHome2024/releases/downl
 
 | # | Picture | Name | Category |
 | --- | --- | --- | --- |
-| 01 | - | - | - |
-| 02 | - | - | - |
-| 03 | - | - | - |
+| 01 | ![](../objects/cracker.jpg) | Cracker | Food |
+| 02 | ![](../objects/freezer_bag.jpg) | Freezer Bag | Kitchen Item |
+| 03 | ![](../objects/table_clock.jpg) | Table Clock | Task Item |
 
 > [!NOTE]
-> 1 (one) set of *Consistent Objects* will be given to each team.
+> No *Consistent Object* will be distributed, however they will be available during the practice time.
 
 > [!NOTE]
-> *Consistent Objects* (事前公開オブジェクト) はTCが各チームに1セットを用意す．
+> *Consistent Object* は配布されないが，チームが予約した練習スロット中に使うことを可能とする．
 
 ## Dummy Object
 
 | # | Picture | Name | Category |
 | --- | --- | --- | --- |
-| 01 | - | - | Dummy Object |
+| 01 | ![](../objects/coffee.jpg) | Coffee | Dummy Item |
 
 > [!NOTE]
-> No dummy objects will be distributed, however they will be available during the practice time.
+> No *dummy objects* will be distributed, however they will be available during the practice time.
 
 > [!NOTE]
-> こちらの物体は配布されないが，チームが予約した練習スロット中に使うことを可能とする．
+> *dummy objects* は配布されないが，チームが予約した練習スロット中に使うことを可能とする．
 
 
 ## Unknown Object
@@ -62,6 +62,4 @@ Check it out [here](https://github.com/RoboCupAtHomeJP/AtHome2024/releases/downl
 
 | # | Picture | Name |
 | --- | --- | --- |
-| 01 | - | - |
-| 02 | - | - |
-| 03 | - | - |
+| 01 | ![](../objects/bag.jpg) | Bag |
