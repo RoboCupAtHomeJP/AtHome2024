@@ -77,6 +77,11 @@
 - [Posture List](rules/DSPL/posture_list.md)
 - [Question List](rules/DSPL/question_list.md)
 
+Boss character for TidyUp is as follows:
+
+<img src="rules/DSPL/boss.jpg" width="30%">
+
+
 ## Education League (EDU)
 
 ### Overall Rules
