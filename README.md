@@ -76,6 +76,7 @@
 - [Object List](rules/DSPL/dspl_objects_with_predefined_location.pdf)
 - [Posture List](rules/DSPL/posture_list.md)
 - [Question List](rules/DSPL/question_list.md)
+- [GPSR Map](rules/DSPL/gpsr_map.pdf)
 
 Boss character for TidyUp is as follows:
 
