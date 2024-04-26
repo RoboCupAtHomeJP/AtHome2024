@@ -60,6 +60,6 @@ Check it out [here](https://github.com/RoboCupAtHomeJP/AtHome2024/releases/downl
 
 ## Bag for CML
 
-| # | Picture | Name |
-| --- | --- | --- |
-| 01 | ![](../objects/bag.jpg) | Bag |
+| # | Picture | Name | Category |
+| --- | --- | --- | --- |
+| 01 | ![](../objects/bag.jpg) | Bag | Bag Item |
