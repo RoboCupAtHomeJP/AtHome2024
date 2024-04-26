@@ -27,7 +27,7 @@
 
 ## Robot Inspection - RI ​
 
-TBD
+![Robot Inspection - RI ​](../layout/RCJ2024_OPL_RI-layout.jpg)
 
 
 ## Tidy Up - TU​
@@ -37,14 +37,20 @@ TBD
 
 ## General Purpose Service Robot - GPSR​
 
-TBD
+![General Purpose Service Robot - GPSR​ ​](../layout/RCJ2024_OPL_GPSR-layout.jpg)
 
 
 ## Carry My Luggage - CML​
 
-TBD
+![Carry My Luggage - CML​ ​](../layout/RCJ2024_OPL_CML-layout.jpg)
+
+> ![IMPORTANT]
+> Teams can decide whether to use the chairs, or place the bags in the floor.
+
+> ![IMPORTANT]
+> バッグを椅子を使わないで床に置くか，椅子の上に置くか，自由に決められる.
 
 
 ## Receptionist - RC​
 
-TBD
+![Receptionist - RC​ ​](../layout/RCJ2024_OPL_RC-layout.jpg)
