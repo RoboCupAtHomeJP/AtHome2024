@@ -47,7 +47,7 @@ The robot is asked to understand and execute commands requiring a wide range of 
     1. **Category Selection**: The team tells the `TC` the selected category.
     Depending on the category, the `TC` choose an arbitrary command and gives it to the host.
         - **DEM Category**: Instructions with pre-defined sentence structure.
-        - **Regular Category**: Instructions generated from [Command Generator](https://github.com/RoboCupAtHomeJP/CommandGenerator).
+        - **Regular Category**: Instructions generated from [Command Generator](https://github.com/RoboCupAtHomeJP/CommandGenerator/tree/rcj24_for_opl).
 
     1. **Start**: The TC gives the *start signal* and starts the timer.
     The team completes the setup (pressing the start button, etc.) and leaves the area.
@@ -82,7 +82,7 @@ In order to demonstrate so, the robot needs to complete the mistaken task, and g
 
 ### Command Generator
 
-Commands are generated using the [Command Generator](https://github.com/RoboCupAtHomeJP/CommandGenerator).
+Commands are generated using the [Command Generator](https://github.com/RoboCupAtHomeJP/CommandGenerator/tree/rcj24_for_opl).
 The TC generates arbitrarily the commands in advance to confirm the commands are correct according to the environment.
 
 If the team chooses *DEM Category*, while maintaining impartiality, the command given will be prepared in advance and based on the [DEM Category Sentence Structure](). 

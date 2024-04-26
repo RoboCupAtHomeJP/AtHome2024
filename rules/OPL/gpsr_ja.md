@@ -47,7 +47,7 @@
     1. **カテゴリ選択 (Category Selection)**: チームは選択したカテゴリを`TC`に伝える．
     カテゴリによって，`TC`は任意のコマンドを選び，ホストに与える．
       - **DEMカテゴリ**: 事前に定義された文章構成による指示．
-      - **通常カテゴリ**: [Command Generator](https://github.com/RoboCupAtHomeJP/CommandGenerator)から生成された指示．
+      - **通常カテゴリ**: [Command Generator](https://github.com/RoboCupAtHomeJP/CommandGenerator/tree/rcj24_for_opl)から生成された指示．
 
     1. **開始 (Start)**: TCが*開始合図(start signal)*を出し，タイマーを開始する．
     チームはセットアップを完了させ（スタートボタンを押すなど），エリアを離れる．
@@ -82,7 +82,7 @@
 
 ### コマンドジェネレータ (Command Generator)
 
-コマンドは，[Command Generator](https://github.com/RoboCupAtHomeJP/CommandGenerator)から生成される．
+コマンドは，[Command Generator](https://github.com/RoboCupAtHomeJP/CommandGenerator/tree/rcj24_for_opl)から生成される．
 TCは環境に応じて事前にコマンドを任意に生成し，コマンドの正確さを確認する．
 
 競技チームが*DEMカテゴリ*を選択した場合，公平性を保ちつつ，与えられるコマンドはあらかじめ準備され，[DEMカテゴリの文章構成]()に基づく．
