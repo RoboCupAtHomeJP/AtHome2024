@@ -69,10 +69,15 @@
 - [Resutaurant](rules/DSPL/restaurant.md)
 - [TidyUp](rules/DSPL/tidyup.md)
 - [General Purpose Service Robot (GPSR) **大きくルールの変更が見込まれます**](rules/DSPL/gpsr.md)
-- [Technical Challenge](rules/DSPL/technical_challenge.md)
+- [Open Challenge](rules/DSPL/technical_challenge.md)
 
+### Detailed Information
+- [Name List](rules/DSPL/name_list.md)
+- [Object List](rules/DSPL/dspl_objects_with_predefined_location.pdf)
+- [Posture List](rules/DSPL/posture_list.md)
+- [Question List](rules/DSPL/question_list.md)
 
-## Education League
+## Education League (EDU)
 
 ### Overall Rules
 Rules are based on RoboCup2023 World Championship @Home Education League rules as follows,　
@@ -80,10 +85,10 @@ Rules are based on RoboCup2023 World Championship @Home Education League rules a
 - [@Home 2022 Rules](https://athome.robocup.org/wp-content/uploads/2022_rulebook.pdf).
 
 ### Tasks
-- Poster 
-- Carry My Luggage
-- Receptionist
-- Technical Challenge (Final)
+- [Poster Session](rules/EDU/poster_ja.md) 
+- [Carry My Luggage](rules/EDU/cml_ja.md)
+- [Receptionist](rules/EDU/rc_jp.md)
+- [Technical Challenge (Finals)](rules/EDU/finals_jp.md)
 
 ## Simulation Open Platform League
 

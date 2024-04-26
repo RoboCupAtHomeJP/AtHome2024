@@ -71,13 +71,20 @@ TBD
 TBD
 
 
-## Education League
+## Education League (EDU)
 
 ### Overall Rules
-TBD
+Rules are based on RoboCup2023 World Championship @Home Education League rules as follows,　
+- [Education rules 2023](https://docs.google.com/document/d/1cHRMwnPajsPiEZNw1celFjHG1CSGTA2uyJ2VcAoEuoc/edit?usp=sharing)
+- [@Home 2022 Rules](https://athome.robocup.org/wp-content/uploads/2022_rulebook.pdf).
 
 ### Tasks
-TBD
+
+- [Poster Session](rules/EDU/poster_en.md)
+- [Carry My Luggage](rules/EDU/cml_en.md)
+- [Receptionist](rules/EDU/rc_en.md)
+- [Technical Challenge (Final)](rules/EDU/finals_en.md)
+
 
 
 ## Simulation Open Platform League (S-OPL)
