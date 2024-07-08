@@ -90,7 +90,11 @@ Rules are based on RoboCup2023 World Championship @Home Education League rules a
 ## Simulation Open Platform League (S-OPL)
 
 ### Overall Rules
-TBD
+- [General Rules and Regulations](rules/S-OPL/gr_en.md)
 
 ### Tasks
-TBD
+- [Handyman](rules/S-OPL/hm_en.md)
+- [Interactive Cleanup](rules/S-OPL/ic_en.md)
+- [Human Navigation](rules/S-OPL/hn_en.md)
+- [Technical Challenge](rules/S-OPL/tc_en.md)
+
